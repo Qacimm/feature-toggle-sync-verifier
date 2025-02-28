@@ -1,0 +1,180 @@
+Starting script execution for environment: prd
+Fri Feb 28 10:36:58 PKT 2025
+
+
+Processing variable: fms/enable_sync_score_board_creation_for_deep_blue
+
+
+Prd Rollout Info:
+{
+  "key": "ENABLE_SYNC_SCORE_BOARD_CREATION_FOR_DEEP_BLUE",
+  "state": 1,
+  "strategy": "GRADUAL",
+  "strategyParams": "100",
+  "type": "RELEASE",
+  "tags": {},
+  "storage": "DDB"
+}
+
+
+Processing variable: fms/enable_campaign_generation_scheduled_job
+
+
+Prd Rollout Info:
+{
+  "key": "ENABLE_CAMPAIGN_GENERATION_SCHEDULED_JOB",
+  "state": 1,
+  "strategy": "SPECIFIC",
+  "strategyParams": "100",
+  "type": "RELEASE",
+  "tags": {
+    "description": "Enable Campaign Generation Scheduled Job",
+    "team": "mobility-be-engagement",
+    "userid": "3659576",
+    "microservice": "Campaign-API"
+  },
+  "storage": "DDB"
+}
+
+
+Processing variable: fms/enable_campaign_launch_scheduled_job
+
+
+Prd Rollout Info:
+{
+  "key": "ENABLE_CAMPAIGN_LAUNCH_SCHEDULED_JOB",
+  "state": 1,
+  "strategy": "GRADUAL",
+  "strategyParams": "0",
+  "type": "RELEASE",
+  "tags": {
+    "description": "ENABLE_CAMPAIGN_LAUNCH_SCHEDULED_JOB",
+    "team": "Mobility-BE-Engagement",
+    "userid": "7029430",
+    "microservice": "Campaign-API"
+  },
+  "storage": "UNIFIED_DDB"
+}
+
+
+Processing variable: fms/enable_campaign_creation_summary
+
+
+Prd Rollout Info:
+{
+  "key": "ENABLE_CAMPAIGN_CREATION_SUMMARY",
+  "state": 0,
+  "strategy": "GRADUAL",
+  "strategyParams": "0",
+  "type": "EXPERIMENT",
+  "tags": {
+    "description": "Send push to captain on creation of campaigns ",
+    "team": "Captain Engagement",
+    "userid": "969647",
+    "microservice": "campaign-api"
+  },
+  "storage": "UNIFIED_DDB"
+}
+
+
+Processing variable: fms/enable_finance_approval_for_all_campaigns
+
+
+Prd Rollout Info:
+{
+  "key": "ENABLE_FINANCE_APPROVAL_FOR_ALL_CAMPAIGNS",
+  "state": 0,
+  "strategy": "NA",
+  "strategyParams": null,
+  "type": "RELEASE",
+  "tags": {
+    "description": "Enable Finance approval for all campaigns",
+    "team": "Captain Engagement",
+    "userid": "17962009",
+    "microservice": "Campaign Api"
+  },
+  "storage": "UNIFIED_DDB"
+}
+
+
+Processing variable: fms/enable_analytika_event_tracking_in_campaign_api
+
+
+Prd Rollout Info:
+{
+  "key": "ENABLE_ANALYTIKA_EVENT_TRACKING_IN_CAMPAIGN_API",
+  "state": 1,
+  "strategy": "GRADUAL",
+  "strategyParams": "50",
+  "type": "RELEASE",
+  "tags": {
+    "description": "This toggle will enable the service to send custom events to argus event store.",
+    "team": "Captain Engagement",
+    "userid": "5699919",
+    "microservice": "campaign-api"
+  },
+  "storage": "UNIFIED_DDB"
+}
+
+
+Processing variable: fms/enable_score_board_population_job
+
+
+Prd Rollout Info:
+{
+  "key": "ENABLE_SCORE_BOARD_POPULATION_JOB",
+  "state": 0,
+  "strategy": "SPECIFIC",
+  "strategyParams": "100",
+  "type": "OPERATIONAL",
+  "tags": {
+    "description": "Enable Score board population Job",
+    "team": "Captain Engagement",
+    "userid": "17962009",
+    "microservice": "Campaign Api"
+  },
+  "storage": "UNIFIED_DDB"
+}
+
+
+Processing variable: fms/enable_campaign_summary_email_scheduled_job
+
+
+Prd Rollout Info:
+{
+  "key": "ENABLE_CAMPAIGN_SUMMARY_EMAIL_SCHEDULED_JOB",
+  "state": 1,
+  "strategy": "GRADUAL",
+  "strategyParams": "100",
+  "type": "RELEASE",
+  "tags": {
+    "description": "Toggle for enabling Campaign Summary scheduled job",
+    "team": "Captain Engagement",
+    "userid": "4340788",
+    "microservice": "campaign-api"
+  },
+  "storage": "UNIFIED_DDB"
+}
+
+
+Processing variable: fms/enable_new_payment_processor_campaign_upload
+
+
+Prd Rollout Info:
+{
+  "key": "ENABLE_NEW_PAYMENT_PROCESSOR_CAMPAIGN_UPLOAD",
+  "state": 1,
+  "strategy": "GRADUAL",
+  "strategyParams": "100",
+  "type": "OPERATIONAL",
+  "tags": {
+    "microservice": "captain-adjustment-uploader",
+    "team": "Captain Engagement",
+    "userid": "969647"
+  },
+  "storage": "DDB"
+}
+
+
+Processing variable: fms/enable_campaign_creation_from_list_method
+

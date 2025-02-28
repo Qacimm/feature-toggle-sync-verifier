@@ -1,0 +1,147 @@
+#!/bin/bash
+
+# Check that the COOKIE environment variable is set
+if [[ -z "$COOKIE" ]]; then
+  echo ""
+  echo "Error: COOKIE environment variable is not set. Please export COOKIE=<value> before running the script."
+  echo ""
+  exit 1
+fi
+
+# Check that a file containing variable names was provided
+if [[ -z "$1" ]]; then
+  echo ""
+  echo "Usage: $0 <file-containing-variable-names> [dev|prd]"
+  echo ""
+  exit 1
+fi
+
+FILE="$1"
+if [[ ! -f "$FILE" ]]; then
+  echo ""
+  echo "Error: File '$FILE' does not exist."
+  echo ""
+  exit 1
+fi
+
+ENV="${2:-dev}"  # Default to dev if not specified
+OUTPUT_FILE="galileo-${ENV}-details.txt"
+
+# Define variables for headers
+AUTHORITY="galileo2.careem-engineering.com/v1"
+METHOD="GET"
+PATH="/fms/variable/?project=fms&kind=Variable&order=-updatedAt"
+SCHEME="https"
+ACCEPT="application/json, text/plain, */*"
+USER_AGENT="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+# Function to log only to file
+log() {
+  echo "$1" >> "$OUTPUT_FILE"
+}
+
+# Function to log JSON in pretty format
+log_json() {
+  echo "$1" | /opt/homebrew/bin/jq '.data.strategy[] | .value | fromjson' 2>/dev/null >> "$OUTPUT_FILE"
+}
+
+# Clear output file if it exists
+> "$OUTPUT_FILE"
+
+# Function to extract the ID from the JSON response using jq
+extract_id() {
+  local search_name="$1"
+  /opt/homebrew/bin/jq -r --arg name "$search_name" '.data[] | select(.name == $name) | .id' output.json
+}
+
+log "Starting script execution for environment: $ENV"
+log "$(/bin/date)"
+log ""
+
+echo "Processing variables. Please wait..."
+
+# First request to get JSON response; the body is saved to output.json
+/usr/bin/curl -s -X $METHOD "$SCHEME://$AUTHORITY$PATH" \
+  -H "Accept: $ACCEPT" \
+  -H "User-Agent: $USER_AGENT" \
+  -H "Cookie: $COOKIE" \
+  --compressed \
+  --output output.json
+
+# Loop through each variable name in the provided file
+while IFS= read -r line; do
+  # Remove leading/trailing whitespace; skip empty lines.
+  VAR_NAME=$(echo "$line" | /usr/bin/xargs)
+  if [[ -z "$VAR_NAME" ]]; then
+    continue
+  fi
+  
+  log ""
+  log "Processing variable: $VAR_NAME"
+  log ""
+
+  VAR_NAME=$(echo "$VAR_NAME" | /usr/bin/tr '[:upper:]' '[:lower:]')
+
+  # The fully qualified name used in the JSON is assumed to be prefixed with "fms/"
+  RES_VAR_NAME="fms/$VAR_NAME"
+
+
+  # Extract the ID for the given variable name from output.json
+  ID=$(extract_id "$RES_VAR_NAME")
+
+  # Check if an ID was found and proceed accordingly
+  if [[ -n "$ID" ]]; then
+    # log ""
+    # log "Found ID: $ID for variable: $RES_VAR_NAME"
+    # log ""
+
+    # Request general variable information using the extracted ID
+    # generalInfo=$(/usr/bin/curl -s -X $METHOD "$SCHEME://$AUTHORITY/fms/variable/$ID" \
+    #   -H "Accept: $ACCEPT" \
+    #   -H "User-Agent: $USER_AGENT" \
+    #   -H "Cookie: $COOKIE" \
+    #   --compressed)
+    # log ""
+    # log "General Info:"
+    # log_json "$generalInfo"
+    # log ""
+    
+    if [[ "$ENV" == "dev" ]]; then
+      # Request development rollout information for the variable
+      devRolloutInfo=$(/usr/bin/curl -s -X $METHOD "$SCHEME://$AUTHORITY/fms/rollout/dev/$VAR_NAME" \
+        -H "Accept: $ACCEPT" \
+        -H "User-Agent: $USER_AGENT" \
+        -H "Cookie: $COOKIE" \
+        --compressed)
+      log ""
+      log "Dev Rollout Info:"
+      log_json "$devRolloutInfo"
+      log ""
+    else
+      # Request production rollout information for the variable
+      prodRolloutInfo=$(/usr/bin/curl -s -X $METHOD "$SCHEME://$AUTHORITY/fms/rollout/prd/$VAR_NAME" \
+        -H "Accept: $ACCEPT" \
+        -H "User-Agent: $USER_AGENT" \
+        -H "Cookie: $COOKIE" \
+        --compressed)
+      log ""
+      log "Prd Rollout Info:"
+      # Extract and log strategy values instead of the complete response
+      log_json "$prodRolloutInfo"
+      log ""
+    fi
+
+  else
+    log ""
+    log "No ID found for variable: $RES_VAR_NAME"
+    log ""
+  fi
+  
+  echo -n "." # Show progress indicator
+done < "$FILE"
+
+log ""
+log "Script execution completed"
+log "$(/bin/date)"
+
+echo -e "\nAll results have been saved to $OUTPUT_FILE"

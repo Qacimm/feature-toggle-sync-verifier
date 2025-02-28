@@ -1,0 +1,88 @@
+#!/bin/bash
+
+# Check that a file containing variable names was provided
+if [[ -z "$1" ]]; then
+  echo ""
+  echo "Usage: $0 <file-containing-variable-names> [dev|prod]"
+  echo ""
+  exit 1
+fi
+
+FILE="$1"
+if [[ ! -f "$FILE" ]]; then
+  echo ""
+  echo "Error: File '$FILE' does not exist."
+  echo ""
+  exit 1
+fi
+
+ENV="${2:-dev}"  # Default to dev if not specified
+OUTPUT_FILE="fms-${ENV}-details.txt"
+
+# Define variables for headers
+ACCEPT="application/json, text/plain, */*"
+USER_AGENT="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+# Function to log only to file
+log() {
+  echo "$1" >> "$OUTPUT_FILE"
+}
+
+# Function to log JSON in pretty format
+log_json() {
+  valueOnly=$(echo "$1" | /opt/homebrew/bin/jq ".[\"$VAR_NAME\"]" 2>/dev/null)
+   if [[ "$valueOnly" != "null" ]]; then
+      log "$valueOnly"
+    fi
+}
+
+# Clear output file if it exists
+> "$OUTPUT_FILE"
+
+log "Starting script execution for environment: $ENV"
+log "$(date)"
+log ""
+
+echo "Processing variables. Please wait..."
+
+# Loop through each variable name in the provided file
+while IFS= read -r line; do
+  # Remove leading/trailing whitespace; skip empty lines.
+  VAR_NAME=$(echo "$line" | /usr/bin/xargs)
+  if [[ -z "$VAR_NAME" ]]; then
+    continue
+  fi
+
+  log ""
+  log "Processing variable: $VAR_NAME"
+  log ""
+
+  # Request rollout information for the variable based on environment
+  if [[ "$ENV" == "dev" ]]; then
+    devRolloutInfo=$(/usr/bin/curl -s -X GET "http://qa-feature-management-service.careem-internal.com/v1/feature?feature=$VAR_NAME" \
+      -H "Accept: $ACCEPT" \
+      -H "User-Agent: $USER_AGENT" \
+      --compressed)
+    log ""
+    log "Dev Rollout Info:"
+    log_json $devRolloutInfo $VAR_NAME
+    log ""
+  else
+    prdRolloutInfo=$(/usr/bin/curl -s -X GET "http://feature-management-service.careem-engineering.com/v1/feature?feature=$VAR_NAME" \
+      -H "Accept: $ACCEPT" \
+      -H "User-Agent: $USER_AGENT" \
+      --compressed)
+    log ""
+    log "Prod Rollout Info:"
+    log_json $prdRolloutInfo $VAR_NAME 
+    log ""
+  fi
+  
+  echo -n "." # Show progress indicator
+done < "$FILE"
+
+log ""
+log "Script execution completed"
+log "$(date)"
+
+echo -e "\nAll results have been saved to $OUTPUT_FILE"

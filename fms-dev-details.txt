@@ -1,0 +1,2832 @@
+Starting script execution for environment: dev
+Fri Feb 28 11:31:31 PKT 2025
+
+
+Processing variable: ENABLE_SYNC_SCORE_BOARD_CREATION_FOR_DEEP_BLUE
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_CAMPAIGN_GENERATION_SCHEDULED_JOB
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_CAMPAIGN_LAUNCH_SCHEDULED_JOB
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_CAMPAIGN_CREATION_SUMMARY
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_FINANCE_APPROVAL_FOR_ALL_CAMPAIGNS
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_ANALYTIKA_EVENT_TRACKING_IN_CAMPAIGN_API
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_SCORE_BOARD_POPULATION_JOB
+
+
+Dev Rollout Info:
+{
+  "key": "ENABLE_SCORE_BOARD_POPULATION_JOB",
+  "state": 0,
+  "strategy": "SPECIFIC",
+  "strategyParams": "100",
+  "type": "OPERATIONAL",
+  "tags": {
+    "userid": "29873269",
+    "microservice": "campaign-api",
+    "team": "captain-engagement"
+  },
+  "storage": "UNIFIED_DDB"
+}
+
+
+Processing variable: ENABLE_CAMPAIGN_SUMMARY_EMAIL_SCHEDULED_JOB
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_NEW_PAYMENT_PROCESSOR_CAMPAIGN_UPLOAD
+
+
+Dev Rollout Info:
+{
+  "key": "ENABLE_NEW_PAYMENT_PROCESSOR_CAMPAIGN_UPLOAD",
+  "state": 1,
+  "strategy": "GRADUAL",
+  "strategyParams": "100",
+  "type": "EXPERIMENT",
+  "tags": null,
+  "storage": "DDB"
+}
+
+
+Processing variable: ENABLE_CAMPAIGN_CREATION_FROM_LIST_METHOD
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_CAMPAIGN_BACKFILLING
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_BATCH_TRIP_DETAILS_PERSISTENCE
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_DRIVER_TRIP_DETAILS_OPTIMIZATION
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_HYSTRIX_ON_TRIP_RATING
+
+
+Dev Rollout Info:
+{
+  "key": "ENABLE_HYSTRIX_ON_TRIP_RATING",
+  "state": 1,
+  "strategy": null,
+  "strategyParams": null,
+  "type": "EXPERIMENT",
+  "tags": {
+    "updatedById": "31049049",
+    "event": "update"
+  },
+  "storage": "RDS"
+}
+
+
+Processing variable: ENABLE_HYSTRIX_ON_ACCEPTANCE_RATE
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_HYSTRIX_ON_AVAILABILITY
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_TRIP_RATING_PERSISTENCE_IN_UTILITY
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_TRIP_RATING_UPDATE_IN_SCOREBOARD
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_TRIP_RATING_FROM_SCOREBOARD_IN_GENERATION
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_CAMPAIGN_SUMMARY
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_ROUTE_PERSISTENCE
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_ROUTE_CALCULATION
+
+
+Dev Rollout Info:
+{
+  "key": "ENABLE_ROUTE_CALCULATION",
+  "state": 0,
+  "strategy": "GRADUAL",
+  "strategyParams": "100",
+  "type": "EXPERIMENT",
+  "tags": {
+    "userid": "31049049"
+  },
+  "storage": "DDB"
+}
+
+
+Processing variable: DISABLE_TRIP_RATING_SERVICE_CALL
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_UPDATING_EARNING_ON_ROUTE_VERIFIED_EVENT
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_ALL_TRIP_DETAIL_PERSISTENCE
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_TRIP_MATCHING_FOR_ACTIVE_SCOREBOARDS
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_SUB_CAMPAIGN_GENERATION
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_PROCESSING_ACTIVE_CAPTAINS_FOR_SCOREBOARD_CREATION
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_TRIP_RATING_PERSISTENCE_EVENT
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_TRIP_KAFKA_PUBLISHING
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_LEADERBOARDS_PROCESSING
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_CCT_VALIDATION_ON_TRIP_EVENTS
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_SUPER_TRIP_TRACKING
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_CAPTAIN_REAL_TIME_STATS_PROCESSING
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_ANALYTIKA_EVENT_TRACKING
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_CCT_VALIDATION_ON_TRIP_MATCHING
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_REDUCED_MARGIN_SCORE_BOARD_EVALUATION
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_TRIP_BONUS_SCORE_BOARD_EVALUATION
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_REFERRAL_BONUS_SCORE_BOARD_EVALUATION
+
+
+Dev Rollout Info:
+
+
+Processing variable: DISABLE_CAPTAIN_LOYALTY_AGAINST_LIMO
+
+
+Dev Rollout Info:
+
+
+Processing variable: CANCEL_MISSED_BOOKING
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_INTERCITY_CANCELLATION_ALERTS
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_INTERCITY_CANCELLATION_ALERTS_FOR_SA
+
+
+Dev Rollout Info:
+
+
+Processing variable: INTERCITY_DELIVERY_CCTS
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_ETA_THRESHOLD_CONSTRAINT
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_ASSIGNMENT_ETA_CONSTRAINT
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_ETA_SERVICE_DESTINATION_FILTER
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_NON_POOLING_PRELIMINARY_ROUTE_CONSTRAINT
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_DESTINATION_FILTER_DETOUR_IMPROVEMENT
+
+
+Dev Rollout Info:
+{
+  "key": "ENABLE_DESTINATION_FILTER_DETOUR_IMPROVEMENT",
+  "state": 1,
+  "strategy": "GRADUAL",
+  "strategyParams": "100",
+  "type": "EXPERIMENT",
+  "tags": {
+    "userid": "29873334"
+  },
+  "storage": "DDB"
+}
+
+
+Processing variable: ENABLE_DO_NOT_RETURN_ENDED_TRIP_ROUTES
+
+
+Dev Rollout Info:
+{
+  "key": "ENABLE_DO_NOT_RETURN_ENDED_TRIP_ROUTES",
+  "state": 1,
+  "strategy": null,
+  "strategyParams": null,
+  "type": "RELEASE",
+  "tags": {},
+  "storage": "RDS"
+}
+
+
+Processing variable: ENABLE_DESTINATION_FILTER_FOR_CCT
+
+
+Dev Rollout Info:
+
+
+Processing variable: MONITOR_RECALCULATE_CAPTAIN_TRIP_FARE_PRICING_SERVICE
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: USE_COST_CAPTAIN_CAR_TYPE_FROM_BOOKING_LOOKUP
+
+
+Dev Rollout Info:
+
+
+Processing variable: TICKET_DETAILS_CONSUMER_ALWAYS_RETURNS_TRUE
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_CALCULATOR_FOR_LONG_TRIPS
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_TAX_CALCULATION
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_OAUTH2_AUTHENTICATION
+
+
+Dev Rollout Info:
+
+
+Processing variable: DISABLE_EMAIL_OTP_FOR_PARTNERS
+
+
+Dev Rollout Info:
+
+
+Processing variable: DISABLE_EMAIL_OTP_FOR_CORPORATES
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_EMAIL_OTP_FOR_PARTNERS_BASED_ON_COMPANY
+
+
+Dev Rollout Info:
+
+
+Processing variable: DISABLE_EMAIL_UPDATE_FOR_ONE_CLICK_MERCHANTS
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_SALES_ADMIN_WITHOUT_OTP
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: REJECT_INVALID_FIREBASE_REGISTER
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_MARILYN_WRITE_REPOSITORY
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_MARILYN_READ_REPOSITORY
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: BYPASS_2ND_FACTOR_ON_ACCOUNT_DELETION
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENFORCE_MARILYN_READ_REPOSITORY
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_MARILYN_READ_COMPARE
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_MARILYN_SET_USER_ACTIVITY
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_MARILYN_REMOTE_USE
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_AOS_BALANCE
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_MARILYN_FOR_USER_DETAIL
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_ALL_COUNT_QUERY_TO_ELASTIC_SEARCH
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_TRIP_ENDED_ANALYTICS_EVENT
+
+
+Dev Rollout Info:
+{
+  "key": "ENABLE_TRIP_ENDED_ANALYTICS_EVENT",
+  "state": 1,
+  "strategy": null,
+  "strategyParams": null,
+  "type": "RELEASE",
+  "tags": {},
+  "storage": "DDB"
+}
+
+
+Processing variable: TRIP_STATS_CASH_COLLECTED
+
+
+Dev Rollout Info:
+{
+  "key": "TRIP_STATS_CASH_COLLECTED",
+  "state": 1,
+  "strategy": null,
+  "strategyParams": null,
+  "type": "RELEASE",
+  "tags": {},
+  "storage": "RDS"
+}
+
+
+Processing variable: SOL_PAST_TRIP_FIELDS
+
+
+Dev Rollout Info:
+{
+  "key": "SOL_PAST_TRIP_FIELDS",
+  "state": 1,
+  "strategy": null,
+  "strategyParams": null,
+  "type": "RELEASE",
+  "tags": {},
+  "storage": "RDS"
+}
+
+
+Processing variable: SOL_VERIFICATION_ERRORS_ON_PAST_BOOKING
+
+
+Dev Rollout Info:
+
+
+Processing variable: SOL_TRIP_UNITS_CONSUMED
+
+
+Dev Rollout Info:
+{
+  "key": "SOL_TRIP_UNITS_CONSUMED",
+  "state": 0,
+  "strategy": null,
+  "strategyParams": null,
+  "type": "RELEASE",
+  "tags": {
+    "microservice": "trip-report-service-es6",
+    "team": "care"
+  },
+  "storage": "UNIFIED_DDB"
+}
+
+
+Processing variable: VALIDATE_DTO
+
+
+Dev Rollout Info:
+
+
+Processing variable: MISSING_TRIP_STATS_UPDATE_EVENT
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_NOTIFICATION_ON_FIRST_RIDE
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_SMS_ON_FALLBACK
+
+
+Dev Rollout Info:
+{
+  "key": "ENABLE_SMS_ON_FALLBACK",
+  "state": 0,
+  "strategy": null,
+  "strategyParams": null,
+  "type": "RELEASE",
+  "tags": {},
+  "storage": "RDS"
+}
+
+
+Processing variable: CONSUME_BOOKING_UUID_ON_TRIP_CANCEL_EVENT
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_TRIP_REPORT_BUSINESS_BOOKING_DATA_PERSIST
+
+
+Dev Rollout Info:
+{
+  "key": "ENABLE_TRIP_REPORT_BUSINESS_BOOKING_DATA_PERSIST",
+  "state": 1,
+  "strategy": null,
+  "strategyParams": null,
+  "type": "EXPERIMENT",
+  "tags": {
+    "updatedById": "29874708",
+    "event": "update"
+  },
+  "storage": "RDS"
+}
+
+
+Processing variable: ENABLE_TRIP_REPORT_HIDE_PRIVATE_TRIP_FROM_HELPER_V2
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: PERSIST_BOOKING_LOCATION_UUID
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: RESOLVE_LOCATION_DETAILS_THROUGH_BOOKING_LOOKUP
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: USE_BULK_BOOKING_LOOKUP_API
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_SA_BASED_SEARCH_REQUEST_CHECK
+
+
+Dev Rollout Info:
+{
+  "key": "ENABLE_SA_BASED_SEARCH_REQUEST_CHECK",
+  "state": 1,
+  "strategy": "NA",
+  "strategyParams": null,
+  "type": "RELEASE",
+  "tags": {
+    "description": "test",
+    "team": "core-experience",
+    "userid": "29872785",
+    "microservice": "customer-trip-report-service"
+  },
+  "storage": "UNIFIED_DDB"
+}
+
+
+Processing variable: LIMIT_PAST_TRIPS_SA_BASED_SEARCH_TO_LAST_X_HRS
+
+
+Dev Rollout Info:
+{
+  "key": "LIMIT_PAST_TRIPS_SA_BASED_SEARCH_TO_LAST_X_HRS",
+  "state": 1,
+  "strategy": "NA",
+  "strategyParams": "0",
+  "type": "EXPERIMENT",
+  "tags": {
+    "description": "test",
+    "team": "core-experience",
+    "userid": "29872785",
+    "microservice": "customer-trip-report-service"
+  },
+  "storage": "UNIFIED_DDB"
+}
+
+
+Processing variable: ENABLE_REQUESTS_LOGGING_IN_TRIP_REPORT_SERVICE
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_FORCE_READ_FROM_OLD_ES6
+
+
+Dev Rollout Info:
+
+
+Processing variable: IGNORE_TRIP_SYNC_EVENT
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_TRIP_REPORT_FILTER_BY_DEFAULT_SERVICE_TYPE
+
+
+Dev Rollout Info:
+
+
+Processing variable: SKIP_UPDATING_VERIFICATION_STATUS_AFTER_VERIFIED
+
+
+Dev Rollout Info:
+
+
+Processing variable: USE_GUARD_TOKEN
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: DISABLE_OTP_ENDPOINT_FOR_CLIENT
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: SHIELD_WITHOUT_GUARD
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: SAME_CODE_ON_OTP_RESEND
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_TRANSACTIONAL_BATCH_WRITE_FOR_SINGLE_JOB
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_EXTENDED_EXPIRATION_PERIOD_FOR_CAPTAIN_JOBS
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_PUBLISHING_ORDER_UPDATED_EVENT
+
+
+Dev Rollout Info:
+{
+  "key": "ENABLE_PUBLISHING_ORDER_UPDATED_EVENT",
+  "state": 1,
+  "strategy": "NA",
+  "strategyParams": null,
+  "type": "EXPERIMENT",
+  "tags": {
+    "userid": "31045685",
+    "microservice": "captain-job-service"
+  },
+  "storage": "UNIFIED_DDB"
+}
+
+
+Processing variable: DISABLE_PUBLISHING_COMMUNICATION_EVENT
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_ANALYTIKA_EVENT_TRACKING_IN_CAPTAIN_JOB
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: STOP_WRITING_LOCATION_DETAILS_TO_JOBS
+
+
+Dev Rollout Info:
+
+
+Processing variable: STOP_WRITING_LOCATION_DETAILS_TO_FOOD_JOBS
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_CONFIG_READS_FROM_PRODUCT_CATALOG_SDK
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_ORDER_DETAILS_INTERNAL_API
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: SEND_CAPTAIN_NOTIFICATION_BEFORE_HDL_JOB_UPDATE_V2
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_LOCATION_DETAILS_ENRICHMENT
+
+
+Dev Rollout Info:
+{
+  "key": "ENABLE_LOCATION_DETAILS_ENRICHMENT",
+  "state": 1,
+  "strategy": "GRADUAL",
+  "strategyParams": "100",
+  "type": "EXPERIMENT",
+  "tags": {
+    "userid": "31045685",
+    "microservice": "captain-job-service",
+    "team": "mobility-be-experience-infra"
+  },
+  "storage": "UNIFIED_DDB"
+}
+
+
+Processing variable: ENABLE_LOCATION_DETAILS_ENRICHMENT_FOR_RH
+
+
+Dev Rollout Info:
+{
+  "key": "ENABLE_LOCATION_DETAILS_ENRICHMENT_FOR_RH",
+  "state": 1,
+  "strategy": "GRADUAL",
+  "strategyParams": "100",
+  "type": "EXPERIMENT",
+  "tags": {
+    "userid": "31045685",
+    "microservice": "captain-job-service",
+    "team": "mobility-be-experience-infra"
+  },
+  "storage": "UNIFIED_DDB"
+}
+
+
+Processing variable: ENABLE_LOCATION_DETAILS_ENRICHMENT_FOR_FOOD
+
+
+Dev Rollout Info:
+{
+  "key": "ENABLE_LOCATION_DETAILS_ENRICHMENT_FOR_FOOD",
+  "state": 1,
+  "strategy": "GRADUAL",
+  "strategyParams": "100",
+  "type": "EXPERIMENT",
+  "tags": {
+    "userid": "31045685",
+    "microservice": "captain-job-service",
+    "team": "mobility-be-experience-infra"
+  },
+  "storage": "UNIFIED_DDB"
+}
+
+
+Processing variable: ENABLE_DUPLICATE_PUSHY_NOTIFICATIONS
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_CAPTAIN_INSIGHT_SERVICE_REST_TEMPLATE_WITH_CONNECTION_TTL
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_CAMPAIGN_API_REST_TEMPLATE_WITH_CONNECTION_TTL
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_NETWORK_SERVICE_FOR_HEATMAP_CAG
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_OBSCURE_MISSING_USER_AGENT_EXCEPTION
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_SSI2_HEATMAP
+
+
+Dev Rollout Info:
+
+
+Processing variable: MAINTENANCE_MODE
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_BYPASS_SRS_LP_TOKEN_ENHANCEMENT
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_SENDING_CASH_RECEIVED_TO_RIDE_AND_CAREEM_NOW
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_CAPTAIN_JOB_SHADOW_SYNC_API_TRAFFIC
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_CAPTAIN_JOB_SHADOW_SYNC_API_COMPARISON_AND_MONITORING
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_OLD_REPORT_CASH_API_SHADOWING_FORKING
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_LOGGING_NOT_MATCHING_CASES_FOR_SYNC_BOOKING_COMPARISON
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_CAREEM_NOW_SECRET_MANAGER_FALLBACK
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_CAPTAIN_PROFILE_FROM_SUPPLY_REGISTRY
+
+
+Dev Rollout Info:
+{
+  "key": "ENABLE_CAPTAIN_PROFILE_FROM_SUPPLY_REGISTRY",
+  "state": 1,
+  "strategy": "GRADUAL",
+  "strategyParams": "100",
+  "type": "RELEASE",
+  "tags": {
+    "userid": "29873269",
+    "microservice": "captain-api-gateway",
+    "team": "captain-engagement"
+  },
+  "storage": "UNIFIED_DDB"
+}
+
+
+Processing variable: ENABLE_TIME_BASED_CAPTAIN_BLOCKING
+
+
+Dev Rollout Info:
+
+
+Processing variable: USE_UNIFIED_TOGGLE_FOR_FEATURE_CONFIGURATION_API
+
+
+Dev Rollout Info:
+
+
+Processing variable: USE_CAPTAIN_LOGIN_SERVICE_FOR_EDIT_PIN
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_SCHEDULE_PEAK_WITH_POLYGON
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_PASSING_X_USER_IP_TO_OTP_SERVICE
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_FETCH_FOOD_CASH_COLLECTABLE_FROM_SETTLEMENT_SERVICE
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_CAPTAIN_RATE_LIMIT_AT_CAPTAIN_EDGE
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_CAPTAIN_RATE_LIMIT_OVERRIDE
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_CAPTAIN_JOB_SWITCH
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_BOOKING_READS_MIGRATION_TO_BOOKING_STORE
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_SCHEDULED_PEAK_ON_INCENTIVE
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_ROUTING_TRAFFIC_TO_CAPTAIN_DESTINATION_FILTER
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_CAPTAIN_CCTS_OPTIN_FROM_CAPTAIN_EXPERIENCE_SERVICE
+
+
+Dev Rollout Info:
+{
+  "key": "ENABLE_CAPTAIN_CCTS_OPTIN_FROM_CAPTAIN_EXPERIENCE_SERVICE",
+  "state": 1,
+  "strategy": "SPECIFIC",
+  "strategyParams": "1193530",
+  "type": "EXPERIMENT",
+  "tags": {
+    "description": "ENABLE_CAPTAIN_CCTS_OPTIN_FROM_CAPTAIN_EXPERIENCE_SERVICE",
+    "team": "mobility-be-experience-infra",
+    "userid": "31045685",
+    "microservice": "captain-api-gateway"
+  },
+  "storage": "UNIFIED_DDB"
+}
+
+
+Processing variable: ENABLE_CAPTAIN_CCT_CONFIGURATION_PROXY_THROUGH_CAPTAIN_EXPERIENCE_SERVICE
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_MIGRATE_PEAK_APIS_TO_CAPTAIN_EXPERIENCE_SERVICE
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: FETCH_CANCELLATION_LIMITS_FROM_CAPTAIN_JOB_SERVICE
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_ECHO_API_DEBUG_OUTPUT
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: SWITCH_OFFLINE_PRICING_TO_ESTIMATION_SERVICE
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: CBS_UNBLOCKING_SMS_TOGGLE
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_TAXI_METERING_INTEGRATION_FOR_LIMO_COMPANIES
+
+
+Dev Rollout Info:
+{
+  "key": "ENABLE_TAXI_METERING_INTEGRATION_FOR_LIMO_COMPANIES",
+  "state": 1,
+  "strategy": "SPECIFIC",
+  "strategyParams": "12",
+  "type": "RELEASE",
+  "tags": {
+    "userid": "29872704"
+  },
+  "storage": "DDB"
+}
+
+
+Processing variable: ENABLE_OTP_THROUGH_WHATSAPP
+
+
+Dev Rollout Info:
+
+
+Processing variable: DISABLE_ADMA_BETA
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_RECENT_CARS_QUERY_BY_DRIVE_ID_AND_LIMO_COMPANY_ID
+
+
+Dev Rollout Info:
+{
+  "key": "ENABLE_RECENT_CARS_QUERY_BY_DRIVE_ID_AND_LIMO_COMPANY_ID",
+  "state": 0,
+  "strategy": null,
+  "strategyParams": null,
+  "type": "RELEASE",
+  "tags": {},
+  "storage": "DDB"
+}
+
+
+Processing variable: OPTIMIZE_RECENT_DRIVEN_CAR_FLOW
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_OPTIMIZE_RECENTLY_DRIVEN_CAR
+
+
+Dev Rollout Info:
+{
+  "key": "ENABLE_OPTIMIZE_RECENTLY_DRIVEN_CAR",
+  "state": 1,
+  "strategy": "GRADUAL",
+  "strategyParams": "100",
+  "type": "EXPERIMENT",
+  "tags": null,
+  "storage": "DDB"
+}
+
+
+Processing variable: CAPTAIN_BLOCK
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENFORCE_ONE_DEVICE_SIGN_IN
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_OTP_VERIFICATION
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: REMOVE_OLD_CAPTAIN_PUSHY_ID
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: CAPTAIN_DEVICE_LOG
+
+
+Dev Rollout Info:
+{
+  "key": "CAPTAIN_DEVICE_LOG",
+  "state": 1,
+  "strategy": "GRADUAL",
+  "strategyParams": "100",
+  "type": "EXPERIMENT",
+  "tags": null,
+  "storage": "DDB"
+}
+
+
+Processing variable: ENABLE_SENDING_OTP_FOR_CITIES
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_SENDING_OTP_FOR_COUNTRIES
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_SENDING_OTP_FOR_COUNTRIES_STRATEGY
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_INACTIVE_CAPTAIN_PERIOD_FOR_COUNTRIES
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_INACTIVE_CAPTAIN_PERIOD_FOR_COUNTRIES_STRATEGY
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_IDP_FLOW_FOR_ALL_CAPTAINS
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_CBS_LOGIN
+
+
+Dev Rollout Info:
+
+
+Processing variable: EXCLUDE_LIMO_FROM_IDP_FLOW
+
+
+Dev Rollout Info:
+{
+  "key": "EXCLUDE_LIMO_FROM_IDP_FLOW",
+  "state": 1,
+  "strategy": "SPECIFIC",
+  "strategyParams": "3",
+  "type": "EXPERIMENT",
+  "tags": null,
+  "storage": "DDB"
+}
+
+
+Processing variable: CAPTAIN_PIN_UPDATE_FOR_MARILYN
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: CPAY_DISABLE_WALLET_FALLBACK_TO_MAIN_DB
+
+
+Dev Rollout Info:
+
+
+Processing variable: CPAY_ASYNC_FALLBACK_FOR_CREDIT_UPDATE
+
+
+Dev Rollout Info:
+{
+  "key": "CPAY_ASYNC_FALLBACK_FOR_CREDIT_UPDATE",
+  "state": 1,
+  "strategy": null,
+  "strategyParams": null,
+  "type": "EXPERIMENT",
+  "tags": {
+    "updatedById": "29873197",
+    "event": "update"
+  },
+  "storage": "RDS"
+}
+
+
+Processing variable: CPAY_CAPTAIN_RIDE_ENABLE_ASYNC_FALLBACK_IN_TRIP_END_FLOW
+
+
+Dev Rollout Info:
+{
+  "key": "CPAY_CAPTAIN_RIDE_ENABLE_ASYNC_FALLBACK_IN_TRIP_END_FLOW",
+  "state": 1,
+  "strategy": null,
+  "strategyParams": null,
+  "type": "EXPERIMENT",
+  "tags": {
+    "updatedById": "29873197",
+    "event": "update"
+  },
+  "storage": "RDS"
+}
+
+
+Processing variable: ENABLE_TRIP_DURATION_DIFF_LOGGING
+
+
+Dev Rollout Info:
+{
+  "key": "ENABLE_TRIP_DURATION_DIFF_LOGGING",
+  "state": 1,
+  "strategy": null,
+  "strategyParams": null,
+  "type": "EXPERIMENT",
+  "tags": {
+    "userid": "29873616",
+    "team": "pricing"
+  },
+  "storage": "UNIFIED_DDB"
+}
+
+
+Processing variable: ENABLE_SETTING_LIMO_COMPANY_SERVICE_PROVIDER_ID_IN_BOOKING_EVENT
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_PUBLISHING_BOOKING_STATUS_UPDATE_ONLY_AFTER_SUCCESSFUL_UPDATE
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_CANCELLATION_BEFORE_ARRIVAL_LIMITS
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_SERVICE_AGREEMENT_AND_BOOKING_TYPE_BACKOUT_VALIDATION
+
+
+Dev Rollout Info:
+
+
+Processing variable: FETCH_GEOHASH_CONFIGURATIONS_FOR_WAIVERS_CAPT
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_SETTING_LIMO_COMPANY_CITY_ID_FOR_BOOKING_CANCELLATION_UNASSIGNMENT_EVENT
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_SETTING_LIMO_COMPANY_CITY_ID_AND_SERVICE_PROVIDER_ID_IN_TRIP_ENDED_EVENT
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_PINGS_API
+
+
+Dev Rollout Info:
+
+
+Processing variable: DISALLOW_TRIP_ENDING_FOR_IN_JOURNEY_WAIT_TIME_GREATER_THAN_TOTAL_JOURNEY_TIME
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_PUBLISH_METERING_KPI_EVENT
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_CASH_RECEIVED_VALIDATION
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_LOGGING_FAST_FORWARD_TRIP_ENDED_LOGS
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_ANALYTIKA_EVENT_TRACKING_IN_CAPTAIN_RIDE
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_FALLBACK_TO_BOOKING_PICKUP_LOCATION
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_INVOICE_SPEND_CONTROL
+
+
+Dev Rollout Info:
+{
+  "key": "ENABLE_INVOICE_SPEND_CONTROL",
+  "state": 1,
+  "strategy": "GRADUAL",
+  "strategyParams": "100",
+  "type": "EXPERIMENT",
+  "tags": null,
+  "storage": "DDB"
+}
+
+
+Processing variable: ENABLE_ADDING_NEGATIVE_BALANCE_TO_TOTAL_AMOUNT_FOR_RTA
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_UPDATING_TRIP_ATTRIBUTES_ON_TAXIMETER_DISCONNECTION
+
+
+Dev Rollout Info:
+
+
+Processing variable: DISABLE_SETTING_MANUAL_VERIFICATION_ON_TAXIMETER_DISCONNECTION
+
+
+Dev Rollout Info:
+
+
+Processing variable: DISABLE_ALLOWING_CASH_PAYMENT_FOR_FRAUD_GATEWAY_FAILURE_FALLBACK
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_ZERO_DISTANCE_AFTER_TRIP_END
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_CLEARING_SELECTIVE_OPT_IN_CCT_IDS
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: DISABLE_PRICE_ADJUSTMENTS_FOR_BID_ASK
+
+
+Dev Rollout Info:
+
+
+Processing variable: DISABLE_TOLLGATE_ADJUSTMENTS_FOR_BID_ASK
+
+
+Dev Rollout Info:
+
+
+Processing variable: DISABLE_FIXED_PACKAGE_ADJUSTMENTS_FOR_BID_ASK
+
+
+Dev Rollout Info:
+
+
+Processing variable: DISABLE_TAX_ADJUSTMENTS_FOR_BID_ASK
+
+
+Dev Rollout Info:
+
+
+Processing variable: DISABLE_BOOKING_PROMOTIONS_FOR_BID_ASK
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_UPDATE_TRIP_PRICE_WITH_TOLLGATE_BY_TOLLGATE_HANDLER
+
+
+Dev Rollout Info:
+
+
+Processing variable: DISABLE_CONVERT_TRIP_TO_TAXI_METER_PRICING_FALLBACK
+
+
+Dev Rollout Info:
+
+
+Processing variable: BOOKING_TIMEOUT_BUFFER
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_GETTING_NUMBER_OF_CAPTAINS_TO_REORDER_FROM_ETA_FOR_CCT
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: DISPATCH_PUSH_NOTIFICATION_CONFIG
+
+
+Dev Rollout Info:
+
+
+Processing variable: DISPATCH_CAPTAIN_LIMIT
+
+
+Dev Rollout Info:
+
+
+Processing variable: DYNAMIC_BATCHING_DURATION
+
+
+Dev Rollout Info:
+
+
+Processing variable: MATCHING_BOOKING_TIMEOUT_OFFSET
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_EXPRESS_WALLET_FLOW_FOR_USER
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_EXPRESS_RH_LOCATIONS_FOR_USER
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_EXPRESS_SWITCH_FROM_DELIVERIES_SERVICE_FLOW
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_EXPRESS_NEW_WALLET_APIS
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: GEO_LOCATION_BLOCK
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: USERINFO_RETURNS_EMPTY_EMAIL
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: NO_CURRENCY_IN_USERINFO_FOR_TIGERS
+
+
+Dev Rollout Info:
+
+
+Processing variable: NO_USERNAME_PREFERENCE_IN_USERINFO_FOR_TIGERS
+
+
+Dev Rollout Info:
+
+
+Processing variable: HIDE_FACEBOOK_LOGIN_BUTTON
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: USER_BLOCKED_WITH_500_CODE
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: IDP_BATTANI_PROFILING
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: IDP_X_CAREEM_DEVICE_ID
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: IDP_MARILYN_INTEGRATION
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: IDP_MARILYN_DEVICE_SWITCHER
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: CHECK_GUESTS_ON_PARTNER_AUTH
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: USER_INFO_ADD_KIND_TO_SOURCE_COLUMN
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: AUTH_V1_ENHANCER_DISABLED
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: LOGIN_VIA_ONBOARDER_SERVICE
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: WHITELIST_APPROVE_SITE_CREATION
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: FILTER_CCT_VERSION
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_NEW_GEOSPATIAL_SERVICE_FLOW
+
+
+Dev Rollout Info:
+
+
+Processing variable: RTA_INTEGRATION
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_RTA_JV_DCTS_EXCLUSION_FOR_HEATMAP_JOB
+
+
+Dev Rollout Info:
+{
+  "key": "ENABLE_RTA_JV_DCTS_EXCLUSION_FOR_HEATMAP_JOB",
+  "state": 1,
+  "strategy": "SPECIFIC",
+  "strategyParams": "72,3,2",
+  "type": "RELEASE",
+  "tags": {},
+  "storage": "DDB"
+}
+
+
+Processing variable: ENABLE_ZONE_READ_FROM_KAFKA_IN_NETWORK_SERVICE
+
+
+Dev Rollout Info:
+
+
+Processing variable: FILTER_DEPRECATED_ZONES_FROM_SERVICE_AREA
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_TRANSPORTER_BOOKING_LOOKUP_TRACKING
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_EXPRESS_DEBIT_CREDIT_XDMA_FLOW
+
+
+Dev Rollout Info:
+
+
+Processing variable: WALLET_QITAF_EARN
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_PUBLISH_KAFKA_USER_CREDIT_TRANSACTION_EVENT
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: WALLET_USER_BLOCKING
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_USER_CREDIT_VIA_WALLET
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_DEBUG_MODE_WALLET
+
+
+Dev Rollout Info:
+{
+  "key": "ENABLE_DEBUG_MODE_WALLET",
+  "state": 1,
+  "strategy": null,
+  "strategyParams": null,
+  "type": "RELEASE",
+  "tags": {},
+  "storage": "RDS"
+}
+
+
+Processing variable: WALLET_DISABLE_COMMUNICATION_EVENT
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_EARN_RETRY
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_CREDIT_CARD_TOPUP_EVENT
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_PROMETHEUS_LOGGING_WALLET_SERVICE
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_EXPIRY_INCREMENT_BY_DAY
+
+
+Dev Rollout Info:
+{
+  "key": "ENABLE_EXPIRY_INCREMENT_BY_DAY",
+  "state": 1,
+  "strategy": null,
+  "strategyParams": null,
+  "type": "RELEASE",
+  "tags": {},
+  "storage": "RDS"
+}
+
+
+Processing variable: ENABLE_EMIRATES_BLOCKCHAIN_EARN
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_USER_COMPLAINTS
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_CCT_PUBLISH_TO_UCP
+
+
+Dev Rollout Info:
+{
+  "key": "ENABLE_CCT_PUBLISH_TO_UCP",
+  "state": 1,
+  "strategy": null,
+  "strategyParams": null,
+  "type": "RELEASE",
+  "tags": {},
+  "storage": "RDS"
+}
+
+
+Processing variable: ENABLE_CAREEM_PAY_FOR_USERS
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_CAREEMPAY_OPEN_LOOP
+
+
+Dev Rollout Info:
+{
+  "key": "ENABLE_CAREEMPAY_OPEN_LOOP",
+  "state": 1,
+  "strategy": "GRADUAL",
+  "strategyParams": "100",
+  "type": "RELEASE",
+  "tags": {
+    "userid": "29874649",
+    "microservice": "wallet-service",
+    "team": "wallet-service-team"
+  },
+  "storage": "DDB"
+}
+
+
+Processing variable: ENABLE_JWT_CREDIT_DEBIT_RESTFUL
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_JWT_LEGACY_CREDIT_RESTFUL
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_SQS_CONSUMPTION
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_JWT_P2P_RESTFUL
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_BALANCE_AUTO_HEAL
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_ACCOUNT_ORCHESTRATOR
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_FIRST_PAID_CANCELLATION_FLOW
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENALBE_ENRICHMENT_VIA_MODEL_FOR_CAPTAIN_MISSING_KMS
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_CAPTAIN_CANCELLATION_FLOW
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_CAPTAIN_UNDERPAYMENT_FLOW
+
+
+Dev Rollout Info:
+
+
+Processing variable: UPDATE_DISPOSITIONS_LOCAL_DICT_IF_REQD
+
+
+Dev Rollout Info:
+{
+  "key": "UPDATE_DISPOSITIONS_LOCAL_DICT_IF_REQD",
+  "state": 1,
+  "strategy": "GRADUAL",
+  "strategyParams": "100",
+  "type": "RELEASE",
+  "tags": {
+    "userid": "29872798"
+  },
+  "storage": "DDB"
+}
+
+
+Processing variable: DISPOSITION_NEW_LIST
+
+
+Dev Rollout Info:
+
+
+Processing variable: SEND_LEAD_FOR_EXTERNAL_VERIFICATION_DURING_FORWARD_SYNC
+
+
+Dev Rollout Info:
+{
+  "key": "SEND_LEAD_FOR_EXTERNAL_VERIFICATION_DURING_FORWARD_SYNC",
+  "state": 0,
+  "strategy": "GRADUAL",
+  "strategyParams": "100",
+  "type": "EXPERIMENT",
+  "tags": {
+    "description": "SEND_LEAD_FOR_EXTERNAL_VERIFICATION_DURING_FORWARD_SYNC",
+    "team": "captain-acquisition",
+    "userid": "31048290",
+    "microservice": "supply-profile-service"
+  },
+  "storage": "UNIFIED_DDB"
+}
+
+
+Processing variable: SUPPLY_ZONE_TRACKING_HDL_EXPIRATION
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: STREETHAIL_KAFKA_LOGGING
+
+
+Dev Rollout Info:
+
+
+Processing variable: STREETHAIL_DEFAULT_OTP_CCT_IDS
+
+
+Dev Rollout Info:
+
+
+Processing variable: STREETHAIL_BOOKING_SOURCE_CHANGE
+
+
+Dev Rollout Info:
+
+
+Processing variable: STREETHAIL_ACCEPT_CCT_ID
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: OTP_EXPIRY_CCTS
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: INVALIDATE_EXISTING_OTP_ON_GENERATION
+
+
+Dev Rollout Info:
+{
+  "key": "INVALIDATE_EXISTING_OTP_ON_GENERATION",
+  "state": 1,
+  "strategy": "NA",
+  "strategyParams": null,
+  "type": "EXPERIMENT",
+  "tags": {
+    "userid": "29872708",
+    "microservice": "streethail-service",
+    "team": "PLEX"
+  },
+  "storage": "UNIFIED_DDB"
+}
+
+
+Processing variable: MOT_OTP_CLIENT_USER_ID_MAPPING
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: MOT_OTP_SANDBOX_SERVICE_AREA_ID_CCT_MAPPING
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: MOT_OTP_SERVICE_AREA_ID_CCT_MAPPING
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: STREETHAIL_HELPER_OTP_SAVE_DROPOFF
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: STREETHAIL_EVENT_TRACKING
+
+
+Dev Rollout Info:
+
+
+Processing variable: STREETHAIL_ENABLE_ANALYTIKA_RH_EVENTS
+
+
+Dev Rollout Info:
+{
+  "key": "STREETHAIL_ENABLE_ANALYTIKA_RH_EVENTS",
+  "state": 1,
+  "strategy": "NA",
+  "strategyParams": null,
+  "type": "RELEASE",
+  "tags": {
+    "userid": "29872785",
+    "microservice": "streethail-service",
+    "team": "rides-platform"
+  },
+  "storage": "UNIFIED_DDB"
+}
+
+
+Processing variable: STREETHAIL_ENABLE_PRE_BOOKING_VALIDATIONS_FOR_CUST_OTP
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: STREETHAIL_ENABLE_FAILING_OTP_ON_BOOKING_VALIDATION_FAILURE_FOR_CUST
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_SG_ADD_CAPTAIN_FROM_SRS
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_SG_TSI_LEAD_SCREENING
+
+
+Dev Rollout Info:
+{
+  "key": "ENABLE_SG_TSI_LEAD_SCREENING",
+  "state": 1,
+  "strategy": "GRADUAL",
+  "strategyParams": "100",
+  "type": "EXPERIMENT",
+  "tags": {
+    "userid": "29872709"
+  },
+  "storage": "DDB"
+}
+
+
+Processing variable: ENABLED_SG_TSI_FORCED_PRIVATE_CAR
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLED_SG_TSI_FORCED_EMAIL_NULL
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_SG_TSI_LEAD_SCREENING_FOR_SUPPLIER
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_CRON_JOB_FOR_EXPIRING_LEADS_HAVING_EXPIRED_DOCUMENTS
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_PRODUCING_DOCUMENT_UPDATED_KAFKA_EVENT
+
+
+Dev Rollout Info:
+
+
+Processing variable: ENABLE_SENDING_SMS_TO_PRIMARY_USER_ON_VEHICAL_APPROVAL
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_CHECKING_REQUIRED_FIELDS_FOR_DOCUMENT_VISIBILITY_API
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_ALLOWED_FOR_REUPLOAD_FLAG_FOR_DOCUMENT_TYPE_GROUP
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_TSI_REGISTRATION_TIMEOUT_FAILURES
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_TSI_REGISTRATION_TIMEOUT_REGISTRATION_FAILURES
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_SG_PROCESSING_CAPTAIN_DCT_UPDATED_EVENT
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_SG_PROCESSING_UPSERT_CAR_EVENT
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_SUPPLY_GATE_LEAD_SIGNUP_OTP
+
+
+Dev Rollout Info:
+{
+  "key": "ENABLE_SUPPLY_GATE_LEAD_SIGNUP_OTP",
+  "state": 1,
+  "strategy": "SPECIFIC",
+  "strategyParams": "11",
+  "type": "EXPERIMENT",
+  "tags": {
+    "userid": "299002580"
+  },
+  "storage": "DDB"
+}
+
+
+Processing variable: ENABLE_SUPPLY_GATE_FRANCHISE_SUPPORT
+
+
+Dev Rollout Info:
+{
+  "key": "ENABLE_SUPPLY_GATE_FRANCHISE_SUPPORT",
+  "state": 1,
+  "strategy": "SPECIFIC",
+  "strategyParams": "1,4",
+  "type": "RELEASE",
+  "tags": {
+    "userid": "299002580"
+  },
+  "storage": "DDB"
+}
+
+
+Processing variable: ENABLE_SUPPLY_GATE_ADD_CAPTAIN_V2
+
+
+Dev Rollout Info:
+{
+  "key": "ENABLE_SUPPLY_GATE_ADD_CAPTAIN_V2",
+  "state": 1,
+  "strategy": "GRADUAL",
+  "strategyParams": "100",
+  "type": "RELEASE",
+  "tags": {
+    "userid": "29872829"
+  },
+  "storage": "DDB"
+}
+
+
+Processing variable: ENABLE_SG_NIC_VALIDATION
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_SG_PROCEED_USER_ON_NIC_VALIDATION
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_SG_NIC_SHOW_DUPLICATE_PROFILES
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: SUPPLY_GATE_ENABLE_ONLINE_TRAINING_V2
+
+
+Dev Rollout Info:
+{
+  "key": "SUPPLY_GATE_ENABLE_ONLINE_TRAINING_V2",
+  "state": 1,
+  "strategy": "GRADUAL",
+  "strategyParams": "100",
+  "type": "RELEASE",
+  "tags": {
+    "userid": "29872709"
+  },
+  "storage": "UNIFIED_DDB"
+}
+
+
+Processing variable: ENABLE_SG_ADD_VEHICLE
+
+
+Dev Rollout Info:
+{
+  "key": "ENABLE_SG_ADD_VEHICLE",
+  "state": 1,
+  "strategy": "GRADUAL",
+  "strategyParams": "100",
+  "type": "RELEASE",
+  "tags": {},
+  "storage": "DDB"
+}
+
+
+Processing variable: ENABLE_SG_ADD_SUPPLIER
+
+
+Dev Rollout Info:
+{
+  "key": "ENABLE_SG_ADD_SUPPLIER",
+  "state": 1,
+  "strategy": "GRADUAL",
+  "strategyParams": "100",
+  "type": "EXPERIMENT",
+  "tags": {
+    "userid": "29872829"
+  },
+  "storage": "DDB"
+}
+
+
+Processing variable: ENABLE_SG_SUPPORT_TICKET_MANAGEMENT
+
+
+Dev Rollout Info:
+{
+  "key": "ENABLE_SG_SUPPORT_TICKET_MANAGEMENT",
+  "state": 1,
+  "strategy": "GRADUAL",
+  "strategyParams": "100",
+  "type": "EXPERIMENT",
+  "tags": null,
+  "storage": "DDB"
+}
+
+
+Processing variable: ENABLE_SG_SUPPORT_DISPOSITION_MANAGEMENT
+
+
+Dev Rollout Info:
+{
+  "key": "ENABLE_SG_SUPPORT_DISPOSITION_MANAGEMENT",
+  "state": 1,
+  "strategy": "GRADUAL",
+  "strategyParams": "100",
+  "type": "RELEASE",
+  "tags": {
+    "userid": "29872829"
+  },
+  "storage": "DDB"
+}
+
+
+Processing variable: ENABLE_SG_CITY_DOCUMENTS_CONFIGURATION
+
+
+Dev Rollout Info:
+{
+  "key": "ENABLE_SG_CITY_DOCUMENTS_CONFIGURATION",
+  "state": 1,
+  "strategy": "GRADUAL",
+  "strategyParams": "100",
+  "type": "EXPERIMENT",
+  "tags": null,
+  "storage": "DDB"
+}
+
+
+Processing variable: ENABLE_SG_REPLICATE_EXISTING_CITY_ONLY
+
+
+Dev Rollout Info:
+{
+  "key": "ENABLE_SG_REPLICATE_EXISTING_CITY_ONLY",
+  "state": 1,
+  "strategy": "GRADUAL",
+  "strategyParams": "100",
+  "type": "EXPERIMENT",
+  "tags": null,
+  "storage": "DDB"
+}
+
+
+Processing variable: ENABLE_SG_SUPPORT_FILE_UPLOAD_TO_S3
+
+
+Dev Rollout Info:
+{
+  "key": "ENABLE_SG_SUPPORT_FILE_UPLOAD_TO_S3",
+  "state": 1,
+  "strategy": "GRADUAL",
+  "strategyParams": "100",
+  "type": "EXPERIMENT",
+  "tags": null,
+  "storage": "DDB"
+}
+
+
+Processing variable: ENABLE_SG_COMMS_WHATSAPP_DOCUMENT_REJECTED
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_SINGLE_MSG_FOR_MULTI_DOCUMENTS
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_SG_CAPTAIN_NIC_EDIT_POST_EXPORT
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_SG_SUPPLY_PROFILE_EDIT_POST_EXPORT
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_SUPPLY_GATE_AC_PROFILE_EDIT_POST_EXPORT
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_SG_LEAD_IDENTITY_INTEGRATION
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_SUPPLY_GATE_AC_ADD_CAPTAIN_IDENTITY
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_SG_TO_EDIT_DOCUMENT_POST_EXPORT
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_SG_PUBLISH_EVENT_FOR_EXPIRABLE_DOCUMENTS_APPROVED
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_SG_SEND_CAPTAIN_NEW_DOCUMENT_REJECTED_REMINDER_COMMS
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_CNIC_SYNC_TO_MAIN
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_SG_BYPASS_DOCUMENT_EXPIRY
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_IDENTITY_USER_PHONE_RESTRICTION
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_SG_CAMERA_FOR_DOCUMENT_UPLOAD
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_SG_BYPASS_OTP_ON_ADD_VEHICLE
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_SG_VALIDATING_EDIT_CAPTAIN_REQUEST_WITH_SRS
+
+
+Dev Rollout Info:
+{
+  "key": "ENABLE_SG_VALIDATING_EDIT_CAPTAIN_REQUEST_WITH_SRS",
+  "state": 1,
+  "strategy": "GRADUAL",
+  "strategyParams": "100",
+  "type": "EXPERIMENT",
+  "tags": {
+    "description": "ENABLE_SG_VALIDATING_EDIT_CAPTAIN_REQUEST_WITH_SRS",
+    "team": "captain-acquisition",
+    "userid": "29872709",
+    "microservice": "supply-gate-be"
+  },
+  "storage": "UNIFIED_DDB"
+}
+
+
+Processing variable: ENABLE_SG_VALIDATING_EDIT_VEHICLE_REQUEST_WITH_SRS
+
+
+Dev Rollout Info:
+{
+  "key": "ENABLE_SG_VALIDATING_EDIT_VEHICLE_REQUEST_WITH_SRS",
+  "state": 1,
+  "strategy": "GRADUAL",
+  "strategyParams": "100",
+  "type": "EXPERIMENT",
+  "tags": {
+    "description": "ENABLE_SG_VALIDATING_EDIT_VEHICLE_REQUEST_WITH_SRS",
+    "team": "captain-acquisition",
+    "userid": "29872709",
+    "microservice": "supply-gate-be"
+  },
+  "storage": "UNIFIED_DDB"
+}
+
+
+Processing variable: ENABLE_SG_FORWARD_SYNCING_CAPTAIN_WITH_SRS
+
+
+Dev Rollout Info:
+{
+  "key": "ENABLE_SG_FORWARD_SYNCING_CAPTAIN_WITH_SRS",
+  "state": 1,
+  "strategy": "GRADUAL",
+  "strategyParams": "100",
+  "type": "EXPERIMENT",
+  "tags": {
+    "description": "ENABLE_SG_FORWARD_SYNCING_CAPTAIN_WITH_SRS",
+    "team": "captain-acquisition",
+    "userid": "29872709",
+    "microservice": "supply-gate-be"
+  },
+  "storage": "UNIFIED_DDB"
+}
+
+
+Processing variable: ENABLE_SG_FORWARD_SYNCING_VEHICLE_WITH_SRS
+
+
+Dev Rollout Info:
+{
+  "key": "ENABLE_SG_FORWARD_SYNCING_VEHICLE_WITH_SRS",
+  "state": 1,
+  "strategy": "GRADUAL",
+  "strategyParams": "100",
+  "type": "EXPERIMENT",
+  "tags": {
+    "description": "ENABLE_SG_FORWARD_SYNCING_VEHICLE_WITH_SRS",
+    "team": "captain-acquisition",
+    "userid": "29872709",
+    "microservice": "supply-gate-be"
+  },
+  "storage": "UNIFIED_DDB"
+}
+
+
+Processing variable: ENABLE_SG_REPORTING_ENDPOINT
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: PAY_BY_CREDIT_CARD
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_OMW_USER_PN
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_PAYMENT_SERVICE_ROUTE_FOR_CC
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_PUBLISH_USER_CREDIT_TRANSACTION_EVENT
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_PACKAGE_BUYING_WHEN_TRANSACTION_STATUS_IS_PROGRESS
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: USER_SERVICE_ENABLE_CREDIT_VIA_WALLET
+
+
+Dev Rollout Info:
+{
+  "key": "USER_SERVICE_ENABLE_CREDIT_VIA_WALLET",
+  "state": 0,
+  "strategy": null,
+  "strategyParams": null,
+  "type": null,
+  "tags": null,
+  "storage": "RDS"
+}
+
+
+Processing variable: EXCLUDE_USER_FROM_CREDIT_TRANSACTION_UPDATES
+
+
+Dev Rollout Info:
+
+
+Processing variable: RETURN_EMPTY_STRING_FOR_AUTOGEN_EMAILS
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_MARILYN_CREDENTIAL_SYNC
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: DEPRECATE_API
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_YEAR_SUPPORT_FOR_ADD_EDIT_SPCTC
+
+
+Dev Rollout Info:
+{
+  "key": "ENABLE_YEAR_SUPPORT_FOR_ADD_EDIT_SPCTC",
+  "state": 1,
+  "strategy": "GRADUAL",
+  "strategyParams": "100",
+  "type": "EXPERIMENT",
+  "tags": {
+    "userid": "29873120",
+    "microservice": "supply-registry-service",
+    "team": "captain-supply-team"
+  },
+  "storage": "UNIFIED_DDB"
+}
+
+
+Processing variable: ENABLE_SUPPLIER_EMAIL_VERIFICATION
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_REFERRALS_FROM_PARTNER_PAYOUT_SERVICE
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_MANDATORY_IDENTITY_VERIFICATION_FOR_CAPTAIN_ONBOARDING
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: DISABLE_ADD_CAPTAIN_API
+
+
+Dev Rollout Info:
+
+
+Processing variable: VALIDATE_EDIT_CAPTAIN_PHONE_NUMBER_WITH_SG_LEAD
+
+
+Dev Rollout Info:
+
+
+Processing variable: CAPTAIN_NIC_EDIT_DISABLED
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_IS_HALA_CAPTAIN_ATTRIBUTE_FOR_HALA_LIMO_COMPANIES
+
+
+Dev Rollout Info:
+{
+  "key": "ENABLE_IS_HALA_CAPTAIN_ATTRIBUTE_FOR_HALA_LIMO_COMPANIES",
+  "state": 0,
+  "strategy": "SPECIFIC",
+  "strategyParams": "3",
+  "type": "RELEASE",
+  "tags": {
+    "userid": "29873785"
+  },
+  "storage": "UNIFIED_DDB"
+}
+
+
+Processing variable: ENABLE_DYNAMO_DB_FOR_CITY_LIMO_COMPANY_MAPPING
+
+
+Dev Rollout Info:
+
+
+Processing variable: CAPTAIN_PIN_UPDATE_FOR_MAIN_DB
+
+
+Dev Rollout Info:
+
+
+
+Processing variable: ENABLE_SG_SYNC_CAR_MODEL_FROM_MAIN
+
+
+Dev Rollout Info:
+
+
+
+Script execution completed
+Fri Feb 28 11:34:54 PKT 2025

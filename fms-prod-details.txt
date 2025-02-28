@@ -1,0 +1,55 @@
+Starting script execution for environment: prod
+Fri Feb 28 11:06:17 PKT 2025
+
+
+Processing variable: ENABLE_SYNC_SCORE_BOARD_CREATION_FOR_DEEP_BLUE
+
+
+Prod Rollout Info:
+{
+  "key": "ENABLE_SYNC_SCORE_BOARD_CREATION_FOR_DEEP_BLUE",
+  "state": 1,
+  "strategy": "GRADUAL",
+  "strategyParams": "100",
+  "type": "RELEASE",
+  "tags": {},
+  "storage": "DDB"
+}
+
+
+Processing variable: ENABLE_CAMPAIGN_GENERATION_SCHEDULED_JOB
+
+
+Prod Rollout Info:
+
+
+
+Processing variable: ENABLE_CAMPAIGN_LAUNCH_SCHEDULED_JOB
+
+
+Prod Rollout Info:
+{
+  "key": "ENABLE_CAMPAIGN_LAUNCH_SCHEDULED_JOB",
+  "state": 1,
+  "strategy": "GRADUAL",
+  "strategyParams": "0",
+  "type": "RELEASE",
+  "tags": {
+    "description": "ENABLE_CAMPAIGN_LAUNCH_SCHEDULED_JOB",
+    "team": "Mobility-BE-Engagement",
+    "userid": "7029430",
+    "microservice": "Campaign-API"
+  },
+  "storage": "UNIFIED_DDB"
+}
+
+
+Processing variable: ENABLE_CAMPAIGN_CREATION_SUMMARY
+
+
+Prod Rollout Info:
+
+
+
+Processing variable: ENABLE_FINANCE_APPROVAL_FOR_ALL_CAMPAIGNS
+

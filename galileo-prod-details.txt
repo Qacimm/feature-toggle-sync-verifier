@@ -1,0 +1,301 @@
+Starting script execution for environment: prod
+Fri Feb 28 11:38:54 PKT 2025
+
+
+Processing variable: ENABLE_SYNC_SCORE_BOARD_CREATION_FOR_DEEP_BLUE
+
+
+Prd Rollout Info:
+{
+  "key": "ENABLE_SYNC_SCORE_BOARD_CREATION_FOR_DEEP_BLUE",
+  "state": 1,
+  "strategy": "GRADUAL",
+  "strategyParams": "100",
+  "type": "RELEASE",
+  "tags": {},
+  "storage": "DDB"
+}
+
+
+Processing variable: ENABLE_CAMPAIGN_GENERATION_SCHEDULED_JOB
+
+
+Prd Rollout Info:
+{
+  "key": "ENABLE_CAMPAIGN_GENERATION_SCHEDULED_JOB",
+  "state": 1,
+  "strategy": "SPECIFIC",
+  "strategyParams": "100",
+  "type": "RELEASE",
+  "tags": {
+    "description": "Enable Campaign Generation Scheduled Job",
+    "team": "mobility-be-engagement",
+    "userid": "3659576",
+    "microservice": "Campaign-API"
+  },
+  "storage": "DDB"
+}
+
+
+Processing variable: ENABLE_CAMPAIGN_LAUNCH_SCHEDULED_JOB
+
+
+Prd Rollout Info:
+{
+  "key": "ENABLE_CAMPAIGN_LAUNCH_SCHEDULED_JOB",
+  "state": 1,
+  "strategy": "GRADUAL",
+  "strategyParams": "0",
+  "type": "RELEASE",
+  "tags": {
+    "description": "ENABLE_CAMPAIGN_LAUNCH_SCHEDULED_JOB",
+    "team": "Mobility-BE-Engagement",
+    "userid": "7029430",
+    "microservice": "Campaign-API"
+  },
+  "storage": "UNIFIED_DDB"
+}
+
+
+Processing variable: ENABLE_CAMPAIGN_CREATION_SUMMARY
+
+
+Prd Rollout Info:
+{
+  "key": "ENABLE_CAMPAIGN_CREATION_SUMMARY",
+  "state": 0,
+  "strategy": "GRADUAL",
+  "strategyParams": "0",
+  "type": "EXPERIMENT",
+  "tags": {
+    "description": "Send push to captain on creation of campaigns ",
+    "team": "Captain Engagement",
+    "userid": "969647",
+    "microservice": "campaign-api"
+  },
+  "storage": "UNIFIED_DDB"
+}
+
+
+Processing variable: ENABLE_FINANCE_APPROVAL_FOR_ALL_CAMPAIGNS
+
+
+Prd Rollout Info:
+{
+  "key": "ENABLE_FINANCE_APPROVAL_FOR_ALL_CAMPAIGNS",
+  "state": 0,
+  "strategy": "NA",
+  "strategyParams": null,
+  "type": "RELEASE",
+  "tags": {
+    "description": "Enable Finance approval for all campaigns",
+    "team": "Captain Engagement",
+    "userid": "17962009",
+    "microservice": "Campaign Api"
+  },
+  "storage": "UNIFIED_DDB"
+}
+
+
+Processing variable: ENABLE_ANALYTIKA_EVENT_TRACKING_IN_CAMPAIGN_API
+
+
+Prd Rollout Info:
+{
+  "key": "ENABLE_ANALYTIKA_EVENT_TRACKING_IN_CAMPAIGN_API",
+  "state": 1,
+  "strategy": "GRADUAL",
+  "strategyParams": "50",
+  "type": "RELEASE",
+  "tags": {
+    "description": "This toggle will enable the service to send custom events to argus event store.",
+    "team": "Captain Engagement",
+    "userid": "5699919",
+    "microservice": "campaign-api"
+  },
+  "storage": "UNIFIED_DDB"
+}
+
+
+Processing variable: ENABLE_SCORE_BOARD_POPULATION_JOB
+
+
+Prd Rollout Info:
+{
+  "key": "ENABLE_SCORE_BOARD_POPULATION_JOB",
+  "state": 0,
+  "strategy": "SPECIFIC",
+  "strategyParams": "100",
+  "type": "OPERATIONAL",
+  "tags": {
+    "description": "Enable Score board population Job",
+    "team": "Captain Engagement",
+    "userid": "17962009",
+    "microservice": "Campaign Api"
+  },
+  "storage": "UNIFIED_DDB"
+}
+
+
+Processing variable: ENABLE_CAMPAIGN_SUMMARY_EMAIL_SCHEDULED_JOB
+
+
+Prd Rollout Info:
+{
+  "key": "ENABLE_CAMPAIGN_SUMMARY_EMAIL_SCHEDULED_JOB",
+  "state": 1,
+  "strategy": "GRADUAL",
+  "strategyParams": "100",
+  "type": "RELEASE",
+  "tags": {
+    "description": "Toggle for enabling Campaign Summary scheduled job",
+    "team": "Captain Engagement",
+    "userid": "4340788",
+    "microservice": "campaign-api"
+  },
+  "storage": "UNIFIED_DDB"
+}
+
+
+Processing variable: ENABLE_NEW_PAYMENT_PROCESSOR_CAMPAIGN_UPLOAD
+
+
+Prd Rollout Info:
+{
+  "key": "ENABLE_NEW_PAYMENT_PROCESSOR_CAMPAIGN_UPLOAD",
+  "state": 1,
+  "strategy": "GRADUAL",
+  "strategyParams": "100",
+  "type": "OPERATIONAL",
+  "tags": {
+    "userid": "969647",
+    "microservice": "captain-adjustment-uploader",
+    "team": "Captain Engagement"
+  },
+  "storage": "DDB"
+}
+
+
+Processing variable: ENABLE_CAMPAIGN_CREATION_FROM_LIST_METHOD
+
+
+Prd Rollout Info:
+{
+  "key": "ENABLE_CAMPAIGN_CREATION_FROM_LIST_METHOD",
+  "state": 1,
+  "strategy": "NA",
+  "strategyParams": null,
+  "type": "RELEASE",
+  "tags": {
+    "userid": "4060335",
+    "microservice": "campaign-api",
+    "team": "Captain Engagement"
+  },
+  "storage": "UNIFIED_DDB"
+}
+
+
+Processing variable: ENABLE_CAMPAIGN_BACKFILLING
+
+
+Prd Rollout Info:
+{
+  "key": "ENABLE_CAMPAIGN_BACKFILLING",
+  "state": 1,
+  "strategy": "GRADUAL",
+  "strategyParams": "100",
+  "type": "RELEASE",
+  "tags": {},
+  "storage": "DDB"
+}
+
+
+Processing variable: ENABLE_BATCH_TRIP_DETAILS_PERSISTENCE
+
+
+Prd Rollout Info:
+{
+  "key": "ENABLE_BATCH_TRIP_DETAILS_PERSISTENCE",
+  "state": 1,
+  "strategy": "GRADUAL",
+  "strategyParams": "100",
+  "type": "RELEASE",
+  "tags": {},
+  "storage": "DDB"
+}
+
+
+Processing variable: ENABLE_DRIVER_TRIP_DETAILS_OPTIMIZATION
+
+
+Prd Rollout Info:
+{
+  "key": "ENABLE_DRIVER_TRIP_DETAILS_OPTIMIZATION",
+  "state": 1,
+  "strategy": "GRADUAL",
+  "strategyParams": "100",
+  "type": "RELEASE",
+  "tags": {},
+  "storage": "DDB"
+}
+
+
+Processing variable: ENABLE_HYSTRIX_ON_TRIP_RATING
+
+
+Prd Rollout Info:
+{
+  "key": "ENABLE_HYSTRIX_ON_TRIP_RATING",
+  "state": 0,
+  "strategy": "GRADUAL",
+  "strategyParams": "0",
+  "type": "OPERATIONAL",
+  "tags": {
+    "userid": "4340788",
+    "microservice": "Campaign-Engine",
+    "team": "Captain Engagement"
+  },
+  "storage": "UNIFIED_DDB"
+}
+
+
+Processing variable: ENABLE_HYSTRIX_ON_ACCEPTANCE_RATE
+
+
+Prd Rollout Info:
+{
+  "key": "ENABLE_HYSTRIX_ON_ACCEPTANCE_RATE",
+  "state": 0,
+  "strategy": "GRADUAL",
+  "strategyParams": "0",
+  "type": "OPERATIONAL",
+  "tags": {
+    "userid": "4340788",
+    "microservice": "Campaign-Engine",
+    "team": "Captain Engagement"
+  },
+  "storage": "UNIFIED_DDB"
+}
+
+
+Processing variable: ENABLE_HYSTRIX_ON_AVAILABILITY
+
+
+Prd Rollout Info:
+{
+  "key": "ENABLE_HYSTRIX_ON_AVAILABILITY",
+  "state": 0,
+  "strategy": "GRADUAL",
+  "strategyParams": "0",
+  "type": "OPERATIONAL",
+  "tags": {
+    "userid": "4340788",
+    "microservice": "Campaign-Engine",
+    "team": "Captain Engagement"
+  },
+  "storage": "UNIFIED_DDB"
+}
+
+
+Processing variable: ENABLE_TRIP_RATING_PERSISTENCE_IN_UTILITY
+

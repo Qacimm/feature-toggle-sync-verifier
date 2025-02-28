@@ -1,0 +1,1158 @@
+
+Processing variable: fms/enable_sync_score_board_creation_for_deep_blue
+
+
+Found ID: cg8s0jtiits9fb4s98j0 for variable: fms/enable_sync_score_board_creation_for_deep_blue
+
+
+Prd Rollout Info: {"data":{"id":"cg8s0jtiits9fb4s98m0","kind":"Rollout","name":"fms/prd/enable_sync_score_board_creation_for_deep_blue","environment":"prd","tags":["release","ddb"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678884943935215000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1739607172717956000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678884943,"variable":"fms/enable_sync_score_board_creation_for_deep_blue","strategy":[{"id":"cg8s0jv6i1e20av1egag","label":"","value":"{\"key\":\"ENABLE_SYNC_SCORE_BOARD_CREATION_FOR_DEEP_BLUE\",\"state\":1,\"strategy\":\"GRADUAL\",\"strategyParams\":\"100\",\"type\":\"RELEASE\",\"tags\":{},\"storage\":\"DDB\"}"}]}}
+
+
+Processing variable: fms/enable_campaign_generation_scheduled_job
+
+
+Found ID: cg8rr7diits9fb4s7290 for variable: fms/enable_campaign_generation_scheduled_job
+
+
+Prd Rollout Info: {"data":{"id":"cg8rr7liits9fb4s72c0","kind":"Rollout","name":"fms/prd/enable_campaign_generation_scheduled_job","environment":"prd","tags":["release","ddb"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678884254254275000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1740692126077588000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678884254,"variable":"fms/enable_campaign_generation_scheduled_job","strategy":[{"id":"cg8rr7f6i1e20av1e3qg","label":"","value":"{\"key\":\"ENABLE_CAMPAIGN_GENERATION_SCHEDULED_JOB\",\"state\":1,\"strategy\":\"SPECIFIC\",\"strategyParams\":\"100\",\"type\":\"RELEASE\",\"tags\":{\"description\":\"Enable Campaign Generation Scheduled Job\",\"team\":\"mobility-be-engagement\",\"userid\":\"3659576\",\"microservice\":\"Campaign-API\"},\"storage\":\"DDB\"}"}]}}
+
+
+Processing variable: fms/enable_campaign_launch_scheduled_job
+
+
+Found ID: cg8rohdiits81nfnvomg for variable: fms/enable_campaign_launch_scheduled_job
+
+
+Prd Rollout Info: {"data":{"id":"cg8rohliits81nfnvopg","kind":"Rollout","name":"fms/prd/enable_campaign_launch_scheduled_job","environment":"prd","tags":["release","unified_ddb"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678883910102559000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1740692129591435000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678883910,"variable":"fms/enable_campaign_launch_scheduled_job","strategy":[{"id":"cg8rohf6i1e20av1dthg","label":"","value":"{\"key\":\"ENABLE_CAMPAIGN_LAUNCH_SCHEDULED_JOB\",\"state\":1,\"strategy\":\"GRADUAL\",\"strategyParams\":\"0\",\"type\":\"RELEASE\",\"tags\":{\"description\":\"ENABLE_CAMPAIGN_LAUNCH_SCHEDULED_JOB\",\"team\":\"Mobility-BE-Engagement\",\"userid\":\"7029430\",\"microservice\":\"Campaign-API\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/enable_campaign_creation_summary
+
+
+Found ID: cg8rr1diits9fb4s6ut0 for variable: fms/enable_campaign_creation_summary
+
+
+Prd Rollout Info: {"data":{"id":"cg8rr1diits9fb4s6v00","kind":"Rollout","name":"fms/prd/enable_campaign_creation_summary","environment":"prd","tags":["experiment","unified_ddb"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678884229997538000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1740692126687180000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678884229,"variable":"fms/enable_campaign_creation_summary","strategy":[{"id":"cg8rr1f6i1e20av1e3cg","label":"","value":"{\"key\":\"ENABLE_CAMPAIGN_CREATION_SUMMARY\",\"state\":0,\"strategy\":\"GRADUAL\",\"strategyParams\":\"0\",\"type\":\"EXPERIMENT\",\"tags\":{\"description\":\"Send push to captain on creation of campaigns \",\"team\":\"Captain Engagement\",\"userid\":\"969647\",\"microservice\":\"campaign-api\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/enable_finance_approval_for_all_campaigns
+
+
+Found ID: cuibhltupjr8hrj9n6h0 for variable: fms/enable_finance_approval_for_all_campaigns
+
+
+Prd Rollout Info: {"data":{"id":"cuibhlshs56fekv5qof0","kind":"Rollout","name":"fms/prd/enable_finance_approval_for_all_campaigns","environment":"prd","tags":["release","unified_ddb"],"owners":["role/admin"],"createdBy":"mohamed.abdo@careem.com","createdAt":1738848471911128000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1739609162909500000,"transitionedBy":"mohamed.abdo@careem.com","transitionedAt":1738848471,"variable":"fms/enable_finance_approval_for_all_campaigns","strategy":[{"id":"cuibhlrtk50mk4m2bpcg","label":"","value":"{\"key\":\"ENABLE_FINANCE_APPROVAL_FOR_ALL_CAMPAIGNS\",\"state\":0,\"strategy\":\"NA\",\"strategyParams\":null,\"type\":\"RELEASE\",\"tags\":{\"description\":\"Enable Finance approval for all campaigns\",\"team\":\"Captain Engagement\",\"userid\":\"17962009\",\"microservice\":\"Campaign Api\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/enable_analytika_event_tracking_in_campaign_api
+
+
+Found ID: cg8rrhtiits81nfo1f3g for variable: fms/enable_analytika_event_tracking_in_campaign_api
+
+
+Prd Rollout Info: {"data":{"id":"cg8rrhtiits81nfo1f6g","kind":"Rollout","name":"fms/prd/enable_analytika_event_tracking_in_campaign_api","environment":"prd","tags":["release","unified_ddb"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678884295434192000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1740692128062147000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678884295,"variable":"fms/enable_analytika_event_tracking_in_campaign_api","strategy":[{"id":"cg8rrhn6i1e20av1e4i0","label":"","value":"{\"key\":\"ENABLE_ANALYTIKA_EVENT_TRACKING_IN_CAMPAIGN_API\",\"state\":1,\"strategy\":\"GRADUAL\",\"strategyParams\":\"50\",\"type\":\"RELEASE\",\"tags\":{\"description\":\"This toggle will enable the service to send custom events to argus event store.\",\"team\":\"Captain Engagement\",\"userid\":\"5699919\",\"microservice\":\"campaign-api\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/enable_score_board_population_job
+
+
+Found ID: cg8s3rtiits81nfo7h7g for variable: fms/enable_score_board_population_job
+
+
+Prd Rollout Info: {"data":{"id":"cg8s3rtiits81nfo7hag","kind":"Rollout","name":"fms/prd/enable_score_board_population_job","environment":"prd","tags":["operational","unified_ddb"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678885359565420000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1740692128158804000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678885359,"variable":"fms/enable_score_board_population_job","strategy":[{"id":"cg8s3rv6i1e20av1eno0","label":"","value":"{\"key\":\"ENABLE_SCORE_BOARD_POPULATION_JOB\",\"state\":0,\"strategy\":\"SPECIFIC\",\"strategyParams\":\"100\",\"type\":\"OPERATIONAL\",\"tags\":{\"description\":\"Enable Score board population Job\",\"team\":\"Captain Engagement\",\"userid\":\"17962009\",\"microservice\":\"Campaign Api\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/enable_campaign_summary_email_scheduled_job
+
+
+Found ID: cuibhlj005ua3ihfkshg for variable: fms/enable_campaign_summary_email_scheduled_job
+
+
+Prd Rollout Info: {"data":{"id":"cuibhlkhs56fekv5qocg","kind":"Rollout","name":"fms/prd/enable_campaign_summary_email_scheduled_job","environment":"prd","tags":["release","unified_ddb"],"owners":["role/admin"],"createdBy":"mohamed.abdo@careem.com","createdAt":1738848470941905000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1739609555781084000,"transitionedBy":"mohamed.abdo@careem.com","transitionedAt":1738848470,"variable":"fms/enable_campaign_summary_email_scheduled_job","strategy":[{"id":"cuibhljtk50mk4m2bpc0","label":"","value":"{\"key\":\"ENABLE_CAMPAIGN_SUMMARY_EMAIL_SCHEDULED_JOB\",\"state\":1,\"strategy\":\"GRADUAL\",\"strategyParams\":\"100\",\"type\":\"RELEASE\",\"tags\":{\"description\":\"Toggle for enabling Campaign Summary scheduled job\",\"team\":\"Captain Engagement\",\"userid\":\"4340788\",\"microservice\":\"campaign-api\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/enable_new_payment_processor_campaign_upload
+
+
+Found ID: cg8rq6tiits9fb4s6kkg for variable: fms/enable_new_payment_processor_campaign_upload
+
+
+Prd Rollout Info: {"data":{"id":"cg8rq6tiits9fb4s6kng","kind":"Rollout","name":"fms/prd/enable_new_payment_processor_campaign_upload","environment":"prd","tags":["operational","ddb"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678884123755510000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1740692129774234000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678884123,"variable":"fms/enable_new_payment_processor_campaign_upload","strategy":[{"id":"cg8rq6v6i1e20av1e1f0","label":"","value":"{\"key\":\"ENABLE_NEW_PAYMENT_PROCESSOR_CAMPAIGN_UPLOAD\",\"state\":1,\"strategy\":\"GRADUAL\",\"strategyParams\":\"100\",\"type\":\"OPERATIONAL\",\"tags\":{\"userid\":\"969647\",\"microservice\":\"captain-adjustment-uploader\",\"team\":\"Captain Engagement\"},\"storage\":\"DDB\"}"}]}}
+
+
+Processing variable: fms/enable_campaign_creation_from_list_method
+
+
+Found ID: cg8rvotiits81nfo3va0 for variable: fms/enable_campaign_creation_from_list_method
+
+
+Prd Rollout Info: {"data":{"id":"cg8rvotiits81nfo3vd0","kind":"Rollout","name":"fms/prd/enable_campaign_creation_from_list_method","environment":"prd","tags":["release","unified_ddb"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678884835856185000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1740692125752115000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678884835,"variable":"fms/enable_campaign_creation_from_list_method","strategy":[{"id":"cg8rvov6i1e20av1eee0","label":"","value":"{\"key\":\"ENABLE_CAMPAIGN_CREATION_FROM_LIST_METHOD\",\"state\":1,\"strategy\":\"NA\",\"strategyParams\":null,\"type\":\"RELEASE\",\"tags\":{\"userid\":\"4060335\",\"microservice\":\"campaign-api\",\"team\":\"Captain Engagement\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/enable_campaign_backfilling
+
+
+Found ID: cg8rrq5iits81nfo1l6g for variable: fms/enable_campaign_backfilling
+
+
+Prd Rollout Info: {"data":{"id":"cg8rrqdiits81nfo1l9g","kind":"Rollout","name":"fms/prd/enable_campaign_backfilling","environment":"prd","tags":["release","ddb"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678884329127527000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1739607155657192000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678884329,"variable":"fms/enable_campaign_backfilling","strategy":[{"id":"cg8rrq76i1e20av1e55g","label":"","value":"{\"key\":\"ENABLE_CAMPAIGN_BACKFILLING\",\"state\":1,\"strategy\":\"GRADUAL\",\"strategyParams\":\"100\",\"type\":\"RELEASE\",\"tags\":{},\"storage\":\"DDB\"}"}]}}
+
+
+Processing variable: fms/enable_batch_trip_details_persistence
+
+
+Found ID: cg8s20diits9fb4s9rig for variable: fms/enable_batch_trip_details_persistence
+
+
+Prd Rollout Info: {"data":{"id":"cg8s20diits9fb4s9rlg","kind":"Rollout","name":"fms/prd/enable_batch_trip_details_persistence","environment":"prd","tags":["release","ddb"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678885121722019000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1739607177398719000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678885121,"variable":"fms/enable_batch_trip_details_persistence","strategy":[{"id":"cg8s20f6i1e20av1ejfg","label":"","value":"{\"key\":\"ENABLE_BATCH_TRIP_DETAILS_PERSISTENCE\",\"state\":1,\"strategy\":\"GRADUAL\",\"strategyParams\":\"100\",\"type\":\"RELEASE\",\"tags\":{},\"storage\":\"DDB\"}"}]}}
+
+
+Processing variable: fms/enable_driver_trip_details_optimization
+
+
+Found ID: cg8ruv5iits9fb4s8f2g for variable: fms/enable_driver_trip_details_optimization
+
+
+Prd Rollout Info: {"data":{"id":"cg8ruv5iits9fb4s8f5g","kind":"Rollout","name":"fms/prd/enable_driver_trip_details_optimization","environment":"prd","tags":["release","ddb"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678884732442454000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1739607167035094000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678884732,"variable":"fms/enable_driver_trip_details_optimization","strategy":[{"id":"cg8ruuv6i1e20av1ecig","label":"","value":"{\"key\":\"ENABLE_DRIVER_TRIP_DETAILS_OPTIMIZATION\",\"state\":1,\"strategy\":\"GRADUAL\",\"strategyParams\":\"100\",\"type\":\"RELEASE\",\"tags\":{},\"storage\":\"DDB\"}"}]}}
+
+
+Processing variable: fms/enable_hystrix_on_trip_rating
+
+
+Found ID: cg8s1ctiits9fb4s9klg for variable: fms/enable_hystrix_on_trip_rating
+
+
+Prd Rollout Info: {"data":{"id":"cg8s1ctiits9fb4s9kog","kind":"Rollout","name":"fms/prd/enable_hystrix_on_trip_rating","environment":"prd","tags":["operational","unified_ddb"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678885043745250000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1740692126935549000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678885043,"variable":"fms/enable_hystrix_on_trip_rating","strategy":[{"id":"cg8s1cv6i1e20av1ei30","label":"","value":"{\"key\":\"ENABLE_HYSTRIX_ON_TRIP_RATING\",\"state\":0,\"strategy\":\"GRADUAL\",\"strategyParams\":\"0\",\"type\":\"OPERATIONAL\",\"tags\":{\"userid\":\"4340788\",\"microservice\":\"Campaign-Engine\",\"team\":\"Captain Engagement\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/enable_hystrix_on_acceptance_rate
+
+
+Found ID: cuib7pdd97icm5ao9v0g for variable: fms/enable_hystrix_on_acceptance_rate
+
+
+Prd Rollout Info: {"data":{"id":"cuib7pb005ua3ihfkqh0","kind":"Rollout","name":"fms/prd/enable_hystrix_on_acceptance_rate","environment":"prd","tags":["operational","unified_ddb"],"owners":["role/admin"],"createdBy":"mohamed.abdo@careem.com","createdAt":1738847205856361000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1739609553633680000,"transitionedBy":"mohamed.abdo@careem.com","transitionedAt":1738847205,"variable":"fms/enable_hystrix_on_acceptance_rate","strategy":[{"id":"cuib7pbtk50js56t9t9g","label":"","value":"{\"key\":\"ENABLE_HYSTRIX_ON_ACCEPTANCE_RATE\",\"state\":0,\"strategy\":\"GRADUAL\",\"strategyParams\":\"0\",\"type\":\"OPERATIONAL\",\"tags\":{\"userid\":\"4340788\",\"microservice\":\"Campaign-Engine\",\"team\":\"Captain Engagement\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/enable_hystrix_on_availability
+
+
+Found ID: cg8rof5iits9fb4s60r0 for variable: fms/enable_hystrix_on_availability
+
+
+Prd Rollout Info: {"data":{"id":"cg8rof5iits81nfnvn5g","kind":"Rollout","name":"fms/prd/enable_hystrix_on_availability","environment":"prd","tags":["operational","unified_ddb"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678883900801335000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1740692126015774000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678883900,"variable":"fms/enable_hystrix_on_availability","strategy":[{"id":"cg8rof76i1e20av1dtc0","label":"","value":"{\"key\":\"ENABLE_HYSTRIX_ON_AVAILABILITY\",\"state\":0,\"strategy\":\"GRADUAL\",\"strategyParams\":\"0\",\"type\":\"OPERATIONAL\",\"tags\":{\"userid\":\"4340788\",\"microservice\":\"Campaign-Engine\",\"team\":\"Captain Engagement\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/enable_trip_rating_persistence_in_utility
+
+
+Found ID: cg8s2dtiits9fb4sa0jg for variable: fms/enable_trip_rating_persistence_in_utility
+
+
+Prd Rollout Info: {"data":{"id":"cg8s2dtiits9fb4sa0mg","kind":"Rollout","name":"fms/prd/enable_trip_rating_persistence_in_utility","environment":"prd","tags":["experiment","ddb"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678885175921264000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1739607178500202000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678885175,"variable":"fms/enable_trip_rating_persistence_in_utility","strategy":[{"id":"cg8s2dv6i1e20av1ekeg","label":"","value":"{\"key\":\"ENABLE_TRIP_RATING_PERSISTENCE_IN_UTILITY\",\"state\":1,\"strategy\":\"GRADUAL\",\"strategyParams\":\"100\",\"type\":\"EXPERIMENT\",\"tags\":null,\"storage\":\"DDB\"}"}]}}
+
+
+Processing variable: fms/enable_trip_rating_update_in_scoreboard
+
+
+Found ID: cg8s3otiits9fb4saj6g for variable: fms/enable_trip_rating_update_in_scoreboard
+
+
+Prd Rollout Info: {"data":{"id":"cg8s3otiits9fb4saj9g","kind":"Rollout","name":"fms/prd/enable_trip_rating_update_in_scoreboard","environment":"prd","tags":["release","ddb"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678885347606657000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1739607183557081000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678885347,"variable":"fms/enable_trip_rating_update_in_scoreboard","strategy":[{"id":"cg8s3ov6i1e20av1enh0","label":"","value":"{\"key\":\"ENABLE_TRIP_RATING_UPDATE_IN_SCOREBOARD\",\"state\":0,\"strategy\":\"GRADUAL\",\"strategyParams\":\"0\",\"type\":\"RELEASE\",\"tags\":{},\"storage\":\"DDB\"}"}]}}
+
+
+Processing variable: fms/enable_trip_rating_from_scoreboard_in_generation
+
+
+Found ID: cg8rq7diits9fb4s6l1g for variable: fms/enable_trip_rating_from_scoreboard_in_generation
+
+
+Prd Rollout Info: {"data":{"id":"cg8rq7diits9fb4s6l4g","kind":"Rollout","name":"fms/prd/enable_trip_rating_from_scoreboard_in_generation","environment":"prd","tags":["release","ddb"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678884125762845000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1739607146716448000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678884125,"variable":"fms/enable_trip_rating_from_scoreboard_in_generation","strategy":[{"id":"cg8rq7f6i1e20av1e1g0","label":"","value":"{\"key\":\"ENABLE_TRIP_RATING_FROM_SCOREBOARD_IN_GENERATION\",\"state\":0,\"strategy\":\"GRADUAL\",\"strategyParams\":\"0\",\"type\":\"RELEASE\",\"tags\":{},\"storage\":\"DDB\"}"}]}}
+
+
+Processing variable: fms/enable_campaign_summary
+
+
+Found ID: cuib7odupjr8hrj9n490 for variable: fms/enable_campaign_summary
+
+
+Prd Rollout Info: {"data":{"id":"cuib7oj005ua3ihfkqb0","kind":"Rollout","name":"fms/prd/enable_campaign_summary","environment":"prd","tags":["release","unified_ddb"],"owners":["role/admin"],"createdBy":"mohamed.abdo@careem.com","createdAt":1738847202297013000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1739609342505766000,"transitionedBy":"mohamed.abdo@careem.com","transitionedAt":1738847202,"variable":"fms/enable_campaign_summary","strategy":[{"id":"cuib7ojtk50js56t9t8g","label":"","value":"{\"key\":\"ENABLE_CAMPAIGN_SUMMARY\",\"state\":1,\"strategy\":\"GRADUAL\",\"strategyParams\":\"100\",\"type\":\"RELEASE\",\"tags\":{\"userid\":\"969647\",\"microservice\":\"campaign-engine\",\"team\":\"Captain Engagement\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/enable_route_persistence
+
+
+Found ID: cg8s3fliits9fb4sadj0 for variable: fms/enable_route_persistence
+
+
+Prd Rollout Info: {"data":{"id":"cg8s3fliits9fb4sadm0","kind":"Rollout","name":"fms/prd/enable_route_persistence","environment":"prd","tags":["release","ddb"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678885310671994000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1739607181828352000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678885310,"variable":"fms/enable_route_persistence","strategy":[{"id":"cg8s3fn6i1e20av1ems0","label":"","value":"{\"key\":\"ENABLE_ROUTE_PERSISTENCE\",\"state\":1,\"strategy\":\"GRADUAL\",\"strategyParams\":\"100\",\"type\":\"RELEASE\",\"tags\":{},\"storage\":\"DDB\"}"}]}}
+
+
+Processing variable: fms/enable_route_calculation
+
+
+Found ID: cg8rp1liits9fb4s68vg for variable: fms/enable_route_calculation
+
+
+Prd Rollout Info: {"data":{"id":"cg8rp1liits9fb4s692g","kind":"Rollout","name":"fms/prd/enable_route_calculation","environment":"prd","tags":["release","ddb"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678883974660393000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1739607141604827000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678883974,"variable":"fms/enable_route_calculation","strategy":[{"id":"cg8rp1n6i1e20av1dun0","label":"","value":"{\"key\":\"ENABLE_ROUTE_CALCULATION\",\"state\":1,\"strategy\":\"GRADUAL\",\"strategyParams\":\"100\",\"type\":\"RELEASE\",\"tags\":{},\"storage\":\"DDB\"}"}]}}
+
+
+Processing variable: fms/disable_trip_rating_service_call
+
+
+Found ID: cg8rp75iits81nfo01sg for variable: fms/disable_trip_rating_service_call
+
+
+Prd Rollout Info: {"data":{"id":"cg8rp75iits81nfo01vg","kind":"Rollout","name":"fms/prd/disable_trip_rating_service_call","environment":"prd","tags":["release","ddb"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678883996592985000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1739607142239428000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678883996,"variable":"fms/disable_trip_rating_service_call","strategy":[{"id":"cg8rp776i1e20av1dv3g","label":"","value":"{\"key\":\"DISABLE_TRIP_RATING_SERVICE_CALL\",\"state\":0,\"strategy\":\"GRADUAL\",\"strategyParams\":\"0\",\"type\":\"RELEASE\",\"tags\":{},\"storage\":\"DDB\"}"}]}}
+
+
+Processing variable: fms/enable_updating_earning_on_route_verified_event
+
+
+Found ID: cg8rskdiits81nfo2570 for variable: fms/enable_updating_earning_on_route_verified_event
+
+
+Prd Rollout Info: {"data":{"id":"cg8rskliits81nfo25a0","kind":"Rollout","name":"fms/prd/enable_updating_earning_on_route_verified_event","environment":"prd","tags":["release","ddb"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678884434180282000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1739607158638351000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678884434,"variable":"fms/enable_updating_earning_on_route_verified_event","strategy":[{"id":"cg8rskf6i1e20av1e73g","label":"","value":"{\"key\":\"ENABLE_UPDATING_EARNING_ON_ROUTE_VERIFIED_EVENT\",\"state\":1,\"strategy\":\"GRADUAL\",\"strategyParams\":\"100\",\"type\":\"RELEASE\",\"tags\":{},\"storage\":\"DDB\"}"}]}}
+
+
+Processing variable: fms/enable_all_trip_detail_persistence
+
+
+Found ID: cuib7p4hs56fekv5qm30 for variable: fms/enable_all_trip_detail_persistence
+
+
+Prd Rollout Info: {"data":{"id":"cuib7p5c0qav5m79a5ng","kind":"Rollout","name":"fms/prd/enable_all_trip_detail_persistence","environment":"prd","tags":["release","ddb"],"owners":["role/admin"],"createdBy":"mohamed.abdo@careem.com","createdAt":1738847204788520000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1739609686556557000,"transitionedBy":"mohamed.abdo@careem.com","transitionedAt":1738847204,"variable":"fms/enable_all_trip_detail_persistence","strategy":[{"id":"cuib7p3tk50js56t9t90","label":"","value":"{\"key\":\"ENABLE_ALL_TRIP_DETAIL_PERSISTENCE\",\"state\":1,\"strategy\":\"GRADUAL\",\"strategyParams\":\"100\",\"type\":\"RELEASE\",\"tags\":{},\"storage\":\"DDB\"}"}]}}
+
+
+Processing variable: fms/enable_trip_matching_for_active_scoreboards
+
+
+Found ID: cg8rupliits81nfo3eeg for variable: fms/enable_trip_matching_for_active_scoreboards
+
+
+Prd Rollout Info: {"data":{"id":"cg8ruptiits81nfo3ehg","kind":"Rollout","name":"fms/prd/enable_trip_matching_for_active_scoreboards","environment":"prd","tags":["release","ddb"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678884711258709000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1739607166185593000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678884711,"variable":"fms/enable_trip_matching_for_active_scoreboards","strategy":[{"id":"cg8rupn6i1e20av1ec60","label":"","value":"{\"key\":\"ENABLE_TRIP_MATCHING_FOR_ACTIVE_SCOREBOARDS\",\"state\":1,\"strategy\":\"GRADUAL\",\"strategyParams\":\"100\",\"type\":\"RELEASE\",\"tags\":{},\"storage\":\"DDB\"}"}]}}
+
+
+Processing variable: fms/enable_sub_campaign_generation
+
+
+Found ID: cg8rueliits81nfo3710 for variable: fms/enable_sub_campaign_generation
+
+
+Prd Rollout Info: {"data":{"id":"cg8rueliits81nfo3740","kind":"Rollout","name":"fms/prd/enable_sub_campaign_generation","environment":"prd","tags":["release","ddb"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678884666538051000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1740692125238377000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678884666,"variable":"fms/enable_sub_campaign_generation","strategy":[{"id":"cg8ruen6i1e20av1ebc0","label":"","value":"{\"key\":\"ENABLE_SUB_CAMPAIGN_GENERATION\",\"state\":1,\"strategy\":\"GRADUAL\",\"strategyParams\":\"100\",\"type\":\"RELEASE\",\"tags\":{\"description\":\"ENABLE_SUB_CAMPAIGN_GENERATION\",\"team\":\"Captain Engagement\",\"userid\":\"4340788\",\"microservice\":\"Campaign-Engine\"},\"storage\":\"DDB\"}"}]}}
+
+
+Processing variable: fms/enable_processing_active_captains_for_scoreboard_creation
+
+
+Found ID: cg8rntdiits81nfnvc90 for variable: fms/enable_processing_active_captains_for_scoreboard_creation
+
+
+Prd Rollout Info: {"data":{"id":"cg8rntdiits81nfnvcc0","kind":"Rollout","name":"fms/prd/enable_processing_active_captains_for_scoreboard_creation","environment":"prd","tags":["operational","unified_ddb"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678883829942056000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1740692125593899000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678883829,"variable":"fms/enable_processing_active_captains_for_scoreboard_creation","strategy":[{"id":"cg8rntf6i1e20av1ds2g","label":"","value":"{\"key\":\"ENABLE_PROCESSING_ACTIVE_CAPTAINS_FOR_SCOREBOARD_CREATION\",\"state\":1,\"strategy\":\"GRADUAL\",\"strategyParams\":\"100\",\"type\":\"OPERATIONAL\",\"tags\":{\"userid\":\"4340788\",\"microservice\":\"Campaign-Engine\",\"team\":\"Captain Engagement\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/enable_trip_rating_persistence_event
+
+
+Found ID: cg8rpa5iits81nfo03ig for variable: fms/enable_trip_rating_persistence_event
+
+
+Prd Rollout Info: {"data":{"id":"cg8rpa5iits81nfo03lg","kind":"Rollout","name":"fms/prd/enable_trip_rating_persistence_event","environment":"prd","tags":["release","ddb"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678884008385801000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1739607142897567000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678884008,"variable":"fms/enable_trip_rating_persistence_event","strategy":[{"id":"cg8rpa76i1e20av1dvag","label":"","value":"{\"key\":\"ENABLE_TRIP_RATING_PERSISTENCE_EVENT\",\"state\":1,\"strategy\":\"GRADUAL\",\"strategyParams\":\"100\",\"type\":\"RELEASE\",\"tags\":{},\"storage\":\"DDB\"}"}]}}
+
+
+Processing variable: fms/enable_trip_kafka_publishing
+
+
+Found ID: cg8rq75iits9fb4s6kr0 for variable: fms/enable_trip_kafka_publishing
+
+
+Prd Rollout Info: {"data":{"id":"cg8rq75iits9fb4s6ku0","kind":"Rollout","name":"fms/prd/enable_trip_kafka_publishing","environment":"prd","tags":["operational","unified_ddb"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678884124586914000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1740692125677622000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678884124,"variable":"fms/enable_trip_kafka_publishing","strategy":[{"id":"cg8rq776i1e20av1e1fg","label":"","value":"{\"key\":\"ENABLE_TRIP_KAFKA_PUBLISHING\",\"state\":1,\"strategy\":\"GRADUAL\",\"strategyParams\":\"100\",\"type\":\"OPERATIONAL\",\"tags\":{\"description\":\"Used for enabling publishing of trips to Kafka topic from Campaign Engine\",\"team\":\"Captain Engagement\",\"userid\":\"4340788\",\"microservice\":\"Campaign Engine\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/enable_leaderboards_processing
+
+
+Found ID: cuib7pdc0qav5m79a5rg for variable: fms/enable_leaderboards_processing
+
+
+Prd Rollout Info: {"data":{"id":"cuib7pld97icm5ao9v20","kind":"Rollout","name":"fms/prd/enable_leaderboards_processing","environment":"prd","tags":["operational","unified_ddb"],"owners":["role/admin"],"createdBy":"mohamed.abdo@careem.com","createdAt":1738847206096865000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1739609563896847000,"transitionedBy":"mohamed.abdo@careem.com","transitionedAt":1738847206,"variable":"fms/enable_leaderboards_processing","strategy":[{"id":"cuib7pjtk50js56t9ta0","label":"","value":"{\"key\":\"ENABLE_LEADERBOARDS_PROCESSING\",\"state\":1,\"strategy\":\"GRADUAL\",\"strategyParams\":\"100\",\"type\":\"OPERATIONAL\",\"tags\":{\"description\":\"Used for controlling trips processing from Kafka in Campaign Engine\",\"team\":\"Captain Engagement\",\"userid\":\"4340788\",\"microservice\":\"Campaign Engine\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/enable_cct_validation_on_trip_events
+
+
+Found ID: cg8s2pdiits81nfo6qig for variable: fms/enable_cct_validation_on_trip_events
+
+
+Prd Rollout Info: {"data":{"id":"cg8s2pliits81nfo6rg0","kind":"Rollout","name":"fms/prd/enable_cct_validation_on_trip_events","environment":"prd","tags":["release","ddb"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678885222218264000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1739607179462531000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678885222,"variable":"fms/enable_cct_validation_on_trip_events","strategy":[{"id":"cg8s2pf6i1e20av1el8g","label":"","value":"{\"key\":\"ENABLE_CCT_VALIDATION_ON_TRIP_EVENTS\",\"state\":1,\"strategy\":\"GRADUAL\",\"strategyParams\":\"100\",\"type\":\"RELEASE\",\"tags\":{},\"storage\":\"DDB\"}"}]}}
+
+
+Processing variable: fms/enable_super_trip_tracking
+
+
+Found ID: cg8rratiits9fb4s74bg for variable: fms/enable_super_trip_tracking
+
+
+Prd Rollout Info: {"data":{"id":"cg8rratiits9fb4s74eg","kind":"Rollout","name":"fms/prd/enable_super_trip_tracking","environment":"prd","tags":["release","unified_ddb"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678884267831592000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1740692128417538000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678884267,"variable":"fms/enable_super_trip_tracking","strategy":[{"id":"cg8rrav6i1e20av1e42g","label":"","value":"{\"key\":\"ENABLE_SUPER_TRIP_TRACKING\",\"state\":1,\"strategy\":\"NA\",\"strategyParams\":null,\"type\":\"RELEASE\",\"tags\":{\"description\":\"Enable tracking for Super trips\",\"team\":\"Captain Engagement\",\"userid\":\"17962009\",\"microservice\":\"Campaign Engine\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/enable_captain_real_time_stats_processing
+
+
+Found ID: cg8s3m5iits9fb4sai1g for variable: fms/enable_captain_real_time_stats_processing
+
+
+Prd Rollout Info: {"data":{"id":"cg8s3mdiits9fb4sai4g","kind":"Rollout","name":"fms/prd/enable_captain_real_time_stats_processing","environment":"prd","tags":["operational","unified_ddb"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678885337151881000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1740692128311695000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678885337,"variable":"fms/enable_captain_real_time_stats_processing","strategy":[{"id":"cg8s3m76i1e20av1enb0","label":"","value":"{\"key\":\"ENABLE_CAPTAIN_REAL_TIME_STATS_PROCESSING\",\"state\":0,\"strategy\":\"GRADUAL\",\"strategyParams\":\"0\",\"type\":\"OPERATIONAL\",\"tags\":{\"description\":\"Captain Realtime processing of stats\",\"team\":\"Captain Engagement\",\"userid\":\"17962009\",\"microservice\":\"Campaign Engine\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/enable_analytika_event_tracking
+
+
+Found ID: cg8s1jliits81nfo4njg for variable: fms/enable_analytika_event_tracking
+
+
+Prd Rollout Info: {"data":{"id":"cg8s1jtiits81nfo4nmg","kind":"Rollout","name":"fms/prd/enable_analytika_event_tracking","environment":"prd","tags":["release","unified_ddb"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678885071020550000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1740692125115229000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678885071,"variable":"fms/enable_analytika_event_tracking","strategy":[{"id":"cg8s1jn6i1e20av1eiig","label":"","value":"{\"key\":\"ENABLE_ANALYTIKA_EVENT_TRACKING\",\"state\":1,\"strategy\":\"NA\",\"strategyParams\":\"100\",\"type\":\"RELEASE\",\"tags\":{\"description\":\"Enable publishing events through analytika sdk\",\"team\":\"Captain-Engagement\",\"userid\":\"13446953\",\"microservice\":\"campaign-engine\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/enable_cct_validation_on_trip_matching
+
+
+Found ID: cg8rs0liits9fb4s7d10 for variable: fms/enable_cct_validation_on_trip_matching
+
+
+Prd Rollout Info: {"data":{"id":"cg8rs0liits9fb4s7d40","kind":"Rollout","name":"fms/prd/enable_cct_validation_on_trip_matching","environment":"prd","tags":["release","unified_ddb"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678884354418585000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1740692127462055000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678884354,"variable":"fms/enable_cct_validation_on_trip_matching","strategy":[{"id":"cg8rs0f6i1e20av1e5k0","label":"","value":"{\"key\":\"ENABLE_CCT_VALIDATION_ON_TRIP_MATCHING\",\"state\":1,\"strategy\":\"GRADUAL\",\"strategyParams\":\"100\",\"type\":\"RELEASE\",\"tags\":{\"description\":\"Enable CCT check on trip matching for campaign\",\"team\":\"Mobility BE Captain Engagement\",\"userid\":\"13446953\",\"microservice\":\"campaign-engine, campaign-offline-generator\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/enable_reduced_margin_score_board_evaluation
+
+
+Found ID: cg8s12diits81nfo4fd0 for variable: fms/enable_reduced_margin_score_board_evaluation
+
+
+Prd Rollout Info: {"data":{"id":"cg8s12diits81nfo4fg0","kind":"Rollout","name":"fms/prd/enable_reduced_margin_score_board_evaluation","environment":"prd","tags":["release","unified_ddb"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678885001638431000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1740692130845150000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678885001,"variable":"fms/enable_reduced_margin_score_board_evaluation","strategy":[{"id":"cg8s12f6i1e20av1ehb0","label":"","value":"{\"key\":\"ENABLE_REDUCED_MARGIN_SCORE_BOARD_EVALUATION\",\"state\":1,\"strategy\":\"GRADUAL\",\"strategyParams\":\"100\",\"type\":\"RELEASE\",\"tags\":{\"userid\":\"3659576\",\"microservice\":\"campaign-engine\",\"team\":\"Captain Engagement\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/enable_trip_bonus_score_board_evaluation
+
+
+Found ID: cg8rqcliits81nfo0s1g for variable: fms/enable_trip_bonus_score_board_evaluation
+
+
+Prd Rollout Info: {"data":{"id":"cg8rqcliits81nfo0s4g","kind":"Rollout","name":"fms/prd/enable_trip_bonus_score_board_evaluation","environment":"prd","tags":["release","unified_ddb"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678884146838973000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1740692127669631000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678884146,"variable":"fms/enable_trip_bonus_score_board_evaluation","strategy":[{"id":"cg8rqcn6i1e20av1e1sg","label":"","value":"{\"key\":\"ENABLE_TRIP_BONUS_SCORE_BOARD_EVALUATION\",\"state\":1,\"strategy\":\"GRADUAL\",\"strategyParams\":\"100\",\"type\":\"RELEASE\",\"tags\":{\"userid\":\"3659576\",\"microservice\":\"campaign-engine\",\"team\":\"Captain Engagement\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/enable_referral_bonus_score_board_evaluation
+
+
+Found ID: cg8rp7liits81nfo02g0 for variable: fms/enable_referral_bonus_score_board_evaluation
+
+
+Prd Rollout Info: {"data":{"id":"cg8rp7liits81nfo02j0","kind":"Rollout","name":"fms/prd/enable_referral_bonus_score_board_evaluation","environment":"prd","tags":["release","unified_ddb"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678883998978148000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1740692125817846000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678883998,"variable":"fms/enable_referral_bonus_score_board_evaluation","strategy":[{"id":"cg8rp7n6i1e20av1dv50","label":"","value":"{\"key\":\"ENABLE_REFERRAL_BONUS_SCORE_BOARD_EVALUATION\",\"state\":0,\"strategy\":\"GRADUAL\",\"strategyParams\":\"100\",\"type\":\"RELEASE\",\"tags\":{\"description\":\"Used to turn on/off the feature of referral bonus scoreboard evaluation\",\"team\":\"mobility-be-engagement-quality\",\"userid\":\"44735518\",\"microservice\":\"campaign-engine\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/disable_captain_loyalty_against_limo
+
+
+Found ID: cg8rpf5iits9fb4s6f7g for variable: fms/disable_captain_loyalty_against_limo
+
+
+Prd Rollout Info: {"data":{"id":"cg8rpfdiits9fb4s6fag","kind":"Rollout","name":"fms/prd/disable_captain_loyalty_against_limo","environment":"prd","tags":["experiment","unified_ddb"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678884029205352000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1740692129271424000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678884029,"variable":"fms/disable_captain_loyalty_against_limo","strategy":[{"id":"cg8rpf76i1e20av1dvn0","label":"","value":"{\"key\":\"DISABLE_CAPTAIN_LOYALTY_AGAINST_LIMO\",\"state\":1,\"strategy\":\"SPECIFIC\",\"strategyParams\":\"348704,348705,348706,348707,348708,348709,348710,369480\",\"type\":\"EXPERIMENT\",\"tags\":{\"description\":\"Exclude RTA limos from captain loyalty\",\"team\":\"Captain-Engagement\",\"userid\":\"13446953\",\"microservice\":\"captain-loyalty-service\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/cancel_missed_booking
+
+
+Found ID: cg8s04liits9fb4s8v30 for variable: fms/cancel_missed_booking
+
+
+Prd Rollout Info: {"data":{"id":"cg8s04liits9fb4s8v60","kind":"Rollout","name":"fms/prd/cancel_missed_booking","environment":"prd","tags":["release","rds"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678884882833483000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1739607171222539000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678884882,"variable":"fms/cancel_missed_booking","strategy":[{"id":"cg8s04n6i1e20av1ef8g","label":"","value":"{\"key\":\"CANCEL_MISSED_BOOKING\",\"state\":1,\"strategy\":null,\"strategyParams\":null,\"type\":\"RELEASE\",\"tags\":{},\"storage\":\"RDS\"}"}]}}
+
+
+Processing variable: fms/enable_intercity_cancellation_alerts
+
+
+Found ID: cui89e4hs56fekv5pts0 for variable: fms/enable_intercity_cancellation_alerts
+
+
+Prd Rollout Info: {"data":{"id":"cui89echs56fekv5pttg","kind":"Rollout","name":"fms/prd/enable_intercity_cancellation_alerts","environment":"prd","tags":["release","unified_ddb"],"owners":["role/admin"],"createdBy":"mohamed.abdo@careem.com","createdAt":1738835129258731000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1739609547145436000,"transitionedBy":"mohamed.abdo@careem.com","transitionedAt":1738835129,"variable":"fms/enable_intercity_cancellation_alerts","strategy":[{"id":"cui89e9q2h5disl7qrkg","label":"","value":"{\"key\":\"ENABLE_INTERCITY_CANCELLATION_ALERTS\",\"state\":1,\"strategy\":\"GRADUAL\",\"strategyParams\":\"100\",\"type\":\"RELEASE\",\"tags\":{\"description\":\"Enables SQL queries for intercity cancellation alerts\",\"team\":\"Captain Phoenix\",\"userid\":\"21429211\",\"microservice\":\"harmony\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/enable_intercity_cancellation_alerts_for_sa
+
+
+Found ID: cg8rpi5iits9fb4s6fr0 for variable: fms/enable_intercity_cancellation_alerts_for_sa
+
+
+Prd Rollout Info: {"data":{"id":"cg8rpi5iits9fb4s6fu0","kind":"Rollout","name":"fms/prd/enable_intercity_cancellation_alerts_for_sa","environment":"prd","tags":["release","unified_ddb"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678884040917040000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1740692128884168000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678884040,"variable":"fms/enable_intercity_cancellation_alerts_for_sa","strategy":[{"id":"cg8rpi76i1e20av1dvu0","label":"","value":"{\"key\":\"ENABLE_INTERCITY_CANCELLATION_ALERTS_FOR_SA\",\"state\":1,\"strategy\":\"SPECIFIC\",\"strategyParams\":\"5,29,41,42,50,51,58,89,90\",\"type\":\"RELEASE\",\"tags\":{\"description\":\"Enables sending tickets for sa for intercity cancellation events\",\"team\":\"Captain Phoenix\",\"userid\":\"21429211\",\"microservice\":\"harmony\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/intercity_delivery_ccts
+
+
+Found ID: cg8rqu5iits81nfo1550 for variable: fms/intercity_delivery_ccts
+
+
+Prd Rollout Info: {"data":{"id":"cg8rqudiits81nfo1580","kind":"Rollout","name":"fms/prd/intercity_delivery_ccts","environment":"prd","tags":["release","unified_ddb"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678884217184002000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1740692130040902000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678884217,"variable":"fms/intercity_delivery_ccts","strategy":[{"id":"cg8rqu76i1e20av1e350","label":"","value":"{\"key\":\"INTERCITY_DELIVERY_CCTS\",\"state\":1,\"strategy\":\"SPECIFIC\",\"strategyParams\":\"923,1014,1420,1436,884,1070,1250,1015,1436,860,1040,404,1301,394,458,953,1016\",\"type\":\"RELEASE\",\"tags\":{\"description\":\"Toggle for intercity delivery ccts\",\"team\":\"Captain Phoenix\",\"userid\":\"24607762\",\"microservice\":\"harmony\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/enable_eta_threshold_constraint
+
+
+Found ID: cukvesokn0tof9k9b7mg for variable: fms/enable_eta_threshold_constraint
+
+
+Prd Rollout Info: {"data":{"id":"cukvespkgke31trdm720","kind":"Rollout","name":"fms/prd/enable_eta_threshold_constraint","environment":"prd","tags":["release","rds"],"owners":["role/admin"],"createdBy":"mohamed.abdo@careem.com","createdAt":1739192179454254000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1739607177072634000,"transitionedBy":"mohamed.abdo@careem.com","transitionedAt":1739192179,"variable":"fms/enable_eta_threshold_constraint","strategy":[{"id":"cukvesrmatkgc8l15j00","label":"","value":"{\"key\":\"ENABLE_ETA_THRESHOLD_CONSTRAINT\",\"state\":1,\"strategy\":null,\"strategyParams\":\"PARAMS {\\\"460\\\": {\\\"eta\\\": 1200, \\\"loyalty\\\": null}, \\\"255\\\": {\\\"eta\\\": 900, \\\"loyalty\\\": null}}\",\"type\":\"RELEASE\",\"tags\":{},\"storage\":\"RDS\"}"}]}}
+
+
+Processing variable: fms/enable_assignment_eta_constraint
+
+
+Found ID: cukvesgkn0tof9k9b7l0 for variable: fms/enable_assignment_eta_constraint
+
+
+Prd Rollout Info: {"data":{"id":"cukvesmie2iam8kfbi3g","kind":"Rollout","name":"fms/prd/enable_assignment_eta_constraint","environment":"prd","tags":["release","rds"],"owners":["role/admin"],"createdBy":"mohamed.abdo@careem.com","createdAt":1739192178507579000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1739609383114818000,"transitionedBy":"mohamed.abdo@careem.com","transitionedAt":1739192178,"variable":"fms/enable_assignment_eta_constraint","strategy":[{"id":"cukvesjmatkgc8l15ivg","label":"","value":"{\"key\":\"ENABLE_ASSIGNMENT_ETA_CONSTRAINT\",\"state\":1,\"strategy\":\"NA\",\"strategyParams\":\"PARAMS {\\\"460\\\":{\\\"maxAssignmentEtaSeconds\\\":0},\\\"819\\\":{\\\"maxAssignmentEtaSeconds\\\":0},\\\"844\\\":{\\\"maxAssignmentEtaSeconds\\\":0}}\",\"type\":\"RELEASE\",\"tags\":{},\"storage\":\"RDS\"}"}]}}
+
+
+Processing variable: fms/enable_eta_service_destination_filter
+
+
+Found ID: cukves8kn0tof9k9b7jg for variable: fms/enable_eta_service_destination_filter
+
+
+Prd Rollout Info: {"data":{"id":"cukveschs56fekv6gcng","kind":"Rollout","name":"fms/prd/enable_eta_service_destination_filter","environment":"prd","tags":["experiment","rds"],"owners":["role/admin"],"createdBy":"mohamed.abdo@careem.com","createdAt":1739192177979240000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1739609272907138000,"transitionedBy":"mohamed.abdo@careem.com","transitionedAt":1739192177,"variable":"fms/enable_eta_service_destination_filter","strategy":[{"id":"cukvesbmatkgc8l15iv0","label":"","value":"{\"key\":\"ENABLE_ETA_SERVICE_DESTINATION_FILTER\",\"state\":1,\"strategy\":\"NA\",\"strategyParams\":\"PARAMS {\\\"1\\\": {}, \\\"3\\\":{}, \\\"29\\\":{}, \\\"42\\\": {}, \\\"58\\\": {}, \\\"59\\\": {}, \\\"41\\\": {}, \\\"5\\\": {}, \\\"4\\\": {}, \\\"50\\\": {}, \\\"51\\\": {}, \\\"54\\\": {}, \\\"57\\\": {}, \\\"102\\\": {}, \\\"64\\\": {}, \\\"138\\\": {}, \\\"88\\\": {}, \\\"89\\\": {}, \\\"103\\\": {}, \\\"105\\\": {}, \\\"104\\\": {}, \\\"68\\\": {}, \\\"47\\\": {}}\",\"type\":\"EXPERIMENT\",\"tags\":{\"updatedById\":\"27318896\",\"event\":\"update\"},\"storage\":\"RDS\"}"}]}}
+
+
+Processing variable: fms/enable_non_pooling_preliminary_route_constraint
+
+
+Found ID: cukverhsei5noi4rs31g for variable: fms/enable_non_pooling_preliminary_route_constraint
+
+
+Prd Rollout Info: {"data":{"id":"cukverhsei5noi4rs330","kind":"Rollout","name":"fms/prd/enable_non_pooling_preliminary_route_constraint","environment":"prd","tags":["release","rds"],"owners":["role/admin"],"createdBy":"mohamed.abdo@careem.com","createdAt":1739192174841601000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1739609391247904000,"transitionedBy":"mohamed.abdo@careem.com","transitionedAt":1739192174,"variable":"fms/enable_non_pooling_preliminary_route_constraint","strategy":[{"id":"cukverjmatkgc8l15iu0","label":"","value":"{\"key\":\"ENABLE_NON_POOLING_PRELIMINARY_ROUTE_CONSTRAINT\",\"state\":1,\"strategy\":null,\"strategyParams\":null,\"type\":\"RELEASE\",\"tags\":{},\"storage\":\"RDS\"}"}]}}
+
+
+Processing variable: fms/enable_destination_filter_detour_improvement
+
+
+Found ID: cg8rqidiits9fb4s6p6g for variable: fms/enable_destination_filter_detour_improvement
+
+
+Prd Rollout Info: {"data":{"id":"cg8rqidiits9fb4s6p9g","kind":"Rollout","name":"fms/prd/enable_destination_filter_detour_improvement","environment":"prd","tags":["release","rds"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678884169580371000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1739607148740430000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678884169,"variable":"fms/enable_destination_filter_detour_improvement","strategy":[{"id":"cg8rqif6i1e20av1e29g","label":"","value":"{\"key\":\"ENABLE_DESTINATION_FILTER_DETOUR_IMPROVEMENT\",\"state\":1,\"strategy\":null,\"strategyParams\":null,\"type\":\"RELEASE\",\"tags\":{},\"storage\":\"RDS\"}"}]}}
+
+
+Processing variable: fms/enable_do_not_return_ended_trip_routes
+
+
+Found ID: cg8ru5tiits81nfo314g for variable: fms/enable_do_not_return_ended_trip_routes
+
+
+Prd Rollout Info: {"data":{"id":"cg8ru65iits81nfo317g","kind":"Rollout","name":"fms/prd/enable_do_not_return_ended_trip_routes","environment":"prd","tags":["release","rds"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678884632239642000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1739607163837395000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678884632,"variable":"fms/enable_do_not_return_ended_trip_routes","strategy":[{"id":"cg8ru5v6i1e20av1eang","label":"","value":"{\"key\":\"ENABLE_DO_NOT_RETURN_ENDED_TRIP_ROUTES\",\"state\":1,\"strategy\":null,\"strategyParams\":null,\"type\":\"RELEASE\",\"tags\":{},\"storage\":\"RDS\"}"}]}}
+
+
+Processing variable: fms/enable_destination_filter_for_cct
+
+
+Found ID: cukvershs56fekv6gceg for variable: fms/enable_destination_filter_for_cct
+
+
+Prd Rollout Info: {"data":{"id":"cukves4hs56fekv6gcgg","kind":"Rollout","name":"fms/prd/enable_destination_filter_for_cct","environment":"prd","tags":["release","unified_ddb"],"owners":["role/admin"],"createdBy":"mohamed.abdo@careem.com","createdAt":1739192176216075000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1739609329070800000,"transitionedBy":"mohamed.abdo@careem.com","transitionedAt":1739192176,"variable":"fms/enable_destination_filter_for_cct","strategy":[{"id":"cukves3matkgc8l15iug","label":"","value":"{\"key\":\"ENABLE_DESTINATION_FILTER_FOR_CCT\",\"state\":1,\"strategy\":\"SPECIFIC\",\"strategyParams\":\"781,755,368,9,1303,803,302,304,172,182,1360,1361,1426,258,176,1475,183,177,233,129,127,731,734,732,733,722,12,1488,1384,306,773,312,186,1494,1495,1812,1813,727,728,679,842,792,791,680,789,1136,790,1126,4\",\"type\":\"RELEASE\",\"tags\":{\"description\":\"Toggle to enable destination filter for cct\",\"userid\":\"39312126\",\"team\":\"Phoenix\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/monitor_recalculate_captain_trip_fare_pricing_service
+
+
+Found ID: cg8s3ktiits9fb4sagqg for variable: fms/monitor_recalculate_captain_trip_fare_pricing_service
+
+
+Prd Rollout Info: {"data":{"id":"cg8s3l5iits9fb4sagtg","kind":"Rollout","name":"fms/prd/monitor_recalculate_captain_trip_fare_pricing_service","environment":"prd","tags":["release","unified_ddb"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678885332051005000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1740692129426396000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678885332,"variable":"fms/monitor_recalculate_captain_trip_fare_pricing_service","strategy":[{"id":"cg8s3kv6i1e20av1en80","label":"","value":"{\"key\":\"MONITOR_RECALCULATE_CAPTAIN_TRIP_FARE_PRICING_SERVICE\",\"state\":1,\"strategy\":\"NA\",\"strategyParams\":null,\"type\":\"RELEASE\",\"tags\":{\"description\":\"monitoring of captain price recalculation\",\"team\":\"Apollo\",\"userid\":\"1259892\",\"microservice\":\"workflow-engine\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/use_cost_captain_car_type_from_booking_lookup
+
+
+Found ID: cum4lh8bjc57ovpbojc0 for variable: fms/use_cost_captain_car_type_from_booking_lookup
+
+
+Prd Rollout Info: {"data":{"id":"cum4lh9sei5noi4s33ng","kind":"Rollout","name":"fms/prd/use_cost_captain_car_type_from_booking_lookup","environment":"prd","tags":["release","unified_ddb"],"owners":["role/admin"],"createdBy":"mohamed.abdo@careem.com","createdAt":1739344581290239000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1739609201401365000,"transitionedBy":"mohamed.abdo@careem.com","transitionedAt":1739344581,"variable":"fms/use_cost_captain_car_type_from_booking_lookup","strategy":[{"id":"cum4lhdok6hqqshcqnkg","label":"","value":"{\"key\":\"USE_COST_CAPTAIN_CAR_TYPE_FROM_BOOKING_LOOKUP\",\"state\":1,\"strategy\":\"NA\",\"strategyParams\":null,\"type\":\"RELEASE\",\"tags\":{\"description\":\"Use dct id from booking lookup in workflow engine\",\"team\":\"Apollo\",\"userid\":\"1259892\",\"microservice\":\"workflow-engine\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/ticket_details_consumer_always_returns_true
+
+
+Found ID: cune2i10ndkd1eu86s60 for variable: fms/ticket_details_consumer_always_returns_true
+
+
+Prd Rollout Info: {"message":"document was not found in storage (fms/prd/ticket_details_consumer_always_returns_true)","status":404}
+
+
+Processing variable: fms/enable_calculator_for_long_trips
+
+
+Found ID: cum4li1sei5noi4s347g for variable: fms/enable_calculator_for_long_trips
+
+
+Prd Rollout Info: {"data":{"id":"cum4li2n0cqju614u4lg","kind":"Rollout","name":"fms/prd/enable_calculator_for_long_trips","environment":"prd","tags":["experiment","unified_ddb"],"owners":["role/admin"],"createdBy":"mohamed.abdo@careem.com","createdAt":1739344584796393000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1739609370783649000,"transitionedBy":"mohamed.abdo@careem.com","transitionedAt":1739344584,"variable":"fms/enable_calculator_for_long_trips","strategy":[{"id":"cum4li5ok6hqqshcqnl0","label":"","value":"{\"key\":\"ENABLE_CALCULATOR_FOR_LONG_TRIPS\",\"state\":1,\"strategy\":\"NA\",\"strategyParams\":null,\"type\":\"EXPERIMENT\",\"tags\":{\"description\":\"if enabled this toggle will change pricing calculation strategy for intra city long trips\",\"team\":\"Care\",\"userid\":\"1259892\",\"microservice\":\"workflow-engine\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/enable_tax_calculation
+
+
+Found ID: cg8rnpliits9fb4s5q5g for variable: fms/enable_tax_calculation
+
+
+Prd Rollout Info: {"data":{"id":"cg8rnptiits9fb4s5q8g","kind":"Rollout","name":"fms/prd/enable_tax_calculation","environment":"prd","tags":["experiment","unified_ddb"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678883815152845000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1740692124875475000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678883815,"variable":"fms/enable_tax_calculation","strategy":[{"id":"cg8rnpn6i1e20av1drq0","label":"","value":"{\"key\":\"ENABLE_TAX_CALCULATION\",\"state\":1,\"strategy\":\"NA\",\"strategyParams\":null,\"type\":\"EXPERIMENT\",\"tags\":{\"description\":\"If enabled, this will apply tax and add its component in customer applied pricing\",\"team\":\"Care\",\"userid\":\"2571057\",\"microservice\":\"workflow-advisor\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/enable_oauth2_authentication
+
+
+Found ID: cum4lgqn0cqju614u42g for variable: fms/enable_oauth2_authentication
+
+
+Prd Rollout Info: {"data":{"id":"cum4lgobjc57ovpboj9g","kind":"Rollout","name":"fms/prd/enable_oauth2_authentication","environment":"prd","tags":["release","unified_ddb"],"owners":["role/admin"],"createdBy":"mohamed.abdo@careem.com","createdAt":1739344579897299000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1739609424346135000,"transitionedBy":"mohamed.abdo@careem.com","transitionedAt":1739344579,"variable":"fms/enable_oauth2_authentication","strategy":[{"id":"cum4lgtok6hqqshcqnk0","label":"","value":"{\"key\":\"ENABLE_OAUTH2_AUTHENTICATION\",\"state\":1,\"strategy\":\"NA\",\"strategyParams\":null,\"type\":\"RELEASE\",\"tags\":{\"description\":\"This toggle will start Getting authentication token from IDP instead of auth-v1\",\"team\":\"Apollo\",\"userid\":\"1259892\",\"microservice\":\"workflow-engine\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/disable_email_otp_for_partners
+
+
+Found ID: cump8290ndkd1eu81cpg for variable: fms/disable_email_otp_for_partners
+
+
+Prd Rollout Info: {"data":{"id":"cump828bjc57ovpbse4g","kind":"Rollout","name":"fms/prd/disable_email_otp_for_partners","environment":"prd","tags":["release","unified_ddb"],"owners":["role/admin"],"createdBy":"mohamed.abdo@careem.com","createdAt":1739428873424203000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1739609310679995000,"transitionedBy":"mohamed.abdo@careem.com","transitionedAt":1739428873,"variable":"fms/disable_email_otp_for_partners","strategy":[{"id":"cump82dpqjqrv1ar3nmg","label":"","value":"{\"key\":\"DISABLE_EMAIL_OTP_FOR_PARTNERS\",\"state\":1,\"strategy\":\"SPECIFIC\",\"strategyParams\":\"3232,3326,2208,2589,3413,4688,4689,4748,4798,4806,4807,4808,4819,4834,4838,4839,4900,4923\",\"type\":\"RELEASE\",\"tags\":{\"description\":\"To disable otp email verfication for box users\",\"team\":\"Identity\",\"userid\":\"13059983\",\"microservice\":\"profile-service\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/disable_email_otp_for_corporates
+
+
+Found ID: cump8410ndkd1eu81dl0 for variable: fms/disable_email_otp_for_corporates
+
+
+Prd Rollout Info: {"data":{"id":"cump841sei5noi4s7qag","kind":"Rollout","name":"fms/prd/disable_email_otp_for_corporates","environment":"prd","tags":["operational","unified_ddb"],"owners":["role/admin"],"createdBy":"mohamed.abdo@careem.com","createdAt":1739428880332051000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1739609352512420000,"transitionedBy":"mohamed.abdo@careem.com","transitionedAt":1739428880,"variable":"fms/disable_email_otp_for_corporates","strategy":[{"id":"cump845pqjqrv1ar3nn0","label":"","value":"{\"key\":\"DISABLE_EMAIL_OTP_FOR_CORPORATES\",\"state\":1,\"strategy\":\"SPECIFIC\",\"strategyParams\":\"4373\",\"type\":\"OPERATIONAL\",\"tags\":{\"description\":\"Disables the OTP on previous email when user change email\",\"team\":\"identity\",\"userid\":\"20025481\",\"microservice\":\"profile-service\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/enable_email_otp_for_partners_based_on_company
+
+
+Found ID: cg8s0adiits81nfo45ag for variable: fms/enable_email_otp_for_partners_based_on_company
+
+
+Prd Rollout Info: {"data":{"id":"cg8s0adiits81nfo45dg","kind":"Rollout","name":"fms/prd/enable_email_otp_for_partners_based_on_company","environment":"prd","tags":["release","unified_ddb"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678884905472724000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1740692128579795000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678884905,"variable":"fms/enable_email_otp_for_partners_based_on_company","strategy":[{"id":"cg8s0af6i1e20av1efl0","label":"","value":"{\"key\":\"ENABLE_EMAIL_OTP_FOR_PARTNERS_BASED_ON_COMPANY\",\"state\":1,\"strategy\":\"NA\",\"strategyParams\":null,\"type\":\"RELEASE\",\"tags\":{\"description\":\"enable otp email for corporate base on the company type\",\"team\":\"Identity\",\"userid\":\"13059983\",\"microservice\":\"profile_service\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/disable_email_update_for_one_click_merchants
+
+
+Found ID: cg8roj5iits81nfnvot0 for variable: fms/disable_email_update_for_one_click_merchants
+
+
+Prd Rollout Info: {"data":{"id":"cg8rojdiits81nfnvp00","kind":"Rollout","name":"fms/prd/disable_email_update_for_one_click_merchants","environment":"prd","tags":["release","unified_ddb"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678883917272365000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1740692129118777000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678883917,"variable":"fms/disable_email_update_for_one_click_merchants","strategy":[{"id":"cg8roj76i1e20av1dtlg","label":"","value":"{\"key\":\"DISABLE_EMAIL_UPDATE_FOR_ONE_CLICK_MERCHANTS\",\"state\":0,\"strategy\":\"NA\",\"strategyParams\":null,\"type\":\"RELEASE\",\"tags\":{\"description\":\"Disable one click user update api\",\"team\":\"Identity\",\"userid\":\"13977544\",\"microservice\":\"profile-service\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/enable_sales_admin_without_otp
+
+
+Found ID: cg8rvgliits81nfo3q20 for variable: fms/enable_sales_admin_without_otp
+
+
+Prd Rollout Info: {"data":{"id":"cg8rvgliits81nfo3q50","kind":"Rollout","name":"fms/prd/enable_sales_admin_without_otp","environment":"prd","tags":["release","unified_ddb"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678884802725381000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1740692126183601000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678884802,"variable":"fms/enable_sales_admin_without_otp","strategy":[{"id":"cg8rvgn6i1e20av1edr0","label":"","value":"{\"key\":\"ENABLE_SALES_ADMIN_WITHOUT_OTP\",\"state\":1,\"strategy\":\"SPECIFIC\",\"strategyParams\":\"9988653,18785597,583236,21736454,4116748,2794917,42750221,17108595,36803531,40421849,15247,553487,674222,1277831,3781637,5445337,5546140,6136983,6302259,6677034,15687790,16290174,16619055,16800700,17533967,23091578,44507099,5321,1492159,5632656,14417619,53929133,31201375,236669,24379917,50368037,54869440,56197780,5373478\",\"type\":\"RELEASE\",\"tags\":{\"description\":\"Allow sales admins to force changes without otp.\",\"team\":\"Identity\",\"userid\":\"9346899\",\"microservice\":\"signup-service\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/reject_invalid_firebase_register
+
+
+Found ID: cg8rnhliits81nfnv400 for variable: fms/reject_invalid_firebase_register
+
+
+Prd Rollout Info: {"data":{"id":"cg8rnhliits81nfnv430","kind":"Rollout","name":"fms/prd/reject_invalid_firebase_register","environment":"prd","tags":["experiment","unified_ddb"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678883782577258000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1740692129845810000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678883782,"variable":"fms/reject_invalid_firebase_register","strategy":[{"id":"cg8rnhn6i1e20av1dr6g","label":"","value":"{\"key\":\"REJECT_INVALID_FIREBASE_REGISTER\",\"state\":1,\"strategy\":\"NA\",\"strategyParams\":null,\"type\":\"EXPERIMENT\",\"tags\":{\"description\":\"Toggle to reject empty firebase requests in profile service\",\"team\":\"Identity\",\"userid\":\"35725563\",\"microservice\":\"profile-service\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/enable_marilyn_write_repository
+
+
+Found ID: cg8rr9tiits81nfo1aj0 for variable: fms/enable_marilyn_write_repository
+
+
+Prd Rollout Info: {"data":{"id":"cg8rr9tiits81nfo1am0","kind":"Rollout","name":"fms/prd/enable_marilyn_write_repository","environment":"prd","tags":["release","unified_ddb"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678884263676038000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1740692130676653000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678884263,"variable":"fms/enable_marilyn_write_repository","strategy":[{"id":"cg8rr9v6i1e20av1e400","label":"","value":"{\"key\":\"ENABLE_MARILYN_WRITE_REPOSITORY\",\"state\":1,\"strategy\":\"GRADUAL\",\"strategyParams\":\"100\",\"type\":\"RELEASE\",\"tags\":{\"description\":\"Shadow write on any write to marilyn database\",\"team\":\"identity\",\"userid\":\"13822170\",\"microservice\":\"profile-service\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/enable_marilyn_read_repository
+
+
+Found ID: cg8ro7diits9fb4s5ug0 for variable: fms/enable_marilyn_read_repository
+
+
+Prd Rollout Info: {"data":{"id":"cg8ro7diits9fb4s5uj0","kind":"Rollout","name":"fms/prd/enable_marilyn_read_repository","environment":"prd","tags":["release","unified_ddb"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678883869505139000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1740692124808674000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678883869,"variable":"fms/enable_marilyn_read_repository","strategy":[{"id":"cg8ro7f6i1e20av1dspg","label":"","value":"{\"key\":\"ENABLE_MARILYN_READ_REPOSITORY\",\"state\":1,\"strategy\":\"GRADUAL\",\"strategyParams\":\"100\",\"type\":\"RELEASE\",\"tags\":{\"description\":\"shadow copy to new store\",\"team\":\"identity\",\"userid\":\"56197780\",\"microservice\":\"profile-service\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/bypass_2nd_factor_on_account_deletion
+
+
+Found ID: cg8rqktiits81nfo105g for variable: fms/bypass_2nd_factor_on_account_deletion
+
+
+Prd Rollout Info: {"data":{"id":"cg8rqktiits81nfo108g","kind":"Rollout","name":"fms/prd/bypass_2nd_factor_on_account_deletion","environment":"prd","tags":["release","unified_ddb"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678884179749132000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1740692126345237000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678884179,"variable":"fms/bypass_2nd_factor_on_account_deletion","strategy":[{"id":"cg8rqkv6i1e20av1e2f0","label":"","value":"{\"key\":\"BYPASS_2ND_FACTOR_ON_ACCOUNT_DELETION\",\"state\":1,\"strategy\":\"NA\",\"strategyParams\":\"{\\\"whitelistedClientIds\\\":[\\\"149322f6-fa65-44d2-9c4d-dc8e729eead3\\\", \\\"a6108bcf-ab5e-4d09-958a-3d14377b3276\\\", \\\"d81909d9-b5e0-42f5-b880-512242cda8a3\\\"]}\",\"type\":\"RELEASE\",\"tags\":{\"description\":\"disable 2fa on account deletion for social account because there is no way to get apply id on native app\",\"team\":\"identity\",\"userid\":\"40089962\",\"microservice\":\"profile-service\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/enforce_marilyn_read_repository
+
+
+Found ID: cg8rsf5iits81nfo2180 for variable: fms/enforce_marilyn_read_repository
+
+
+Prd Rollout Info: {"data":{"id":"cg8rsf5iits81nfo21b0","kind":"Rollout","name":"fms/prd/enforce_marilyn_read_repository","environment":"prd","tags":["experiment","unified_ddb"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678884412394561000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1740692127974054000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678884412,"variable":"fms/enforce_marilyn_read_repository","strategy":[{"id":"cg8rsev6i1e20av1e6mg","label":"","value":"{\"key\":\"ENFORCE_MARILYN_READ_REPOSITORY\",\"state\":1,\"strategy\":\"SPECIFIC\",\"strategyParams\":\"13822170, 20025481\",\"type\":\"EXPERIMENT\",\"tags\":{\"description\":\"Users who should be migrated, this is to find out inconsistency reasons.\",\"team\":\"Identity\",\"userid\":\"13822170\",\"microservice\":\"Profile-service\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/enable_marilyn_read_compare
+
+
+Found ID: cg8ru75iits81nfo31hg for variable: fms/enable_marilyn_read_compare
+
+
+Prd Rollout Info: {"data":{"id":"cg8ru7diits81nfo31kg","kind":"Rollout","name":"fms/prd/enable_marilyn_read_compare","environment":"prd","tags":["release","unified_ddb"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678884637297874000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1740692127170082000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678884637,"variable":"fms/enable_marilyn_read_compare","strategy":[{"id":"cg8ru776i1e20av1eaqg","label":"","value":"{\"key\":\"ENABLE_MARILYN_READ_COMPARE\",\"state\":1,\"strategy\":\"GRADUAL\",\"strategyParams\":\"25\",\"type\":\"RELEASE\",\"tags\":{\"description\":\"Compare marylin and profile service on read\",\"team\":\"identity\",\"userid\":\"20025481\",\"microservice\":\"profile-service\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/enable_marilyn_set_user_activity
+
+
+Found ID: cg8rr1tiits81nfo184g for variable: fms/enable_marilyn_set_user_activity
+
+
+Prd Rollout Info: {"data":{"id":"cg8rr1tiits81nfo187g","kind":"Rollout","name":"fms/prd/enable_marilyn_set_user_activity","environment":"prd","tags":["release","unified_ddb"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678884231752767000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1740692130321360000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678884231,"variable":"fms/enable_marilyn_set_user_activity","strategy":[{"id":"cg8rr1v6i1e20av1e3dg","label":"","value":"{\"key\":\"ENABLE_MARILYN_SET_USER_ACTIVITY\",\"state\":1,\"strategy\":\"GRADUAL\",\"strategyParams\":\"100\",\"type\":\"RELEASE\",\"tags\":{\"description\":\"Enable setting user activity in Marilyn\",\"team\":\"identity\",\"userid\":\"56197780\",\"microservice\":\"profile-service\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/enable_marilyn_remote_use
+
+
+Found ID: cg8rt05iits81nfo2bug for variable: fms/enable_marilyn_remote_use
+
+
+Prd Rollout Info: {"data":{"id":"cg8rt05iits81nfo2c20","kind":"Rollout","name":"fms/prd/enable_marilyn_remote_use","environment":"prd","tags":["release","unified_ddb"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678884480612793000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1740692128669789000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678884480,"variable":"fms/enable_marilyn_remote_use","strategy":[{"id":"cg8rt076i1e20av1e7ug","label":"","value":"{\"key\":\"ENABLE_MARILYN_REMOTE_USE\",\"state\":1,\"strategy\":\"GRADUAL\",\"strategyParams\":\"100\",\"type\":\"RELEASE\",\"tags\":{\"userid\":\"13822170\",\"microservice\":\"profile-service\",\"team\":\"identity\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/enable_aos_balance
+
+
+Found ID: ci41u7liits8fjk8vi9g for variable: fms/enable_aos_balance
+
+
+Prd Rollout Info: {"data":{"id":"ci41u7liitsecd5phbfg","kind":"Rollout","name":"fms/prd/enable_aos_balance","environment":"prd","tags":["release","unified_ddb"],"owners":["role/admin"],"createdBy":"mohamed.abdo@careem.com","createdAt":1686642462590363000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1740692125383533000,"transitionedBy":"mohamed.abdo@careem.com","transitionedAt":1686642462,"variable":"fms/enable_aos_balance","strategy":[{"id":"ci41u7llha9k92c2sajg","label":"","value":"{\"key\":\"ENABLE_AOS_BALANCE\",\"state\":1,\"strategy\":\"GRADUAL\",\"strategyParams\":\"100\",\"type\":\"RELEASE\",\"tags\":{\"description\":\"Enable use of account orchestrator service for wallet balance\",\"team\":\"identity\",\"userid\":\"56197780\",\"microservice\":\"profile-service\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/enable_marilyn_for_user_detail
+
+
+Found ID: ci9c705iits9b040ol10 for variable: fms/enable_marilyn_for_user_detail
+
+
+Prd Rollout Info: {"data":{"id":"ci9c705iits9b040ol40","kind":"Rollout","name":"fms/prd/enable_marilyn_for_user_detail","environment":"prd","tags":["release","unified_ddb"],"owners":["role/admin"],"createdBy":"mohamed.abdo@careem.com","createdAt":1687339904769903000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1740692130498691000,"transitionedBy":"mohamed.abdo@careem.com","transitionedAt":1687339904,"variable":"fms/enable_marilyn_for_user_detail","strategy":[{"id":"ci9c70067qvss49kdve0","label":"","value":"{\"key\":\"ENABLE_MARILYN_FOR_USER_DETAIL\",\"state\":0,\"strategy\":\"GRADUAL\",\"strategyParams\":\"100\",\"type\":\"RELEASE\",\"tags\":{\"description\":\"Get user detail from Marilyn instead of DDB\",\"team\":\"identity\",\"userid\":\"56197780\",\"microservice\":\"profile-service\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/enable_all_count_query_to_elastic_search
+
+
+Found ID: cg8s2ldiits9fb4sa5lg for variable: fms/enable_all_count_query_to_elastic_search
+
+
+Prd Rollout Info: {"data":{"id":"cg8s2lliits9fb4sa5og","kind":"Rollout","name":"fms/prd/enable_all_count_query_to_elastic_search","environment":"prd","tags":["release","ddb"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678885206289610000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1739607179121401000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678885206,"variable":"fms/enable_all_count_query_to_elastic_search","strategy":[{"id":"cg8s2lf6i1e20av1ekvg","label":"","value":"{\"key\":\"ENABLE_ALL_COUNT_QUERY_TO_ELASTIC_SEARCH\",\"state\":1,\"strategy\":\"GRADUAL\",\"strategyParams\":\"100\",\"type\":\"RELEASE\",\"tags\":{},\"storage\":\"DDB\"}"}]}}
+
+
+Processing variable: fms/enable_trip_ended_analytics_event
+
+
+Found ID: cumptp9o7ld5ruel8tcg for variable: fms/enable_trip_ended_analytics_event
+
+
+Prd Rollout Info: {"data":{"id":"cumptp8bjc57ovpbskm0","kind":"Rollout","name":"fms/prd/enable_trip_ended_analytics_event","environment":"prd","tags":["release","ddb"],"owners":["role/admin"],"createdBy":"mohamed.abdo@careem.com","createdAt":1739431653484766000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1739609417720071000,"transitionedBy":"mohamed.abdo@careem.com","transitionedAt":1739431653,"variable":"fms/enable_trip_ended_analytics_event","strategy":[{"id":"cumptpdpqjqnrh6br3n0","label":"","value":"{\"key\":\"ENABLE_TRIP_ENDED_ANALYTICS_EVENT\",\"state\":1,\"strategy\":null,\"strategyParams\":null,\"type\":\"RELEASE\",\"tags\":{},\"storage\":\"DDB\"}"}]}}
+
+
+Processing variable: fms/trip_stats_cash_collected
+
+
+Found ID: cumptnrirhlbb4un9tp0 for variable: fms/trip_stats_cash_collected
+
+
+Prd Rollout Info: {"data":{"id":"cumptnp0ndkd1eu81kv0","kind":"Rollout","name":"fms/prd/trip_stats_cash_collected","environment":"prd","tags":["release","rds"],"owners":["role/admin"],"createdBy":"mohamed.abdo@careem.com","createdAt":1739431647507358000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1739609557928208000,"transitionedBy":"mohamed.abdo@careem.com","transitionedAt":1739431647,"variable":"fms/trip_stats_cash_collected","strategy":[{"id":"cumptntpqjqnrh6br3lg","label":"","value":"{\"key\":\"TRIP_STATS_CASH_COLLECTED\",\"state\":1,\"strategy\":null,\"strategyParams\":null,\"type\":\"RELEASE\",\"tags\":{},\"storage\":\"RDS\"}"}]}}
+
+
+Processing variable: fms/sol_past_trip_fields
+
+
+Found ID: cg8rurtiits9fb4s8c80 for variable: fms/sol_past_trip_fields
+
+
+Prd Rollout Info: {"data":{"id":"cg8rus5iits9fb4s8cag","kind":"Rollout","name":"fms/prd/sol_past_trip_fields","environment":"prd","tags":["release","rds"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678884720544266000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1739607166597609000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678884720,"variable":"fms/sol_past_trip_fields","strategy":[{"id":"cg8rurv6i1e20av1ecbg","label":"","value":"{\"key\":\"SOL_PAST_TRIP_FIELDS\",\"state\":1,\"strategy\":\"GRADUAL\",\"strategyParams\":\"100\",\"type\":\"RELEASE\",\"tags\":{},\"storage\":\"RDS\"}"}]}}
+
+
+Processing variable: fms/sol_verification_errors_on_past_booking
+
+
+Found ID: cumptplqgadj2m8drljg for variable: fms/sol_verification_errors_on_past_booking
+
+
+Prd Rollout Info: {"data":{"id":"cumptplqgadj2m8drlm0","kind":"Rollout","name":"fms/prd/sol_verification_errors_on_past_booking","environment":"prd","tags":["release","rds"],"owners":["role/admin"],"createdBy":"mohamed.abdo@careem.com","createdAt":1739431654970418000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1739609204134667000,"transitionedBy":"mohamed.abdo@careem.com","transitionedAt":1739431654,"variable":"fms/sol_verification_errors_on_past_booking","strategy":[{"id":"cumptplpqjqnrh6br3ng","label":"","value":"{\"key\":\"SOL_VERIFICATION_ERRORS_ON_PAST_BOOKING\",\"state\":1,\"strategy\":null,\"strategyParams\":null,\"type\":\"RELEASE\",\"tags\":{},\"storage\":\"RDS\"}"}]}}
+
+
+Processing variable: fms/sol_trip_units_consumed
+
+
+Found ID: cg8s0cliits9fb4s93p0 for variable: fms/sol_trip_units_consumed
+
+
+Prd Rollout Info: {"data":{"id":"cg8s0ctiits9fb4s93s0","kind":"Rollout","name":"fms/prd/sol_trip_units_consumed","environment":"prd","tags":["release","ddb"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678884915236507000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1739607172029842000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678884915,"variable":"fms/sol_trip_units_consumed","strategy":[{"id":"cg8s0cn6i1e20av1efqg","label":"","value":"{\"key\":\"SOL_TRIP_UNITS_CONSUMED\",\"state\":1,\"strategy\":\"GRADUAL\",\"strategyParams\":\"100\",\"type\":\"RELEASE\",\"tags\":{},\"storage\":\"DDB\"}"}]}}
+
+
+Processing variable: fms/validate_dto
+
+
+Found ID: cumptoobjc57ovpbski0 for variable: fms/validate_dto
+
+
+Prd Rollout Info: {"data":{"id":"cumptopo7ld5ruel8t70","kind":"Rollout","name":"fms/prd/validate_dto","environment":"prd","tags":["release","ddb"],"owners":["role/admin"],"createdBy":"mohamed.abdo@careem.com","createdAt":1739431651844419000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1739609239819691000,"transitionedBy":"mohamed.abdo@careem.com","transitionedAt":1739431651,"variable":"fms/validate_dto","strategy":[{"id":"cumptotpqjqnrh6br3mg","label":"","value":"{\"key\":\"VALIDATE_DTO\",\"state\":1,\"strategy\":null,\"strategyParams\":null,\"type\":\"RELEASE\",\"tags\":{},\"storage\":\"DDB\"}"}]}}
+
+
+Processing variable: fms/missing_trip_stats_update_event
+
+
+Found ID: cg8rs15iits9fb4s7dkg for variable: fms/missing_trip_stats_update_event
+
+
+Prd Rollout Info: {"data":{"id":"cg8rs15iits9fb4s7dng","kind":"Rollout","name":"fms/prd/missing_trip_stats_update_event","environment":"prd","tags":["release","rds"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678884356907762000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1739607156527487000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678884356,"variable":"fms/missing_trip_stats_update_event","strategy":[{"id":"cg8rs176i1e20av1e5lg","label":"","value":"{\"key\":\"MISSING_TRIP_STATS_UPDATE_EVENT\",\"state\":1,\"strategy\":null,\"strategyParams\":null,\"type\":\"RELEASE\",\"tags\":{},\"storage\":\"RDS\"}"}]}}
+
+
+Processing variable: fms/enable_notification_on_first_ride
+
+
+Found ID: cg8rqrliits81nfo149g for variable: fms/enable_notification_on_first_ride
+
+
+Prd Rollout Info: {"data":{"id":"cg8rqrliits81nfo14cg","kind":"Rollout","name":"fms/prd/enable_notification_on_first_ride","environment":"prd","tags":["release","rds"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678884206487164000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1739607150537229000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678884206,"variable":"fms/enable_notification_on_first_ride","strategy":[{"id":"cg8rqrn6i1e20av1e2v0","label":"","value":"{\"key\":\"ENABLE_NOTIFICATION_ON_FIRST_RIDE\",\"state\":1,\"strategy\":null,\"strategyParams\":null,\"type\":\"RELEASE\",\"tags\":{},\"storage\":\"RDS\"}"}]}}
+
+
+Processing variable: fms/enable_sms_on_fallback
+
+
+Found ID: cg8s2qliits81nfo6vg0 for variable: fms/enable_sms_on_fallback
+
+
+Prd Rollout Info: {"data":{"id":"cg8s2qtiits81nfo6vj0","kind":"Rollout","name":"fms/prd/enable_sms_on_fallback","environment":"prd","tags":["experiment","unified_ddb"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678885227309325000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1739607179674226000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678885227,"variable":"fms/enable_sms_on_fallback","strategy":[{"id":"cg8s2qn6i1e20av1elbg","label":"","value":"{\"key\":\"ENABLE_SMS_ON_FALLBACK\",\"state\":0,\"strategy\":null,\"strategyParams\":null,\"type\":\"EXPERIMENT\",\"tags\":{},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/consume_booking_uuid_on_trip_cancel_event
+
+
+Found ID: cumptngbjc57ovpbsk00 for variable: fms/consume_booking_uuid_on_trip_cancel_event
+
+
+Prd Rollout Info: {"data":{"id":"cumptnjirhlbb4un9tmg","kind":"Rollout","name":"fms/prd/consume_booking_uuid_on_trip_cancel_event","environment":"prd","tags":["release","ddb"],"owners":["role/admin"],"createdBy":"mohamed.abdo@careem.com","createdAt":1739431646753490000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1739609397855884000,"transitionedBy":"mohamed.abdo@careem.com","transitionedAt":1739431646,"variable":"fms/consume_booking_uuid_on_trip_cancel_event","strategy":[{"id":"cumptnlpqjqnrh6br3l0","label":"","value":"{\"key\":\"CONSUME_BOOKING_UUID_ON_TRIP_CANCEL_EVENT\",\"state\":1,\"strategy\":\"GRADUAL\",\"strategyParams\":\"100\",\"type\":\"RELEASE\",\"tags\":{},\"storage\":\"DDB\"}"}]}}
+
+
+Processing variable: fms/enable_trip_report_business_booking_data_persist
+
+
+Found ID: cg8rurdiits81nfo3g2g for variable: fms/enable_trip_report_business_booking_data_persist
+
+
+Prd Rollout Info: {"data":{"id":"cg8rurdiits81nfo3g5g","kind":"Rollout","name":"fms/prd/enable_trip_report_business_booking_data_persist","environment":"prd","tags":["release","rds"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678884717634723000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1739607166441309000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678884717,"variable":"fms/enable_trip_report_business_booking_data_persist","strategy":[{"id":"cg8rurf6i1e20av1eca0","label":"","value":"{\"key\":\"ENABLE_TRIP_REPORT_BUSINESS_BOOKING_DATA_PERSIST\",\"state\":1,\"strategy\":\"GRADUAL\",\"strategyParams\":\"100\",\"type\":\"RELEASE\",\"tags\":{},\"storage\":\"RDS\"}"}]}}
+
+
+Processing variable: fms/enable_trip_report_hide_private_trip_from_helper_v2
+
+
+Found ID: cg8s0r5iits81nfo4b7g for variable: fms/enable_trip_report_hide_private_trip_from_helper_v2
+
+
+Prd Rollout Info: {"data":{"id":"cg8s0r5iits81nfo4bag","kind":"Rollout","name":"fms/prd/enable_trip_report_hide_private_trip_from_helper_v2","environment":"prd","tags":["release","rds"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678884972401638000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1739607173249455000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678884972,"variable":"fms/enable_trip_report_hide_private_trip_from_helper_v2","strategy":[{"id":"cg8s0qv6i1e20av1egq0","label":"","value":"{\"key\":\"ENABLE_TRIP_REPORT_HIDE_PRIVATE_TRIP_FROM_HELPER_V2\",\"state\":1,\"strategy\":\"SPECIFIC\",\"strategyParams\":\"2203657,10067116,6629786,13950801,41989391,45476553,30155076,43032,446324,9339545,18265172,45207699,53084657,14417619,19142874,35507455\",\"type\":\"EXPERIMENT\",\"tags\":{\"userid\":\"30155076\"},\"storage\":\"RDS\"}"}]}}
+
+
+Processing variable: fms/persist_booking_location_uuid
+
+
+Found ID: cg8rrl5iits81nfo1h00 for variable: fms/persist_booking_location_uuid
+
+
+Prd Rollout Info: {"data":{"id":"cg8rrl5iits81nfo1h30","kind":"Rollout","name":"fms/prd/persist_booking_location_uuid","environment":"prd","tags":["release","unified_ddb"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678884308349557000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1740692129938339000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678884308,"variable":"fms/persist_booking_location_uuid","strategy":[{"id":"cg8rrkv6i1e20av1e4pg","label":"","value":"{\"key\":\"PERSIST_BOOKING_LOCATION_UUID\",\"state\":1,\"strategy\":\"GRADUAL\",\"strategyParams\":\"100\",\"type\":\"RELEASE\",\"tags\":{\"description\":\"enable indexing bookingPickupLocationUuid and dropOffLocationUuid\",\"team\":\"booking-platform\",\"userid\":\"5677711\",\"microservice\":\"customer-trip-report-service\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/resolve_location_details_through_booking_lookup
+
+
+Found ID: cg8rs65iits81nfo1qtg for variable: fms/resolve_location_details_through_booking_lookup
+
+
+Prd Rollout Info: {"data":{"id":"cg8rs65iits81nfo1r0g","kind":"Rollout","name":"fms/prd/resolve_location_details_through_booking_lookup","environment":"prd","tags":["release","unified_ddb"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678884376859369000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1740692126604015000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678884376,"variable":"fms/resolve_location_details_through_booking_lookup","strategy":[{"id":"cg8rs676i1e20av1e61g","label":"","value":"{\"key\":\"RESOLVE_LOCATION_DETAILS_THROUGH_BOOKING_LOOKUP\",\"state\":1,\"strategy\":\"GRADUAL\",\"strategyParams\":\"100\",\"type\":\"RELEASE\",\"tags\":{\"description\":\"Enable resolving location data through booking-lookup-service if they were scrubbed or missing\",\"team\":\"booking-platform\",\"userid\":\"5677711\",\"microservice\":\"customer-trip-report-service\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/use_bulk_booking_lookup_api
+
+
+Found ID: cg8rrk5iits9fb4s785g for variable: fms/use_bulk_booking_lookup_api
+
+
+Prd Rollout Info: {"data":{"id":"cg8rrkdiits9fb4s788g","kind":"Rollout","name":"fms/prd/use_bulk_booking_lookup_api","environment":"prd","tags":["release","unified_ddb"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678884305112510000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1740692127545218000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678884305,"variable":"fms/use_bulk_booking_lookup_api","strategy":[{"id":"cg8rrk76i1e20av1e4ng","label":"","value":"{\"key\":\"USE_BULK_BOOKING_LOOKUP_API\",\"state\":1,\"strategy\":\"GRADUAL\",\"strategyParams\":\"100\",\"type\":\"RELEASE\",\"tags\":{\"description\":\"Use booking-lookup-service bulk booking details API for list of bookings\",\"team\":\"booking-platform\",\"userid\":\"5677711\",\"microservice\":\"customer-trip-report-service\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/enable_sa_based_search_request_check
+
+
+Found ID: cg8rokdiits9fb4s63ng for variable: fms/enable_sa_based_search_request_check
+
+
+Prd Rollout Info: {"data":{"id":"cg8rokdiits9fb4s63qg","kind":"Rollout","name":"fms/prd/enable_sa_based_search_request_check","environment":"prd","tags":["experiment","unified_ddb"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678883921525724000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1740692127257455000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678883921,"variable":"fms/enable_sa_based_search_request_check","strategy":[{"id":"cg8rokf6i1e20av1dto0","label":"","value":"{\"key\":\"ENABLE_SA_BASED_SEARCH_REQUEST_CHECK\",\"state\":1,\"strategy\":\"NA\",\"strategyParams\":null,\"type\":\"EXPERIMENT\",\"tags\":{\"description\":\"query fixing\",\"team\":\"core-experience\",\"userid\":\"30155076\",\"microservice\":\"customer-trip-report-service\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/limit_past_trips_sa_based_search_to_last_x_hrs
+
+
+Found ID: cumptorirhlbb4un9u10 for variable: fms/limit_past_trips_sa_based_search_to_last_x_hrs
+
+
+Prd Rollout Info: {"data":{"id":"cumptotqgadj2m8drla0","kind":"Rollout","name":"fms/prd/limit_past_trips_sa_based_search_to_last_x_hrs","environment":"prd","tags":["experiment","unified_ddb"],"owners":["role/admin"],"createdBy":"mohamed.abdo@careem.com","createdAt":1739431651206275000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1739609542545060000,"transitionedBy":"mohamed.abdo@careem.com","transitionedAt":1739431651,"variable":"fms/limit_past_trips_sa_based_search_to_last_x_hrs","strategy":[{"id":"cumptotpqjqnrh6br3m0","label":"","value":"{\"key\":\"LIMIT_PAST_TRIPS_SA_BASED_SEARCH_TO_LAST_X_HRS\",\"state\":1,\"strategy\":\"NA\",\"strategyParams\":null,\"type\":\"EXPERIMENT\",\"tags\":{\"description\":\"query fixing\",\"team\":\"core-experience\",\"userid\":\"30155076\",\"microservice\":\"customer-trip-report-service\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/enable_requests_logging_in_trip_report_service
+
+
+Found ID: cg8rubliits81nfo3490 for variable: fms/enable_requests_logging_in_trip_report_service
+
+
+Prd Rollout Info: {"data":{"id":"cg8rubliits81nfo34c0","kind":"Rollout","name":"fms/prd/enable_requests_logging_in_trip_report_service","environment":"prd","tags":["experiment","unified_ddb"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678884654902986000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1740692125461488000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678884654,"variable":"fms/enable_requests_logging_in_trip_report_service","strategy":[{"id":"cg8rubn6i1e20av1eb50","label":"","value":"{\"key\":\"ENABLE_REQUESTS_LOGGING_IN_TRIP_REPORT_SERVICE\",\"state\":0,\"strategy\":\"NA\",\"strategyParams\":null,\"type\":\"EXPERIMENT\",\"tags\":{\"description\":\"query fixing\",\"team\":\"core-experience\",\"userid\":\"30155076\",\"microservice\":\"customer-trip-report-service\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/enable_force_read_from_old_es6
+
+
+Found ID: cg8s3ttiits81nfo7irg for variable: fms/enable_force_read_from_old_es6
+
+
+Prd Rollout Info: {"data":{"id":"cg8s3u5iits81nfo7iug","kind":"Rollout","name":"fms/prd/enable_force_read_from_old_es6","environment":"prd","tags":["experiment","unified_ddb"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678885368144859000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1740692127833064000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678885368,"variable":"fms/enable_force_read_from_old_es6","strategy":[{"id":"cg8s3tv6i1e20av1ent0","label":"","value":"{\"key\":\"ENABLE_FORCE_READ_FROM_OLD_ES6\",\"state\":0,\"strategy\":\"GRADUAL\",\"strategyParams\":\"100\",\"type\":\"EXPERIMENT\",\"tags\":{\"description\":\"toggle to point to old cluster for read\",\"team\":\"rides-platform\",\"userid\":\"10067116\",\"microservice\":\"customer-trip-report-service\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/ignore_trip_sync_event
+
+
+Found ID: cune27ui6f0cuk0fcpj0 for variable: fms/ignore_trip_sync_event
+
+
+Prd Rollout Info: {"message":"document was not found in storage (fms/prd/ignore_trip_sync_event)","status":404}
+
+
+Processing variable: fms/enable_trip_report_filter_by_default_service_type
+
+
+Found ID: cg8rqs5iits9fb4s6sr0 for variable: fms/enable_trip_report_filter_by_default_service_type
+
+
+Prd Rollout Info: {"data":{"id":"cg8rqsdiits9fb4s6su0","kind":"Rollout","name":"fms/prd/enable_trip_report_filter_by_default_service_type","environment":"prd","tags":["experiment","rds"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678884209104809000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1739607150714904000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678884209,"variable":"fms/enable_trip_report_filter_by_default_service_type","strategy":[{"id":"cg8rqs76i1e20av1e30g","label":"","value":"{\"key\":\"ENABLE_TRIP_REPORT_FILTER_BY_DEFAULT_SERVICE_TYPE\",\"state\":1,\"strategy\":null,\"strategyParams\":null,\"type\":\"RELEASE\",\"tags\":{},\"storage\":\"RDS\"}"}]}}
+
+
+Processing variable: fms/skip_updating_verification_status_after_verified
+
+
+Found ID: cgpsisliits0ius79g70 for variable: fms/skip_updating_verification_status_after_verified
+
+
+Prd Rollout Info: {"data":{"id":"cgpsisliits0ius79ga0","kind":"Rollout","name":"fms/prd/skip_updating_verification_status_after_verified","environment":"prd","tags":["experiment","ddb"],"owners":["role/admin"],"createdBy":"mohamed.abdo@careem.com","createdAt":1681115506750228000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1739607170442564000,"transitionedBy":"mohamed.abdo@careem.com","transitionedAt":1681115506,"variable":"fms/skip_updating_verification_status_after_verified","strategy":[{"id":"cgpsiskcet4qgrjf4vh0","label":"","value":"{\"key\":\"SKIP_UPDATING_VERIFICATION_STATUS_AFTER_VERIFIED\",\"state\":1,\"strategy\":\"GRADUAL\",\"strategyParams\":\"100\",\"type\":\"RELEASE\",\"tags\":{},\"storage\":\"DDB\"}"}]}}
+
+
+Processing variable: fms/use_guard_token
+
+
+Found ID: cg8s28diits81nfo52m0 for variable: fms/use_guard_token
+
+
+Prd Rollout Info: {"data":{"id":"cg8s28diits81nfo52p0","kind":"Rollout","name":"fms/prd/use_guard_token","environment":"prd","tags":["operational","unified_ddb"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678885153489933000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1740692130561267000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678885153,"variable":"fms/use_guard_token","strategy":[{"id":"cg8s28f6i1e20av1ek1g","label":"","value":"{\"key\":\"USE_GUARD_TOKEN\",\"state\":1,\"strategy\":\"NA\",\"strategyParams\":\"{\\\"exclude\\\": \\\"281f0cba-b50c-46cd-8de0-e355dec0897b.icma.careem.com, 562c8b61-bb1f-4198-8b30-8d637a37ded3.acma.careem.com, bank-account.cpay.com, 7f724d21-7d72-4c7a-815b-4b91d7e5ef9f, idma, a6108bcf-ab5e-4d09-958a-3d14377b3276\\\",\\\"XDMA\\\",\\\"PROFILE_SERVICE\\\"}\",\"type\":\"OPERATIONAL\",\"tags\":{\"description\":\"Feature toggle to enable bot protection for public APIs\",\"team\":\"identity\",\"userid\":\"13977544\",\"microservice\":\"otp-service\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/disable_otp_endpoint_for_client
+
+
+Found ID: cg8rphtiits81nfo099g for variable: fms/disable_otp_endpoint_for_client
+
+
+Prd Rollout Info: {"data":{"id":"cg8rpi5iits81nfo09cg","kind":"Rollout","name":"fms/prd/disable_otp_endpoint_for_client","environment":"prd","tags":["release","unified_ddb"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678884040028298000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1740692126521454000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678884040,"variable":"fms/disable_otp_endpoint_for_client","strategy":[{"id":"cg8rphv6i1e20av1dvtg","label":"","value":"{\"key\":\"DISABLE_OTP_ENDPOINT_FOR_CLIENT\",\"state\":1,\"strategy\":\"NA\",\"strategyParams\":\"{\\\"include\\\": \\\"core\\\"}\",\"type\":\"RELEASE\",\"tags\":{\"description\":\"Disable OTP traffic on Core client for cost saving\",\"team\":\"Identity\",\"userid\":\"20025481\",\"microservice\":\"OTP service\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/shield_without_guard
+
+
+Found ID: cg8s3c5iits9fb4saatg for variable: fms/shield_without_guard
+
+
+Prd Rollout Info: {"data":{"id":"cg8s3c5iits9fb4sab0g","kind":"Rollout","name":"fms/prd/shield_without_guard","environment":"prd","tags":["release","unified_ddb"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678885296535024000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1740692127604348000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678885296,"variable":"fms/shield_without_guard","strategy":[{"id":"cg8s3c76i1e20av1emk0","label":"","value":"{\"key\":\"SHIELD_WITHOUT_GUARD\",\"state\":0,\"strategy\":\"GRADUAL\",\"strategyParams\":\"10\",\"type\":\"RELEASE\",\"tags\":{\"description\":\"Block first generate attempt for ACMA and ICMA users without POW using shield rate limiter\",\"team\":\"identity\",\"userid\":\"13977544\",\"microservice\":\"otp-service\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/same_code_on_otp_resend
+
+
+Found ID: cghnk5diitsba15m4eog for variable: fms/same_code_on_otp_resend
+
+
+Prd Rollout Info: {"data":{"id":"cghnk5diitsba15m4erg","kind":"Rollout","name":"fms/prd/same_code_on_otp_resend","environment":"prd","tags":["release","unified_ddb"],"owners":["role/admin"],"createdBy":"mohamed.abdo@careem.com","createdAt":1680046613135992000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1740692128743171000,"transitionedBy":"mohamed.abdo@careem.com","transitionedAt":1680046613,"variable":"fms/same_code_on_otp_resend","strategy":[{"id":"cghnk5dcp15fbkuu9rbg","label":"","value":"{\"key\":\"SAME_CODE_ON_OTP_RESEND\",\"state\":1,\"strategy\":\"NA\",\"strategyParams\":null,\"type\":\"RELEASE\",\"tags\":{\"description\":\"Prevent code recreation on provider has changed\",\"team\":\"identity\",\"userid\":\"40089962\",\"microservice\":\"otp-service\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/enable_transactional_batch_write_for_single_job
+
+
+Found ID: cg8rsttiits9fb4s7le0 for variable: fms/enable_transactional_batch_write_for_single_job
+
+
+Prd Rollout Info: {"data":{"id":"cg8rsttiits9fb4s7lh0","kind":"Rollout","name":"fms/prd/enable_transactional_batch_write_for_single_job","environment":"prd","tags":["experiment","unified_ddb"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678884471851560000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1740692127080335000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678884471,"variable":"fms/enable_transactional_batch_write_for_single_job","strategy":[{"id":"cg8rstv6i1e20av1e7pg","label":"","value":"{\"key\":\"ENABLE_TRANSACTIONAL_BATCH_WRITE_FOR_SINGLE_JOB\",\"state\":1,\"strategy\":\"GRADUAL\",\"strategyParams\":\"100\",\"type\":\"EXPERIMENT\",\"tags\":{\"description\":\"Enables use transactionWrite for batch-writing single-job rows in ddb\",\"team\":\"cosmos\",\"userid\":\"3659576\",\"microservice\":\"captain-job-service\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/enable_extended_expiration_period_for_captain_jobs
+
+
+Found ID: cg8rv65iits9fb4s8jd0 for variable: fms/enable_extended_expiration_period_for_captain_jobs
+
+
+Prd Rollout Info: {"data":{"id":"cg8rv6diits9fb4s8jg0","kind":"Rollout","name":"fms/prd/enable_extended_expiration_period_for_captain_jobs","environment":"prd","tags":["experiment","unified_ddb"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678884761270038000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1740692132167358000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678884761,"variable":"fms/enable_extended_expiration_period_for_captain_jobs","strategy":[{"id":"cg8rv676i1e20av1ed3g","label":"","value":"{\"key\":\"ENABLE_EXTENDED_EXPIRATION_PERIOD_FOR_CAPTAIN_JOBS\",\"state\":0,\"strategy\":\"SPECIFIC\",\"strategyParams\":\"29,109,165,163,49,50,52,131,126,64,70,47,48,20,164,121,35,68,15, 24, 2, 5, 4\",\"type\":\"EXPERIMENT\",\"tags\":{\"description\":\"Enable extended expiration period for captain jobs by cityId\",\"team\":\"cosmos\",\"userid\":\"7135448\",\"microservice\":\"captain-job-service\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/enable_publishing_order_updated_event
+
+
+Found ID: cg8s00diits81nfo41og for variable: fms/enable_publishing_order_updated_event
+
+
+Prd Rollout Info: {"data":{"id":"cg8s00diits81nfo41rg","kind":"Rollout","name":"fms/prd/enable_publishing_order_updated_event","environment":"prd","tags":["experiment","unified_ddb"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678884865970193000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1740692133736748000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678884865,"variable":"fms/enable_publishing_order_updated_event","strategy":[{"id":"cg8s00f6i1e20av1eev0","label":"","value":"{\"key\":\"ENABLE_PUBLISHING_ORDER_UPDATED_EVENT\",\"state\":1,\"strategy\":\"GRADUAL\",\"strategyParams\":\"100\",\"type\":\"EXPERIMENT\",\"tags\":{\"description\":\"Enables publishing ORDER_UPDATED event\",\"team\":\"cosmos\",\"userid\":\"3701026\",\"microservice\":\"captain-job-service\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/disable_publishing_communication_event
+
+
+Found ID: cg8s0stiits81nfo4cq0 for variable: fms/disable_publishing_communication_event
+
+
+Prd Rollout Info: {"data":{"id":"cg8s0stiits81nfo4ct0","kind":"Rollout","name":"fms/prd/disable_publishing_communication_event","environment":"prd","tags":["experiment","unified_ddb"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678884979939845000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1740692134412441000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678884979,"variable":"fms/disable_publishing_communication_event","strategy":[{"id":"cg8s0sv6i1e20av1egug","label":"","value":"{\"key\":\"DISABLE_PUBLISHING_COMMUNICATION_EVENT\",\"state\":0,\"strategy\":\"GRADUAL\",\"strategyParams\":\"0\",\"type\":\"EXPERIMENT\",\"tags\":{\"description\":\"Disable publishing communication event\",\"team\":\"cosmos\",\"userid\":\"3659576\",\"microservice\":\"captain-job-service\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/enable_analytika_event_tracking_in_captain_job
+
+
+Found ID: cumuvq8bjc57ovpbunr0 for variable: fms/enable_analytika_event_tracking_in_captain_job
+
+
+Prd Rollout Info: {"data":{"id":"cunhrth0ndkd1eu87lgg","kind":"Rollout","name":"fms/prd/enable_analytika_event_tracking_in_captain_job","environment":"prd","tags":["experiment","unified_ddb"],"owners":["role/admin"],"createdBy":"mohamed.abdo@careem.com","createdAt":1739529718170073000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1739609688827267000,"transitionedBy":"mohamed.abdo@careem.com","transitionedAt":1739529718,"variable":"fms/enable_analytika_event_tracking_in_captain_job","strategy":[{"id":"cunhrtahr6ja0r109sbg","label":"","value":"{\"key\":\"ENABLE_ANALYTIKA_EVENT_TRACKING_IN_CAPTAIN_JOB\",\"state\":1,\"strategy\":\"GRADUAL\",\"strategyParams\":\"100\",\"type\":\"EXPERIMENT\",\"tags\":{\"description\":\"Enable publishing custom events to druid\",\"team\":\"cap_ride\",\"userid\":\"21433121\",\"microservice\":\"captain-job-service\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/stop_writing_location_details_to_jobs
+
+
+Found ID: cg8rpc5iits81nfo05g0 for variable: fms/stop_writing_location_details_to_jobs
+
+
+Prd Rollout Info: {"data":{"id":"cg8rpcdiits81nfo05j0","kind":"Rollout","name":"fms/prd/stop_writing_location_details_to_jobs","environment":"prd","tags":["operational","unified_ddb"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678884017270088000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1740668857479720000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678884017,"variable":"fms/stop_writing_location_details_to_jobs","strategy":[{"id":"cg8rpc76i1e20av1dvg0","label":"","value":"{\"key\":\"STOP_WRITING_LOCATION_DETAILS_TO_JOBS\",\"state\":1,\"strategy\":\"GRADUAL\",\"strategyParams\":\"100\",\"type\":\"OPERATIONAL\",\"tags\":{\"microservice\":\"captain-job-service\",\"description\":\"Toggle to stop saving non compliant location details\",\"team\":\"mobility-be-exprience-infra\",\"userid\":\"474697\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/stop_writing_location_details_to_food_jobs
+
+
+Found ID: cunhsip0ndkd1eu87mh0 for variable: fms/stop_writing_location_details_to_food_jobs
+
+
+Prd Rollout Info: {"data":{"id":"cunhsj1sei5noi4sfo6g","kind":"Rollout","name":"fms/prd/stop_writing_location_details_to_food_jobs","environment":"prd","tags":["release","unified_ddb"],"owners":["role/admin"],"createdBy":"mohamed.abdo@careem.com","createdAt":1739529804820911000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1739609376397306000,"transitionedBy":"mohamed.abdo@careem.com","transitionedAt":1739529804,"variable":"fms/stop_writing_location_details_to_food_jobs","strategy":[{"id":"cunhsiqhr6ja0r109sc0","label":"","value":"{\"key\":\"STOP_WRITING_LOCATION_DETAILS_TO_FOOD_JOBS\",\"state\":1,\"strategy\":\"GRADUAL\",\"strategyParams\":\"100\",\"type\":\"RELEASE\",\"tags\":{\"description\":\"Stop saving non compliant location details in job metadata\",\"team\":\"mobility-be-exprience-infra\",\"userid\":\"474697\",\"microservice\":\"captain-job-service\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/enable_config_reads_from_product_catalog_sdk
+
+
+Found ID: cg8rsrliits9fb4s7k60 for variable: fms/enable_config_reads_from_product_catalog_sdk
+
+
+Prd Rollout Info: {"data":{"id":"cg8rsrliits9fb4s7k90","kind":"Rollout","name":"fms/prd/enable_config_reads_from_product_catalog_sdk","environment":"prd","tags":["experiment","unified_ddb"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678884462928821000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1740667786717135000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678884462,"variable":"fms/enable_config_reads_from_product_catalog_sdk","strategy":[{"id":"cg8rsrn6i1e20av1e7kg","label":"","value":"{\"key\":\"ENABLE_CONFIG_READS_FROM_PRODUCT_CATALOG_SDK\",\"state\":1,\"strategy\":\"NA\",\"strategyParams\":null,\"type\":\"EXPERIMENT\",\"tags\":{\"microservice\":\"captain-job-service\",\"description\":\"Feature toggle for fetching city and service area configs from product-catalog sdk instead of captain-service\",\"team\":\"mobility-be-experience-infra\",\"userid\":\"474697\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/enable_order_details_internal_api
+
+
+Found ID: cg8rqm5iits81nfo11d0 for variable: fms/enable_order_details_internal_api
+
+
+Prd Rollout Info: {"data":{"id":"cg8rqm5iits81nfo11g0","kind":"Rollout","name":"fms/prd/enable_order_details_internal_api","environment":"prd","tags":["release","unified_ddb"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678884184565518000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1740668861460939000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678884184,"variable":"fms/enable_order_details_internal_api","strategy":[{"id":"cg8rqm76i1e20av1e2i0","label":"","value":"{\"key\":\"ENABLE_ORDER_DETAILS_INTERNAL_API\",\"state\":1,\"strategy\":\"GRADUAL\",\"strategyParams\":\"100\",\"type\":\"RELEASE\",\"tags\":{\"microservice\":\"captain-job-service\",\"description\":\"Toggle to enable internal API's for order details\",\"team\":\"mobility-be-experience-infra\",\"userid\":\"50934347\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/send_captain_notification_before_hdl_job_update_v2
+
+
+Found ID: cg8ro75iits9fb4s5u9g for variable: fms/send_captain_notification_before_hdl_job_update_v2
+
+
+Prd Rollout Info: {"data":{"id":"cg8ro75iits9fb4s5ucg","kind":"Rollout","name":"fms/prd/send_captain_notification_before_hdl_job_update_v2","environment":"prd","tags":["experiment","unified_ddb"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678883868679671000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1740668854242101000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678883868,"variable":"fms/send_captain_notification_before_hdl_job_update_v2","strategy":[{"id":"cg8ro776i1e20av1dsp0","label":"","value":"{\"key\":\"SEND_CAPTAIN_NOTIFICATION_BEFORE_HDL_JOB_UPDATE_V2\",\"state\":1,\"strategy\":\"GRADUAL\",\"strategyParams\":\"100\",\"type\":\"EXPERIMENT\",\"tags\":{\"microservice\":\"captain-job-service\",\"description\":\"Feature toggle for sending HDL Job related push notification\",\"team\":\"mobility-be-experience-infra\",\"userid\":\"3336694\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/enable_location_details_enrichment
+
+
+Found ID: cjhiisdiitsb1a85dhng for variable: fms/enable_location_details_enrichment
+
+
+Prd Rollout Info: {"data":{"id":"cjhiisdiitsb1a85dhqg","kind":"Rollout","name":"fms/prd/enable_location_details_enrichment","environment":"prd","tags":["experiment","unified_ddb"],"owners":["role/admin"],"createdBy":"mohamed.abdo@careem.com","createdAt":1692608881897024000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1740668860842379000,"transitionedBy":"mohamed.abdo@careem.com","transitionedAt":1692608881,"variable":"fms/enable_location_details_enrichment","strategy":[{"id":"cjhiis9ap480l1bgp2bg","label":"","value":"{\"key\":\"ENABLE_LOCATION_DETAILS_ENRICHMENT\",\"state\":1,\"strategy\":\"GRADUAL\",\"strategyParams\":\"100\",\"type\":\"RELEASE\",\"tags\":{\"microservice\":\"captain-job-service\",\"description\":\"Toggle to ENABLE_LOCATION_DETAILS_ENRICHMENT\",\"team\":\"mobility-be-experience-infra\",\"userid\":\"50934347\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/enable_location_details_enrichment_for_rh
+
+
+Found ID: cjhircdiits7ps3imveg for variable: fms/enable_location_details_enrichment_for_rh
+
+
+Prd Rollout Info: {"data":{"id":"cjhircliitsb1a85div0","kind":"Rollout","name":"fms/prd/enable_location_details_enrichment_for_rh","environment":"prd","tags":["experiment","unified_ddb"],"owners":["role/admin"],"createdBy":"mohamed.abdo@careem.com","createdAt":1692609970201941000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1740668870502414000,"transitionedBy":"mohamed.abdo@careem.com","transitionedAt":1692609970,"variable":"fms/enable_location_details_enrichment_for_rh","strategy":[{"id":"cjhirchap485cflm2akg","label":"","value":"{\"key\":\"ENABLE_LOCATION_DETAILS_ENRICHMENT_FOR_RH\",\"state\":1,\"strategy\":\"GRADUAL\",\"strategyParams\":\"100\",\"type\":\"RELEASE\",\"tags\":{\"microservice\":\"captain-job-service\",\"description\":\"Toggle to ENABLE_LOCATION_DETAILS_ENRICHMENT_FOR_RH\",\"team\":\"mobility-be-experience-infra\",\"userid\":\"50934347\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/enable_location_details_enrichment_for_food
+
+
+Found ID: cumute1o7ld5ruelao0g for variable: fms/enable_location_details_enrichment_for_food
+
+
+Prd Rollout Info: {"data":{"id":"cunhrkerrco32hbhg1hg","kind":"Rollout","name":"fms/prd/enable_location_details_enrichment_for_food","environment":"prd","tags":["experiment","unified_ddb"],"owners":["role/admin"],"createdBy":"mohamed.abdo@careem.com","createdAt":1739529681267452000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1739609331244452000,"transitionedBy":"mohamed.abdo@careem.com","transitionedAt":1739529681,"variable":"fms/enable_location_details_enrichment_for_food","strategy":[{"id":"cunhrjqhr6ja0r109sb0","label":"","value":"{\"key\":\"ENABLE_LOCATION_DETAILS_ENRICHMENT_FOR_FOOD\",\"state\":1,\"strategy\":\"GRADUAL\",\"strategyParams\":\"100\",\"type\":\"EXPERIMENT\",\"tags\":{\"description\":\"Toggle to ENABLE_LOCATION_DETAILS_ENRICHMENT_FOR_FOOD\",\"team\":\"mobility-be-experience-infra\",\"userid\":\"474697\",\"microservice\":\"captain-job-service\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/enable_duplicate_pushy_notifications
+
+
+Found ID: chmdouliits14o7g9mig for variable: fms/enable_duplicate_pushy_notifications
+
+
+Prd Rollout Info: {"data":{"id":"chmdouliits14o7g9mlg","kind":"Rollout","name":"fms/prd/enable_duplicate_pushy_notifications","environment":"prd","tags":["release","unified_ddb"],"owners":["role/admin"],"createdBy":"mohamed.abdo@careem.com","createdAt":1684855930354899000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1740669935387329000,"transitionedBy":"mohamed.abdo@careem.com","transitionedAt":1684855930,"variable":"fms/enable_duplicate_pushy_notifications","strategy":[{"id":"chmdoumatalqnklreab0","label":"","value":"{\"key\":\"ENABLE_DUPLICATE_PUSHY_NOTIFICATIONS\",\"state\":0,\"strategy\":\"NA\",\"strategyParams\":null,\"type\":\"RELEASE\",\"tags\":{\"microservice\":\"captain-job-service\",\"description\":\"Toggle to enable duplicate pushes to pushy\",\"team\":\"plt-captain-flow\",\"userid\":\"34846933\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/enable_captain_insight_service_rest_template_with_connection_ttl
+
+
+Found ID: cuo4jgudkmlko9dt29sg for variable: fms/enable_captain_insight_service_rest_template_with_connection_ttl
+
+
+Prd Rollout Info: {"data":{"id":"cuo4jh9sei5noi4sl8u0","kind":"Rollout","name":"fms/prd/enable_captain_insight_service_rest_template_with_connection_ttl","environment":"prd","tags":["release","unified_ddb"],"owners":["role/admin"],"createdBy":"mohamed.abdo@careem.com","createdAt":1739606469360612000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1739609385226978000,"transitionedBy":"mohamed.abdo@careem.com","transitionedAt":1739606469,"variable":"fms/enable_captain_insight_service_rest_template_with_connection_ttl","strategy":[{"id":"cuo4jgqhr6jbncpk9e80","label":"","value":"{\"key\":\"ENABLE_CAPTAIN_INSIGHT_SERVICE_REST_TEMPLATE_WITH_CONNECTION_TTL\",\"state\":1,\"strategy\":\"GRADUAL\",\"strategyParams\":\"100\",\"type\":\"RELEASE\",\"tags\":{\"userid\":\"4060335\",\"microservice\":\"captain-api-gateway\",\"team\":\"Captain Engagement\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/enable_campaign_api_rest_template_with_connection_ttl
+
+
+Found ID: cg8rqfliits9fb4s6n0g for variable: fms/enable_campaign_api_rest_template_with_connection_ttl
+
+
+Prd Rollout Info: {"data":{"id":"cg8rqfliits9fb4s6n3g","kind":"Rollout","name":"fms/prd/enable_campaign_api_rest_template_with_connection_ttl","environment":"prd","tags":["release","unified_ddb"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678884158689441000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1740669919424707000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678884158,"variable":"fms/enable_campaign_api_rest_template_with_connection_ttl","strategy":[{"id":"cg8rqfn6i1e20av1e23g","label":"","value":"{\"key\":\"ENABLE_CAMPAIGN_API_REST_TEMPLATE_WITH_CONNECTION_TTL\",\"state\":1,\"strategy\":\"GRADUAL\",\"strategyParams\":\"100\",\"type\":\"RELEASE\",\"tags\":{\"microservice\":\"captain-api-gateway\",\"team\":\"Captain Engagement\",\"userid\":\"4060335\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/enable_network_service_for_heatmap_cag
+
+
+Found ID: cg8s1nliits81nfo4qf0 for variable: fms/enable_network_service_for_heatmap_cag
+
+
+Prd Rollout Info: {"data":{"id":"cg8s1nliits81nfo4qi0","kind":"Rollout","name":"fms/prd/enable_network_service_for_heatmap_cag","environment":"prd","tags":["experiment","unified_ddb"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678885086822125000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1740669941047769000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678885086,"variable":"fms/enable_network_service_for_heatmap_cag","strategy":[{"id":"cg8s1nn6i1e20av1eirg","label":"","value":"{\"key\":\"ENABLE_NETWORK_SERVICE_FOR_HEATMAP_CAG\",\"state\":1,\"strategy\":\"GRADUAL\",\"strategyParams\":\"100\",\"type\":\"EXPERIMENT\",\"tags\":{\"microservice\":\"captain-api-gateway\",\"description\":\"Use network service for heatmap call\",\"team\":\"Captain Ride\",\"userid\":\"28632258\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/enable_obscure_missing_user_agent_exception
+
+
+Found ID: cg8rsmliits81nfo2700 for variable: fms/enable_obscure_missing_user_agent_exception
+
+
+Prd Rollout Info: {"data":{"id":"cg8rsmliits81nfo2730","kind":"Rollout","name":"fms/prd/enable_obscure_missing_user_agent_exception","environment":"prd","tags":["experiment","unified_ddb"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678884442777008000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1740668868604127000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678884442,"variable":"fms/enable_obscure_missing_user_agent_exception","strategy":[{"id":"cg8rsmn6i1e20av1e78g","label":"","value":"{\"key\":\"ENABLE_OBSCURE_MISSING_USER_AGENT_EXCEPTION\",\"state\":1,\"strategy\":\"GRADUAL\",\"strategyParams\":\"100\",\"type\":\"EXPERIMENT\",\"tags\":{\"microservice\":\"captain-api-gateway\",\"description\":\"Rate limitting\",\"team\":\"Captain Ride\",\"userid\":\"24301406\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/enable_ssi2_heatmap
+
+
+Found ID: cg8rrjtiits9fb4s77og for variable: fms/enable_ssi2_heatmap
+
+
+Prd Rollout Info: {"data":{"id":"cg8rrjtiits9fb4s77rg","kind":"Rollout","name":"fms/prd/enable_ssi2_heatmap","environment":"prd","tags":["release","ddb"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678884303456757000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1739607154320090000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678884303,"variable":"fms/enable_ssi2_heatmap","strategy":[{"id":"cg8rrjv6i1e20av1e4mg","label":"","value":"{\"key\":\"ENABLE_SSI2_HEATMAP\",\"state\":1,\"strategy\":\"GRADUAL\",\"strategyParams\":\"100\",\"type\":\"RELEASE\",\"tags\":{},\"storage\":\"DDB\"}"}]}}
+
+
+Processing variable: fms/maintenance_mode
+
+
+Found ID: cumuvbgbjc57ovpbun4g for variable: fms/maintenance_mode
+
+
+Prd Rollout Info: {"data":{"id":"cuo4ih0ggd4fl1tho4ng","kind":"Rollout","name":"fms/prd/maintenance_mode","environment":"prd","tags":["release","rds"],"owners":["role/admin"],"createdBy":"mohamed.abdo@careem.com","createdAt":1739606340129587000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1739609307274723000,"transitionedBy":"mohamed.abdo@careem.com","transitionedAt":1739606340,"variable":"fms/maintenance_mode","strategy":[{"id":"cuo4igihr6jbncpk9e5g","label":"","value":"{\"key\":\"MAINTENANCE_MODE\",\"state\":0,\"strategy\":null,\"strategyParams\":null,\"type\":\"RELEASE\",\"tags\":{},\"storage\":\"RDS\"}"}]}}
+
+
+Processing variable: fms/enable_bypass_srs_lp_token_enhancement
+
+
+Found ID: cg8s145iits81nfo4h10 for variable: fms/enable_bypass_srs_lp_token_enhancement
+
+
+Prd Rollout Info: {"data":{"id":"cg8s145iits81nfo4h40","kind":"Rollout","name":"fms/prd/enable_bypass_srs_lp_token_enhancement","environment":"prd","tags":["experiment","unified_ddb"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678885008586270000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1740669939093489000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678885008,"variable":"fms/enable_bypass_srs_lp_token_enhancement","strategy":[{"id":"cg8s1476i1e20av1ehf0","label":"","value":"{\"key\":\"ENABLE_BYPASS_SRS_LP_TOKEN_ENHANCEMENT\",\"state\":1,\"strategy\":\"GRADUAL\",\"strategyParams\":\"100\",\"type\":\"EXPERIMENT\",\"tags\":{\"microservice\":\"supply-registry-service\",\"team\":\"captain-supply-team\",\"userid\":\"17088769\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/enable_sending_cash_received_to_ride_and_careem_now
+
+
+Found ID: cg8rpjdiits9fb4s6gug for variable: fms/enable_sending_cash_received_to_ride_and_careem_now
+
+
+Prd Rollout Info: {"data":{"id":"cg8rpjliits9fb4s6h00","kind":"Rollout","name":"fms/prd/enable_sending_cash_received_to_ride_and_careem_now","environment":"prd","tags":["experiment","unified_ddb"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678884046157797000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1740669917025104000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678884046,"variable":"fms/enable_sending_cash_received_to_ride_and_careem_now","strategy":[{"id":"cg8rpjf6i1e20av1e010","label":"","value":"{\"key\":\"ENABLE_SENDING_CASH_RECEIVED_TO_RIDE_AND_CAREEM_NOW\",\"state\":1,\"strategy\":\"GRADUAL\",\"strategyParams\":\"100\",\"type\":\"EXPERIMENT\",\"tags\":{\"microservice\":\"captain-api-gateway\",\"description\":\"Used to control flow of cash collection v9, if enable it will send call to both backend, ride-hailing and careemNow\",\"team\":\"captain-ride\",\"userid\":\"26317295\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/enable_captain_job_shadow_sync_api_traffic
+
+
+Found ID: cg8s3qtiits81nfo7gfg for variable: fms/enable_captain_job_shadow_sync_api_traffic
+
+
+Prd Rollout Info: {"data":{"id":"cg8s3qtiits9fb4sajjg","kind":"Rollout","name":"fms/prd/enable_captain_job_shadow_sync_api_traffic","environment":"prd","tags":["experiment","unified_ddb"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678885355404968000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1740669947027788000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678885355,"variable":"fms/enable_captain_job_shadow_sync_api_traffic","strategy":[{"id":"cg8s3qn6i1e20av1enlg","label":"","value":"{\"key\":\"ENABLE_CAPTAIN_JOB_SHADOW_SYNC_API_TRAFFIC\",\"state\":1,\"strategy\":\"NA\",\"strategyParams\":\"0\",\"type\":\"EXPERIMENT\",\"tags\":{\"microservice\":\"captain-api-gateway\",\"description\":\"This toggles enables shadowing sync api to captain job\",\"team\":\"captain-ride\",\"userid\":\"3659576\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/enable_captain_job_shadow_sync_api_comparison_and_monitoring
+
+
+Found ID: cuo4i30ggd4fl1tho4bg for variable: fms/enable_captain_job_shadow_sync_api_comparison_and_monitoring
+
+
+Prd Rollout Info: {"data":{"id":"cuo4i3gjvfvqcnfdlqh0","kind":"Rollout","name":"fms/prd/enable_captain_job_shadow_sync_api_comparison_and_monitoring","environment":"prd","tags":["experiment","unified_ddb"],"owners":["role/admin"],"createdBy":"mohamed.abdo@careem.com","createdAt":1739606286728169000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1739609362895458000,"transitionedBy":"mohamed.abdo@careem.com","transitionedAt":1739606286,"variable":"fms/enable_captain_job_shadow_sync_api_comparison_and_monitoring","strategy":[{"id":"cuo4i3ahr6jbncpk9e50","label":"","value":"{\"key\":\"ENABLE_CAPTAIN_JOB_SHADOW_SYNC_API_COMPARISON_AND_MONITORING\",\"state\":1,\"strategy\":\"GRADUAL\",\"strategyParams\":\"100\",\"type\":\"EXPERIMENT\",\"tags\":{\"description\":\"Enable comparing and monitoring of syncBooking API shadow traffic\",\"team\":\"captain-ride\",\"userid\":\"3659576\",\"microservice\":\"captain-api-gateeay\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/enable_old_report_cash_api_shadowing_forking
+
+
+Found ID: cuo4inj57pg0bcq12uqg for variable: fms/enable_old_report_cash_api_shadowing_forking
+
+
+Prd Rollout Info: {"data":{"id":"cuo4io357pg0bcq12us0","kind":"Rollout","name":"fms/prd/enable_old_report_cash_api_shadowing_forking","environment":"prd","tags":["experiment","unified_ddb"],"owners":["role/admin"],"createdBy":"mohamed.abdo@careem.com","createdAt":1739606368700010000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1739609380814860000,"transitionedBy":"mohamed.abdo@careem.com","transitionedAt":1739606368,"variable":"fms/enable_old_report_cash_api_shadowing_forking","strategy":[{"id":"cuo4inqhr6jbncpk9e7g","label":"","value":"{\"key\":\"ENABLE_OLD_REPORT_CASH_API_SHADOWING_FORKING\",\"state\":1,\"strategy\":\"GRADUAL\",\"strategyParams\":\"100\",\"type\":\"EXPERIMENT\",\"tags\":{\"description\":\"Enables shadowing/forking for old reportCash API to captain-job-service\",\"team\":\"captain-ride\",\"userid\":\"3659576\",\"microservice\":\"captain-api-gateeay\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/enable_logging_not_matching_cases_for_sync_booking_comparison
+
+
+Found ID: cg8s3ftiits9fb4sadpg for variable: fms/enable_logging_not_matching_cases_for_sync_booking_comparison
+
+
+Prd Rollout Info: {"data":{"id":"cg8s3ftiits9fb4sadsg","kind":"Rollout","name":"fms/prd/enable_logging_not_matching_cases_for_sync_booking_comparison","environment":"prd","tags":["experiment","unified_ddb"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678885311487702000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1740669945828645000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678885311,"variable":"fms/enable_logging_not_matching_cases_for_sync_booking_comparison","strategy":[{"id":"cg8s3fv6i1e20av1emsg","label":"","value":"{\"key\":\"ENABLE_LOGGING_NOT_MATCHING_CASES_FOR_SYNC_BOOKING_COMPARISON\",\"state\":1,\"strategy\":\"GRADUAL\",\"strategyParams\":\"10\",\"type\":\"EXPERIMENT\",\"tags\":{\"microservice\":\"captain-job-service\",\"description\":\"Enables logging of not matching cases for syncbooking comparison\",\"team\":\"captain-ride\",\"userid\":\"3659576\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/enable_careem_now_secret_manager_fallback
+
+
+Found ID: cg8rqvdiits81nfo16c0 for variable: fms/enable_careem_now_secret_manager_fallback
+
+
+Prd Rollout Info: {"data":{"id":"cg8rqvliits81nfo16f0","kind":"Rollout","name":"fms/prd/enable_careem_now_secret_manager_fallback","environment":"prd","tags":["experiment","unified_ddb"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678884222137345000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1740669920966177000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678884222,"variable":"fms/enable_careem_now_secret_manager_fallback","strategy":[{"id":"cg8rqvf6i1e20av1e380","label":"","value":"{\"key\":\"ENABLE_CAREEM_NOW_SECRET_MANAGER_FALLBACK\",\"state\":0,\"strategy\":\"NA\",\"strategyParams\":null,\"type\":\"EXPERIMENT\",\"tags\":{\"microservice\":\"captain-api-gateway\",\"description\":\"Fallback\",\"team\":\"Captain Ride Team\",\"userid\":\"21433121\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/enable_captain_profile_from_supply_registry
+
+
+Found ID: cumuuo8bjc57ovpbum20 for variable: fms/enable_captain_profile_from_supply_registry
+
+
+Prd Rollout Info: {"data":{"id":"cuo4jhoggd4fl1tho6n0","kind":"Rollout","name":"fms/prd/enable_captain_profile_from_supply_registry","environment":"prd","tags":["release","unified_ddb"],"owners":["role/admin"],"createdBy":"mohamed.abdo@careem.com","createdAt":1739606471792953000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1739609540023403000,"transitionedBy":"mohamed.abdo@careem.com","transitionedAt":1739606471,"variable":"fms/enable_captain_profile_from_supply_registry","strategy":[{"id":"cuo4jhihr6jbncpk9e8g","label":"","value":"{\"key\":\"ENABLE_CAPTAIN_PROFILE_FROM_SUPPLY_REGISTRY\",\"state\":1,\"strategy\":\"GRADUAL\",\"strategyParams\":\"100\",\"type\":\"RELEASE\",\"tags\":{\"userid\":\"32375235\",\"microservice\":\"captain-api-gateway\",\"team\":\"captain-engagement\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/enable_time_based_captain_blocking
+
+
+Found ID: cg8rv5tiits81nfo3iig for variable: fms/enable_time_based_captain_blocking
+
+
+Prd Rollout Info: {"data":{"id":"cg8rv5tiits81nfo3ilg","kind":"Rollout","name":"fms/prd/enable_time_based_captain_blocking","environment":"prd","tags":["experiment","unified_ddb"],"owners":["role/admin"],"createdBy":"roman.atachiants@careem.com","createdAt":1678884759394032000,"updatedBy":"mohamed.abdo@careem.com","updatedAt":1740669933880253000,"transitionedBy":"roman.atachiants@careem.com","transitionedAt":1678884759,"variable":"fms/enable_time_based_captain_blocking","strategy":[{"id":"cg8rv5n6i1e20av1ed2g","label":"","value":"{\"key\":\"ENABLE_TIME_BASED_CAPTAIN_BLOCKING\",\"state\":1,\"strategy\":\"NA\",\"strategyParams\":\"0\",\"type\":\"EXPERIMENT\",\"tags\":{\"microservice\":\"captain-api-gateway\",\"description\":\"Enables time base captain blocking\",\"team\":\"cosmos\",\"userid\":\"3701026\"},\"storage\":\"UNIFIED_DDB\"}"}]}}
+
+
+Processing variable: fms/use_unified_toggle_for_feature_configuration_api
+
+
+Found ID: cg8s3sdiits81nfo7hr0 for variable: fms/use_unified_toggle_for_feature_configuration_api
+
