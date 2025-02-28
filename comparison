@@ -21,6 +21,7 @@ echo "Running galileo with $file_name in $environment environment..."
 ./galileo "$file_name" "$environment"
 
 # Call fms script with the provided arguments
+echo ""
 echo "Running fms with $file_name in $environment environment..."
 ./fms "$file_name" "$environment"
 

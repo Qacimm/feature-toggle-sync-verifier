@@ -61,7 +61,7 @@ log ""
 echo "Processing variables. Please wait..."
 
 # First request to get JSON response; the body is saved to output.json
-/usr/bin/curl -s -X $METHOD "$SCHEME://$AUTHORITY$PATH" \
+/usr/bin/curl -s -L -X GET "https://galileo2.careem-engineering.com/v1/fms/rollout" \
   -H "Accept: $ACCEPT" \
   -H "User-Agent: $USER_AGENT" \
   -H "Cookie: $COOKIE" \
@@ -82,62 +82,19 @@ while IFS= read -r line; do
 
   VAR_NAME=$(echo "$VAR_NAME" | /usr/bin/tr '[:upper:]' '[:lower:]')
 
-  # The fully qualified name used in the JSON is assumed to be prefixed with "fms/"
-  RES_VAR_NAME="fms/$VAR_NAME"
-
-
-  # Extract the ID for the given variable name from output.json
-  ID=$(extract_id "$RES_VAR_NAME")
-
-  # Check if an ID was found and proceed accordingly
-  if [[ -n "$ID" ]]; then
-    # log ""
-    # log "Found ID: $ID for variable: $RES_VAR_NAME"
-    # log ""
-
-    # Request general variable information using the extracted ID
-    # generalInfo=$(/usr/bin/curl -s -X $METHOD "$SCHEME://$AUTHORITY/fms/variable/$ID" \
-    #   -H "Accept: $ACCEPT" \
-    #   -H "User-Agent: $USER_AGENT" \
-    #   -H "Cookie: $COOKIE" \
-    #   --compressed)
-    # log ""
-    # log "General Info:"
-    # log_json "$generalInfo"
-    # log ""
-    
-    if [[ "$ENV" == "dev" ]]; then
-      # Request development rollout information for the variable
-      devRolloutInfo=$(/usr/bin/curl -s -X $METHOD "$SCHEME://$AUTHORITY/fms/rollout/dev/$VAR_NAME" \
-        -H "Accept: $ACCEPT" \
-        -H "User-Agent: $USER_AGENT" \
-        -H "Cookie: $COOKIE" \
-        --compressed)
-      log ""
-      log "Dev Rollout Info:"
-      log_json "$devRolloutInfo"
-      log ""
-    else
-      # Request production rollout information for the variable
-      prodRolloutInfo=$(/usr/bin/curl -s -X $METHOD "$SCHEME://$AUTHORITY/fms/rollout/prd/$VAR_NAME" \
-        -H "Accept: $ACCEPT" \
-        -H "User-Agent: $USER_AGENT" \
-        -H "Cookie: $COOKIE" \
-        --compressed)
-      log ""
-      log "Prd Rollout Info:"
-      # Extract and log strategy values instead of the complete response
-      log_json "$prodRolloutInfo"
-      log ""
-    fi
-
-  else
-    log ""
-    log "No ID found for variable: $RES_VAR_NAME"
-    log ""
-  fi
+  # Create the environment-specific variable name pattern
+  ENV_VAR_NAME="fms/$ENV/$VAR_NAME"
   
-  echo -n "." # Show progress indicator
+  # Extract the strategy information from the already fetched output.json
+  STRATEGY=$(/opt/homebrew/bin/jq -r --arg name "$ENV_VAR_NAME" '.data[] | select(.name == $name) | .strategy' output.json 2>/dev/null)
+  
+  if [[ -n "$STRATEGY" && "$STRATEGY" != "null" ]]; then
+    
+    # Only process value if it's not an empty object after parsing
+    echo "$STRATEGY" | /opt/homebrew/bin/jq '.[] | .value | fromjson | select(. != {})' 2>/dev/null >> "$OUTPUT_FILE"
+  fi
+
+echo -n "." # Show progress indicator
 done < "$FILE"
 
 log ""

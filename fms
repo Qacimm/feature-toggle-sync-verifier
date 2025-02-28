@@ -18,6 +18,7 @@ fi
 
 ENV="${2:-dev}"  # Default to dev if not specified
 OUTPUT_FILE="fms-${ENV}-details.txt"
+BATCH_SIZE=100
 
 # Define variables for headers
 ACCEPT="application/json, text/plain, */*"
@@ -30,10 +31,19 @@ log() {
 
 # Function to log JSON in pretty format
 log_json() {
-  valueOnly=$(echo "$1" | /opt/homebrew/bin/jq ".[\"$VAR_NAME\"]" 2>/dev/null)
-   if [[ "$valueOnly" != "null" ]]; then
+  local json="$1"
+  local vars=("${@:2}")
+  
+  for var in "${vars[@]}"; do
+    log ""
+    log "Processing variable: $var"
+    log ""
+    
+    valueOnly=$(echo "$json" | /opt/homebrew/bin/jq ".[\"$var\"]" 2>/dev/null)
+    if [[ "$valueOnly" != "null" ]]; then
       log "$valueOnly"
     fi
+  done
 }
 
 # Clear output file if it exists
@@ -43,43 +53,53 @@ log "Starting script execution for environment: $ENV"
 log "$(date)"
 log ""
 
-echo "Processing variables. Please wait..."
+echo "Processing variables in batches of $BATCH_SIZE. Please wait..."
 
-# Loop through each variable name in the provided file
+# Use this:
+all_vars=()
 while IFS= read -r line; do
-  # Remove leading/trailing whitespace; skip empty lines.
-  VAR_NAME=$(echo "$line" | /usr/bin/xargs)
-  if [[ -z "$VAR_NAME" ]]; then
-    continue
+  # Skip empty lines
+  if [[ -n $(echo "$line" | /usr/bin/tr -d '[:space:]') ]]; then
+    all_vars+=("$(echo "$line" | /usr/bin/xargs)")
   fi
+done < "$FILE"
+total_vars=${#all_vars[@]}
 
-  log ""
-  log "Processing variable: $VAR_NAME"
-  log ""
-
-  # Request rollout information for the variable based on environment
-  if [[ "$ENV" == "dev" ]]; then
-    devRolloutInfo=$(/usr/bin/curl -s -X GET "http://qa-feature-management-service.careem-internal.com/v1/feature?feature=$VAR_NAME" \
-      -H "Accept: $ACCEPT" \
-      -H "User-Agent: $USER_AGENT" \
-      --compressed)
-    log ""
-    log "Dev Rollout Info:"
-    log_json $devRolloutInfo $VAR_NAME
-    log ""
-  else
-    prdRolloutInfo=$(/usr/bin/curl -s -X GET "http://feature-management-service.careem-engineering.com/v1/feature?feature=$VAR_NAME" \
-      -H "Accept: $ACCEPT" \
-      -H "User-Agent: $USER_AGENT" \
-      --compressed)
-    log ""
-    log "Prod Rollout Info:"
-    log_json $prdRolloutInfo $VAR_NAME 
-    log ""
+# Process in batches
+for ((i=0; i<total_vars; i+=BATCH_SIZE)); do
+  # Get current batch (up to BATCH_SIZE variables)
+  end=$((i + BATCH_SIZE))
+  if [[ $end -gt $total_vars ]]; then
+    end=$total_vars
   fi
   
-  echo -n "." # Show progress indicator
-done < "$FILE"
+  # Extract the batch and join with commas
+  batch=()
+  for ((j=i; j<end; j++)); do
+    batch+=("${all_vars[j]}")
+  done
+  
+  joined_vars=$(IFS=,; echo "${batch[*]}")
+  
+  echo -n "Processing batch $((i/BATCH_SIZE + 1))... "
+  
+  # Request rollout information for the batch based on environment
+  if [[ "$ENV" == "dev" ]]; then
+    rolloutInfo=$(/usr/bin/curl -s -X GET "http://qa-feature-management-service.careem-internal.com/v1/feature?feature=$joined_vars" \
+      -H "Accept: $ACCEPT" \
+      -H "User-Agent: $USER_AGENT" \
+      --compressed)
+    log_json "$rolloutInfo" "${batch[@]}"
+  else
+    rolloutInfo=$(/usr/bin/curl -s -X GET "http://feature-management-service.careem-engineering.com/v1/feature?feature=$joined_vars" \
+      -H "Accept: $ACCEPT" \
+      -H "User-Agent: $USER_AGENT" \
+      --compressed)
+    log_json "$rolloutInfo" "${batch[@]}"
+  fi
+  
+  echo "done"
+done
 
 log ""
 log "Script execution completed"
