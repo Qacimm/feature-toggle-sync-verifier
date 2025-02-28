@@ -82,6 +82,12 @@ while IFS= read -r line; do
 
   VAR_NAME=$(echo "$VAR_NAME" | /usr/bin/tr '[:upper:]' '[:lower:]')
 
+
+
+  if [[ "$ENV" == "prod" ]]; then
+    ENV="prd"
+  fi
+
   # Create the environment-specific variable name pattern
   ENV_VAR_NAME="fms/$ENV/$VAR_NAME"
   
