@@ -9,3 +9,5 @@ A comparision script which compares the state of the feature toggles bw FMS (gea
 4. Add vars (one in each line, ALL CAPS) you want to compare in vars.txt (add empty line after the last variable else it will be ignore by the script)
 3. ./comparison vars.txt <env> (use dev/prod to compare vars on qa/prod respectively)
 
+## Help
+slack: @qasim.mehmmod
