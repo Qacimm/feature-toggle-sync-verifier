@@ -33,7 +33,7 @@ METHOD="GET"
 PATH="/fms/variable/?project=fms&kind=Variable&order=-updatedAt"
 SCHEME="https"
 ACCEPT="application/json, text/plain, */*"
-USER_AGENT="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+USER_AGENT="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
 
 # Function to log only to file
 log() {
